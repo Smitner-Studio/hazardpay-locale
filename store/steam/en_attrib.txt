@@ -1,0 +1,1 @@
+[url=https://github.com/Smitner-Studio/hazardpay-locale]Hazard Pay's Translations[/url] provided by [url=https://github.com/Smitner-Studio/hazardpay-locale/graphs/contributors]Contributors (Arran Smith)[/url] are licensed under [url=http://creativecommons.org/licenses/by/4.0/]CC BY 4.0[/url]
