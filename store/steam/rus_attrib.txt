@@ -1,0 +1,1 @@
+[url=https://github.com/Smitner-Studio/hazardpay-locale]Переводы для Hazard Pay[/url] выполнили [url=https://github.com/Smitner-Studio/hazardpay-locale/graphs/contributors]добровольцы (Volkov)[/url] и они лицензированы под [url=https://creativecommons.org/licenses/by/4.0/deed.ru]CC BY 4.0[/url]
