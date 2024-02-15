@@ -14,7 +14,9 @@ The file format is `<LANG>_<SHORT|LONG>_DESC.txt` where `<LANG>` is the standard
 
 ## Attribution
 
-Please also add an attribution file. `<LANG_attrib.txt>` containing the following contents in the respective language, feel free to add your name in parenthesis. Note this will be public information presented on the Steam Store Page.
+Please also add an attribution file. `<LANG>_attrib.txt` containing the following contents in your respective language.
+
+Feel free to add your name (or username) in parenthesis. Note, this will be public information presented on the Steam Store Page.
 
 Example:
 ```
