@@ -10,7 +10,7 @@ Thank you for considering to contribute! Let's make [Hazard Pay](https://smitner
 
 You will find detailed instructions in each category.
 
-- [Steam Store Page](./store/steam/README.md)
+- [store/steam/](./store/steam/README.md)
 ---
 
 ### Attribution
