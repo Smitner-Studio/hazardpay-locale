@@ -1,4 +1,4 @@
-# Hazard Pay Locale Files
+# Hazard Pay's Translations 
 
 This repository contains Locale information for [Hazard Pay](https://smitner.studio/hp?utm_source=github)'s store pages and in-game texts.
 
