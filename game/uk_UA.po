@@ -1,0 +1,161 @@
+# Ukrainian translation for Hazard Pay for the following files:
+# res://dialogue/intro.dialogue
+# res://scenes/ui/panels/ConfirmPopupPanel.tscn
+# res://scenes/ui/panels/settings/SettingsPanel.tscn
+# res://scenes/ui/screens/main_menu.tscn
+# res://scenes/ui/screens/level_preview_screen.tscn
+#
+# volkov <volkovissocool@gmail.com>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hazard Pay\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: volkov <volkovissocool@gmail.com>\n"
+"Language-Team: volkov <volkovissocool@gmail.com>\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: dialogue/intro.dialogue
+msgctxt "dialogue"
+msgid "You"
+msgstr "Ви"
+
+#: dialogue/intro.dialogue
+msgctxt "dialogue"
+msgid "Radio"
+msgstr "Радіо"
+
+#: dialogue/intro.dialogue
+msgid "I'm listening."
+msgstr "Я слухаю."
+
+#: dialogue/intro.dialogue
+msgid "Good, I have an urgent messsage from up-top."
+msgstr "Чудово, у мене є важливе повідомлення від керівництва."
+
+#: dialogue/intro.dialogue
+msgid ""
+"There's been an accident in Sector 5 - It's unclear what happened, all core-"
+"systems are down."
+msgstr ""
+"Стався нещасний випадок у 5 секторі, що саме - не ясно, усі системи впали."
+
+#: dialogue/intro.dialogue
+msgid "Load up the truck and get on-site immediately."
+msgstr "Заводь машину та негайно відправляйся до точки."
+
+#: dialogue/intro.dialogue
+msgid "Remove all evidence, leave no trace behind."
+msgstr "Здихайся усіх доказів, не залишай слідів."
+
+#: dialogue/intro.dialogue
+msgid "And call me when it's done."
+msgstr "І подзвони мені коли завершиш."
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn scenes/ui/screens/main_menu.tscn
+msgid "CONFIRM_EXIT"
+msgstr "Ви впевнені, що бажаєте вийти"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "NO"
+msgstr "Ні"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "YES"
+msgstr "Так"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "CONFIRM_RESET_PROGRESS"
+msgstr "Ви впевнені, що бажаєте видалити весь прогрес"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/screens/main_menu.tscn
+msgid "SETTINGS"
+msgstr "Налаштування"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "VISUAL"
+msgstr "Графіка"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "LANGUAGE"
+msgstr "Мова"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "FULLSCREEN"
+msgstr "Повний екран"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS"
+msgstr "Скинути прогрес"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AUDIO"
+msgstr "Аудіо"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "MUSIC"
+msgstr "Музика"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "EFFECTS"
+msgstr "Ефекти"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AMBIANCE"
+msgstr "Атмосфера"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "APPLY_CLOSE"
+msgstr "Прийняти та закрити"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "START_GAME"
+msgstr "Почати"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CONTINUE_GAME"
+msgstr "Продовжити"
+
+# У діскорд сервері йшла мова про те, щоб змінити термін "overworld" на щось інше.
+#: scenes/ui/screens/main_menu.tscn
+msgid "GOTO_OVERWORLD"
+msgstr "Повернутися до мапи"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "EXIT"
+msgstr "Вийти"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "COPYRIGHT_NOTICE"
+msgstr "Авторське право © Smitner.Studio 2024"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_COMPLETE"
+msgstr "Завершено"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_INCOMPLETE"
+msgstr "Не завершено"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_HEADER"
+msgstr "Зміст"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_STATUS"
+msgstr "Статус"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_ACCEPT"
+msgstr "Прийняти"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_DISMISS"
+msgstr "Відмовитися"
