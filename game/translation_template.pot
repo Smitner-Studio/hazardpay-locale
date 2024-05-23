@@ -17,36 +17,36 @@ msgstr ""
 
 #: dialogue/intro.dialogue
 msgctxt "dialogue"
-msgid "You"
+msgid "YOU"
 msgstr ""
 
 #: dialogue/intro.dialogue
 msgctxt "dialogue"
-msgid "Radio"
+msgid "RADIO"
 msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "I'm listening."
+msgid "IM_LISTENING"
 msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "Good, I have an urgent messsage from up-top."
+msgid "INTRO_LINE_1"
 msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "There's been an accident in Sector 5 - It's unclear what happened, all core-systems are down."
+msgid "INTRO_LINE_2"
 msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "Load up the truck and get on-site immediately."
+msgid "INTRO_LINE_3"
 msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "Remove all evidence, leave no trace behind."
+msgid "INTRO_LINE_4"
 msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "And call me when it's done."
+msgid "INTRO_LINE_5"
 msgstr ""
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn

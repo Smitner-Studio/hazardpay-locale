@@ -20,44 +20,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
 
 #: dialogue/intro.dialogue
 msgctxt "dialogue"
-msgid "You"
-msgstr ""
+msgid "YOU"
+msgstr "You"
 
 #: dialogue/intro.dialogue
 msgctxt "dialogue"
-msgid "Radio"
-msgstr ""
+msgid "RADIO"
+msgstr "Radio"
 
 #: dialogue/intro.dialogue
-msgid "I'm listening."
-msgstr ""
+msgid "IM_LISTENING"
+msgstr "I'm listening"
 
 #: dialogue/intro.dialogue
-msgid "Good, I have an urgent messsage from up-top."
-msgstr ""
+msgid "INTRO_LINE_1"
+msgstr "Good, I have an urgent messsage from up-top."
 
 #: dialogue/intro.dialogue
-msgid ""
-"There's been an accident in Sector 5 - It's unclear what happened, all core-"
-"systems are down."
-msgstr ""
+msgid "INTRO_LINE_2"
+msgstr "There's been an accident in Sector 5 - It's unclear what happened, all core-systems are down."
 
 #: dialogue/intro.dialogue
-msgid "Load up the truck and get on-site immediately."
-msgstr ""
+msgid "INTRO_LINE_3"
+msgstr "Load up the truck and get on-site immediately."
 
 #: dialogue/intro.dialogue
-msgid "Remove all evidence, leave no trace behind."
-msgstr ""
+msgid "INTRO_LINE_4"
+msgstr "Remove all evidence, leave no trace behind."
 
 #: dialogue/intro.dialogue
-msgid "And call me when it's done."
-msgstr ""
+msgid "INTRO_LINE_5"
+msgstr "And call me when it's done."
 
-#: scenes/ui/panels/ConfirmPopupPanel.tscn
+#: scenes/ui/panels/ConfirmPopupPanel.tscn scenes/ui/screens/main_menu.tscn
 msgid "CONFIRM_EXIT"
 msgstr "Are you sure you want to exit"
 
@@ -70,8 +70,8 @@ msgid "YES"
 msgstr "Yes"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "Settings"
-msgstr "Settings"
+msgid "CONFIRM_RESET_PROGRESS"
+msgstr "Are you sure you want to destroy all progress"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/screens/main_menu.tscn
@@ -93,10 +93,6 @@ msgstr "Fullscreen"
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "RESET_PROGRESS"
 msgstr "Reset Progress"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "CONFIRM_RESET_PROGRESS"
-msgstr "Are you sure you want to destroy all progress"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "AUDIO"
@@ -161,3 +157,6 @@ msgstr "Accept"
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_DISMISS"
 msgstr "Dismiss"
+
+#~ msgid "Settings"
+#~ msgstr "Settings"
