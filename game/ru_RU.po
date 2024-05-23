@@ -1,0 +1,162 @@
+# Russian translation for Hazard Pay for the following files:
+# res://dialogue/intro.dialogue
+# res://scenes/ui/panels/ConfirmPopupPanel.tscn
+# res://scenes/ui/panels/settings/SettingsPanel.tscn
+# res://scenes/ui/screens/main_menu.tscn
+# res://scenes/ui/screens/level_preview_screen.tscn
+#
+# volkov <volkovissocool@gmail.com>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hazard Pay\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: volkov <volkovissocool@gmail.com>\n"
+"Language-Team: volkov <volkovissocool@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: dialogue/intro.dialogue
+msgctxt "dialogue"
+msgid "You"
+msgstr "Вы"
+
+#: dialogue/intro.dialogue
+msgctxt "dialogue"
+msgid "Radio"
+msgstr "Радио"
+
+#: dialogue/intro.dialogue
+msgid "I'm listening."
+msgstr "Я слушаю."
+
+#: dialogue/intro.dialogue
+msgid "Good, I have an urgent messsage from up-top."
+msgstr "Отлично, у меня есть срочное сообщение от руководства."
+
+#: dialogue/intro.dialogue
+msgid ""
+"There's been an accident in Sector 5 - It's unclear what happened, all core-"
+"systems are down."
+msgstr ""
+"Произошел несчастный случай в 5 секторе, что случилось - не ясно, все "
+"системы вырублены."
+
+#: dialogue/intro.dialogue
+msgid "Load up the truck and get on-site immediately."
+msgstr "Заводи машину и сейчас же отправляйся к точке."
+
+#: dialogue/intro.dialogue
+msgid "Remove all evidence, leave no trace behind."
+msgstr "Избавься от всех улик, не оставляй следов за собой."
+
+#: dialogue/intro.dialogue
+msgid "And call me when it's done."
+msgstr "И позвони мне когда закончишь."
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn scenes/ui/screens/main_menu.tscn
+msgid "CONFIRM_EXIT"
+msgstr "Вы уверены, что хотите выйти"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "NO"
+msgstr "Нет"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "YES"
+msgstr "Да"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "CONFIRM_RESET_PROGRESS"
+msgstr "Вы уверены, что хотите удалить весь прогресс"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/screens/main_menu.tscn
+msgid "SETTINGS"
+msgstr "Настройки"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "VISUAL"
+msgstr "Графика"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "LANGUAGE"
+msgstr "Язык"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "FULLSCREEN"
+msgstr "Полный экран"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS"
+msgstr "Сбросить прогресс"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AUDIO"
+msgstr "Аудио"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "MUSIC"
+msgstr "Музыка"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "EFFECTS"
+msgstr "Эффекты"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AMBIANCE"
+msgstr "Атмосфера"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "APPLY_CLOSE"
+msgstr "Принять и закрыть"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "START_GAME"
+msgstr "Начать"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CONTINUE_GAME"
+msgstr "Продолжить"
+
+# В дискорде велось обсуждение на этот счет. В будущем автор игры планирует перефразировать "overworld".
+#: scenes/ui/screens/main_menu.tscn
+msgid "GOTO_OVERWORLD"
+msgstr "Вернуться к карте"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "EXIT"
+msgstr "Выйти"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "COPYRIGHT_NOTICE"
+msgstr "Авторское право © Smitner.Studio 2024"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_COMPLETE"
+msgstr "Завершено"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_INCOMPLETE"
+msgstr "Не завершено"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_HEADER"
+msgstr "Сводка"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_STATUS"
+msgstr "Статус"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_ACCEPT"
+msgstr "Принять"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_DISMISS"
+msgstr "Отказаться"
