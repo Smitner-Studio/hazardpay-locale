@@ -53,7 +53,7 @@ msgstr "清除所有证据，不留任何痕迹。"
 
 #: dialogue/intro.dialogue
 msgid "INTRO_LINE_5"
-msgstr "完成以后打电话给我"
+msgstr "完成以后打电话给我。"
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn scenes/ui/screens/main_menu.tscn
 msgid "CONFIRM_EXIT"
