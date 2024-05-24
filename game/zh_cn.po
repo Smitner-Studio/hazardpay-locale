@@ -1,0 +1,157 @@
+# LANGUAGE translation for Hazard Pay for the following files:
+# res://dialogue/intro.dialogue
+# res://scenes/ui/panels/ConfirmPopupPanel.tscn
+# res://scenes/ui/panels/settings/SettingsPanel.tscn
+# res://scenes/ui/screens/main_menu.tscn
+# res://scenes/ui/screens/level_preview_screen.tscn
+#
+# Ang Li <2313221649@qq.com>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hazard Pay\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ang Li <2313221649@qq.com>\n"
+"Language-Team: Ang Li <2313221649@qq.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: dialogue/intro.dialogue
+msgctxt "dialogue"
+msgid "YOU"
+msgstr "你"
+
+#: dialogue/intro.dialogue
+msgctxt "dialogue"
+msgid "RADIO"
+msgstr "广播"
+
+#: dialogue/intro.dialogue
+msgid "IM_LISTENING"
+msgstr "我在听"
+
+#: dialogue/intro.dialogue
+msgid "INTRO_LINE_1"
+msgstr "好，我收到一个来自上层的紧急消息。"
+
+#: dialogue/intro.dialogue
+msgid "INTRO_LINE_2"
+msgstr "第五区发生了一起事故——具体情况不明，所有核心系统都瘫痪了。"
+
+#: dialogue/intro.dialogue
+msgid "INTRO_LINE_3"
+msgstr "装载卡车并立即赶到现场。"
+
+#: dialogue/intro.dialogue
+msgid "INTRO_LINE_4"
+msgstr "清除所有证据，不留任何痕迹。"
+
+#: dialogue/intro.dialogue
+msgid "INTRO_LINE_5"
+msgstr "完成以后打电话给我"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn scenes/ui/screens/main_menu.tscn
+msgid "CONFIRM_EXIT"
+msgstr "确认退出"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "NO"
+msgstr "否"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "YES"
+msgstr "是"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "CONFIRM_RESET_PROGRESS"
+msgstr "你确定想要删除所有进度吗"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/screens/main_menu.tscn
+msgid "SETTINGS"
+msgstr "设置"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "VISUAL"
+msgstr "图像"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "LANGUAGE"
+msgstr "语言"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "FULLSCREEN"
+msgstr "全屏"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS"
+msgstr "重置进度"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AUDIO"
+msgstr "音频"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "MUSIC"
+msgstr "音乐"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "EFFECTS"
+msgstr "效果"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AMBIANCE"
+msgstr "环境"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "APPLY_CLOSE"
+msgstr "应用并退出"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "START_GAME"
+msgstr "开始游戏"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CONTINUE_GAME"
+msgstr "继续游戏"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "GOTO_OVERWORLD"
+msgstr "去地图"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "EXIT"
+msgstr "退出"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "COPYRIGHT_NOTICE"
+msgstr "版权声明：Smitner.Studio 2024"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_COMPLETE"
+msgstr "完成"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_INCOMPLETE"
+msgstr "未完成"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_HEADER"
+msgstr "标题"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_STATUS"
+msgstr "状态"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_ACCEPT"
+msgstr "接受"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_DISMISS"
+msgstr "取消"
