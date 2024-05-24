@@ -4,6 +4,7 @@
 # res://scenes/ui/panels/settings/SettingsPanel.tscn
 # res://scenes/ui/screens/main_menu.tscn
 # res://scenes/ui/screens/level_preview_screen.tscn
+# res://scenes/ui/screens/credits_panel.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -63,16 +64,16 @@ msgid "YES"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "CONFIRM_RESET_PROGRESS"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/screens/main_menu.tscn
 msgid "SETTINGS"
-msgstr ""
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "VISUAL"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
@@ -84,14 +85,7 @@ msgid "FULLSCREEN"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "RESET_PROGRESS"
-msgstr ""
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "AUDIO"
-msgstr ""
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/screens/credits_panel.tscn
 msgid "MUSIC"
 msgstr ""
 
@@ -108,6 +102,10 @@ msgid "APPLY_CLOSE"
 msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
+msgid "EXIT"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
 msgid "START_GAME"
 msgstr ""
 
@@ -120,7 +118,7 @@ msgid "GOTO_OVERWORLD"
 msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
-msgid "EXIT"
+msgid "CREDITS"
 msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
@@ -153,4 +151,16 @@ msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_DISMISS"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "DESIGN_AND_DEVELOPOMENT"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "TRANSLATION"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "DISMISS"
 msgstr ""

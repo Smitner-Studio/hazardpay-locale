@@ -43,7 +43,9 @@ msgstr "Good, I have an urgent messsage from up-top."
 
 #: dialogue/intro.dialogue
 msgid "INTRO_LINE_2"
-msgstr "There's been an accident in Sector 5 - It's unclear what happened, all core-systems are down."
+msgstr ""
+"There's been an accident in Sector 5 - It's unclear what happened, all core-"
+"systems are down."
 
 #: dialogue/intro.dialogue
 msgid "INTRO_LINE_3"
@@ -70,6 +72,10 @@ msgid "YES"
 msgstr "Yes"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS"
+msgstr "Reset Progress"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "CONFIRM_RESET_PROGRESS"
 msgstr "Are you sure you want to destroy all progress"
 
@@ -77,10 +83,6 @@ msgstr "Are you sure you want to destroy all progress"
 #: scenes/ui/screens/main_menu.tscn
 msgid "SETTINGS"
 msgstr "Settings"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "VISUAL"
-msgstr "Visual"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "LANGUAGE"
@@ -91,14 +93,7 @@ msgid "FULLSCREEN"
 msgstr "Fullscreen"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "RESET_PROGRESS"
-msgstr "Reset Progress"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "AUDIO"
-msgstr "Audio"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/screens/credits_panel.tscn
 msgid "MUSIC"
 msgstr "Music"
 
@@ -115,6 +110,10 @@ msgid "APPLY_CLOSE"
 msgstr "Apply and Close"
 
 #: scenes/ui/screens/main_menu.tscn
+msgid "EXIT"
+msgstr "Exit"
+
+#: scenes/ui/screens/main_menu.tscn
 msgid "START_GAME"
 msgstr "Start"
 
@@ -127,8 +126,8 @@ msgid "GOTO_OVERWORLD"
 msgstr "To Overworld"
 
 #: scenes/ui/screens/main_menu.tscn
-msgid "EXIT"
-msgstr "Exit"
+msgid "CREDITS"
+msgstr "Credits"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "COPYRIGHT_NOTICE"
@@ -136,7 +135,7 @@ msgstr "Copyright© Smitner.Studio 2024"
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_COMPLETE"
-msgstr "Complte"
+msgstr "Complete"
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_INCOMPLETE"
@@ -157,6 +156,24 @@ msgstr "Accept"
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_DISMISS"
 msgstr "Dismiss"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "DESIGN_AND_DEVELOPOMENT"
+msgstr "Design and Development"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "TRANSLATION"
+msgstr "Translation"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "DISMISS"
+msgstr "Dismiss"
+
+#~ msgid "VISUAL"
+#~ msgstr "Visual"
+
+#~ msgid "AUDIO"
+#~ msgstr "Audio"
 
 #~ msgid "Settings"
 #~ msgstr "Settings"
