@@ -1,0 +1,167 @@
+# LANGUAGE translation for Hazard Pay for the following files:
+# res://dialogue/intro.dialogue
+# res://scenes/ui/panels/ConfirmPopupPanel.tscn
+# res://scenes/ui/panels/settings/SettingsPanel.tscn
+# res://scenes/ui/screens/main_menu.tscn
+# res://scenes/ui/screens/level_preview_screen.tscn
+# res://scenes/ui/screens/credits_panel.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hazard Pay\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: dialogue/intro.dialogue
+msgctxt "dialogue"
+msgid "YOU"
+msgstr "Vous"
+
+#: dialogue/intro.dialogue
+msgctxt "dialogue"
+msgid "RADIO"
+msgstr "Radio"
+
+#: dialogue/intro.dialogue
+msgid "IM_LISTENING"
+msgstr "J'écoute."
+
+#: dialogue/intro.dialogue
+msgid "INTRO_LINE_1"
+msgstr "Bien, j'ai un message urgent d'en haut."
+
+#: dialogue/intro.dialogue
+msgid "INTRO_LINE_2"
+msgstr "Il y a eu un accident dans le Secteur 5 - La situation est confuse, tous les systèmes principaux sont en panne."
+
+#: dialogue/intro.dialogue
+msgid "INTRO_LINE_3"
+msgstr "Chargez le camion et allez sur place immédiatement."
+
+#: dialogue/intro.dialogue
+msgid "INTRO_LINE_4"
+msgstr "Supprimez toutes les preuves, ne laissez aucune trace."
+
+#: dialogue/intro.dialogue
+msgid "INTRO_LINE_5"
+msgstr "Et appelez-moi quand c'est fini."
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn scenes/ui/screens/main_menu.tscn
+msgid "CONFIRM_EXIT"
+msgstr "Voulez-vous vraiment quitter ?"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "NO"
+msgstr "Non"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "YES"
+msgstr "Oui"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS"
+msgstr "Réinitialiser la progression"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "CONFIRM_RESET_PROGRESS"
+msgstr "Voulez-vous vraiment effacer votre progression ?"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/screens/main_menu.tscn
+msgid "SETTINGS"
+msgstr "Paramètres"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "LANGUAGE"
+msgstr "Langue"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "FULLSCREEN"
+msgstr "Plein écran"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/screens/credits_panel.tscn
+msgid "MUSIC"
+msgstr "Musique"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "EFFECTS"
+msgstr "Effets"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AMBIANCE"
+msgstr "Ambiance"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "APPLY_CLOSE"
+msgstr "Appliquer et fermer"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "EXIT"
+msgstr "Quitter"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "START_GAME"
+msgstr "Commencer"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CONTINUE_GAME"
+msgstr "Continuer"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "GOTO_OVERWORLD"
+msgstr "Sélection du niveau"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CREDITS"
+msgstr "Crédits"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "COPYRIGHT_NOTICE"
+msgstr "Copyright© Smitner.Studio 2024"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_COMPLETE"
+msgstr "Complet"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_INCOMPLETE"
+msgstr "Incomplet"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_HEADER"
+msgstr "Résumé"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_STATUS"
+msgstr "Statut"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_ACCEPT"
+msgstr "Accepter"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_DISMISS"
+msgstr "Refuser"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "DESIGN_AND_DEVELOPOMENT"
+msgstr "Design et développement"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "TRANSLATION"
+msgstr "Traduction"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "DISMISS"
+msgstr "Fermer"
