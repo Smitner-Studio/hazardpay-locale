@@ -28,7 +28,8 @@ msgctxt "dialogue"
 msgid "YOU"
 msgstr "You"
 
-#: dialogue/intro.dialogue
+#: dialogue/intro.dialogue dialogue/road_blocked.dialogue
+#: dialogue/road_unblocked.dialogue dialogue/road_block_no_exit.dialogue
 msgctxt "dialogue"
 msgid "RADIO"
 msgstr "Radio"
@@ -59,7 +60,7 @@ msgstr "Remove all evidence, leave no trace behind."
 msgid "INTRO_LINE_5"
 msgstr "And call me when it's done."
 
-#: scenes/ui/panels/ConfirmPopupPanel.tscn scenes/ui/screens/main_menu.tscn
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "CONFIRM_EXIT"
 msgstr "Are you sure you want to exit"
 
@@ -70,14 +71,6 @@ msgstr "No"
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "YES"
 msgstr "Yes"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "RESET_PROGRESS"
-msgstr "Reset Progress"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "CONFIRM_RESET_PROGRESS"
-msgstr "Are you sure you want to destroy all progress"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/screens/main_menu.tscn
@@ -91,6 +84,10 @@ msgstr "Language"
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "FULLSCREEN"
 msgstr "Fullscreen"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS"
+msgstr "Reset Progress"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/screens/credits_panel.tscn
@@ -110,10 +107,6 @@ msgid "APPLY_CLOSE"
 msgstr "Apply and Close"
 
 #: scenes/ui/screens/main_menu.tscn
-msgid "EXIT"
-msgstr "Exit"
-
-#: scenes/ui/screens/main_menu.tscn
 msgid "START_GAME"
 msgstr "Start"
 
@@ -126,36 +119,32 @@ msgid "GOTO_OVERWORLD"
 msgstr "To Overworld"
 
 #: scenes/ui/screens/main_menu.tscn
+msgid "LEVEL_EDITOR"
+msgstr "Level Editor"
+
+#: scenes/ui/screens/main_menu.tscn scenes/ui/screens/credits_panel.tscn
 msgid "CREDITS"
 msgstr "Credits"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "EXIT"
+msgstr "Exit"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "COPYRIGHT_NOTICE"
 msgstr "Copyright© Smitner.Studio 2024"
 
 #: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_COMPLETE"
-msgstr "Complete"
-
-#: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_INCOMPLETE"
-msgstr "Incomplete"
-
-#: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_HEADER"
 msgstr "Brief"
 
 #: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_STATUS"
-msgstr "Status"
+msgid "PRINTOUT_ATTACH_SUMMARY"
+msgstr "Attach Summary"
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_ACCEPT"
 msgstr "Accept"
-
-#: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_DISMISS"
-msgstr "Dismiss"
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid "DESIGN_AND_DEVELOPOMENT"
@@ -168,6 +157,47 @@ msgstr "Translation"
 #: scenes/ui/screens/credits_panel.tscn
 msgid "DISMISS"
 msgstr "Dismiss"
+
+#: dialogue/road_blocked.dialogue
+msgid "Get back to the labs, you're not finished."
+msgstr ""
+
+#: dialogue/road_blocked.dialogue
+msgid "Security will open the gate when you do what you're paid for."
+msgstr ""
+
+#: dialogue/road_unblocked.dialogue
+msgid ""
+"[[Well Done|Good Job|Good]]. You now have access this Sector, please proceed."
+msgstr ""
+
+#: dialogue/road_block_no_exit.dialogue
+msgid "You're not leaving until the job is finished."
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "REPORT_HEADER"
+msgstr "Report Details"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "MOVES"
+msgstr "Moves"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "COMPLETE"
+msgstr "Complete"
+
+#~ msgid "CONFIRM_RESET_PROGRESS"
+#~ msgstr "Are you sure you want to destroy all progress"
+
+#~ msgid "PRINTOUT_INCOMPLETE"
+#~ msgstr "Incomplete"
+
+#~ msgid "PRINTOUT_STATUS"
+#~ msgstr "Status"
+
+#~ msgid "PRINTOUT_DISMISS"
+#~ msgstr "Dismiss"
 
 #~ msgid "VISUAL"
 #~ msgstr "Visual"

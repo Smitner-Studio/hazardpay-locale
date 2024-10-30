@@ -5,6 +5,10 @@
 # res://scenes/ui/screens/main_menu.tscn
 # res://scenes/ui/screens/level_preview_screen.tscn
 # res://scenes/ui/screens/credits_panel.tscn
+# res://dialogue/road_blocked.dialogue
+# res://dialogue/road_unblocked.dialogue
+# res://dialogue/road_block_no_exit.dialogue
+# res://scenes/ui/screens/report_sheet.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -22,6 +26,9 @@ msgid "YOU"
 msgstr ""
 
 #: dialogue/intro.dialogue
+#: dialogue/road_blocked.dialogue
+#: dialogue/road_unblocked.dialogue
+#: dialogue/road_block_no_exit.dialogue
 msgctxt "dialogue"
 msgid "RADIO"
 msgstr ""
@@ -51,7 +58,6 @@ msgid "INTRO_LINE_5"
 msgstr ""
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
-#: scenes/ui/screens/main_menu.tscn
 msgid "CONFIRM_EXIT"
 msgstr ""
 
@@ -61,14 +67,6 @@ msgstr ""
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "YES"
-msgstr ""
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "RESET_PROGRESS"
-msgstr ""
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "CONFIRM_RESET_PROGRESS"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
@@ -82,6 +80,10 @@ msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "FULLSCREEN"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
@@ -102,10 +104,6 @@ msgid "APPLY_CLOSE"
 msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
-msgid "EXIT"
-msgstr ""
-
-#: scenes/ui/screens/main_menu.tscn
 msgid "START_GAME"
 msgstr ""
 
@@ -118,7 +116,16 @@ msgid "GOTO_OVERWORLD"
 msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
+msgid "LEVEL_EDITOR"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+#: scenes/ui/screens/credits_panel.tscn
 msgid "CREDITS"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "EXIT"
 msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
@@ -126,31 +133,15 @@ msgid "COPYRIGHT_NOTICE"
 msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_COMPLETE"
-msgstr ""
-
-#: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_INCOMPLETE"
-msgstr ""
-
-#: scenes/ui/screens/level_preview_screen.tscn
-msgid ""
-msgstr ""
-
-#: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_HEADER"
 msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_STATUS"
+msgid "PRINTOUT_ATTACH_SUMMARY"
 msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_ACCEPT"
-msgstr ""
-
-#: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_DISMISS"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
@@ -163,4 +154,32 @@ msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid "DISMISS"
+msgstr ""
+
+#: dialogue/road_blocked.dialogue
+msgid "Get back to the labs, you're not finished."
+msgstr ""
+
+#: dialogue/road_blocked.dialogue
+msgid "Security will open the gate when you do what you're paid for."
+msgstr ""
+
+#: dialogue/road_unblocked.dialogue
+msgid "[[Well Done|Good Job|Good]]. You now have access this Sector, please proceed."
+msgstr ""
+
+#: dialogue/road_block_no_exit.dialogue
+msgid "You're not leaving until the job is finished."
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "REPORT_HEADER"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "MOVES"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "COMPLETE"
 msgstr ""
