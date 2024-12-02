@@ -9,6 +9,7 @@
 # res://dialogue/road_unblocked.dialogue
 # res://dialogue/road_block_no_exit.dialogue
 # res://scenes/ui/screens/report_sheet.tscn
+# res://scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -141,6 +142,7 @@ msgid "PRINTOUT_ATTACH_SUMMARY"
 msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_ACCEPT"
 msgstr ""
 
@@ -177,9 +179,29 @@ msgid "REPORT_HEADER"
 msgstr ""
 
 #: scenes/ui/screens/report_sheet.tscn
+msgid "1978-01-01 12:00:00"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
 msgid "MOVES"
 msgstr ""
 
 #: scenes/ui/screens/report_sheet.tscn
+msgid "000"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "SIGNED"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
 msgid "COMPLETE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_RETRY"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid ""
 msgstr ""
