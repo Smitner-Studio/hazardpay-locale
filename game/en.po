@@ -143,6 +143,14 @@ msgid "PRINTOUT_ATTACH_SUMMARY"
 msgstr "Attach Summary"
 
 #: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_SCORES"
+msgstr "Scores"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_BACK"
+msgstr "Back"
+
+#: scenes/ui/screens/level_preview_screen.tscn
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_ACCEPT"
 msgstr "Accept"
@@ -204,6 +212,34 @@ msgstr "Complete"
 msgid "PRINTOUT_RETRY"
 msgstr "Retry"
 
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+msgid "Unknown Title"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+msgid "PRINTOUT_LAST_UPDATED"
+msgstr "Last Updated"
+
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+msgid "1984-01-01"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_GLOBAL"
+msgstr "Global"
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_FRIENDS"
+msgstr "Friends"
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_GLOBAL_AROUND_USER"
+msgstr "Around You"
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_USERS"
+msgstr "Users"
+
 #, fuzzy
 #~| msgid "PRINTOUT_ACCEPT"
 #~ msgid ""
@@ -216,9 +252,6 @@ msgstr "Retry"
 
 #~ msgid "PRINTOUT_INCOMPLETE"
 #~ msgstr "Incomplete"
-
-#~ msgid "PRINTOUT_STATUS"
-#~ msgstr "Status"
 
 #~ msgid "PRINTOUT_DISMISS"
 #~ msgstr "Dismiss"

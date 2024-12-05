@@ -10,6 +10,9 @@
 # res://dialogue/road_block_no_exit.dialogue
 # res://scenes/ui/screens/report_sheet.tscn
 # res://scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+# res://scenes/ui/screens/level_preview/score_tab.tscn
+# res://scenes/ui/screens/level_preview/score_report_sheet.tscn
+# res://scenes/ui/screens/level_preview/ScoreReportSheet.gd
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -142,6 +145,14 @@ msgid "PRINTOUT_ATTACH_SUMMARY"
 msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_SCORES"
+msgstr ""
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_BACK"
+msgstr ""
+
+#: scenes/ui/screens/level_preview_screen.tscn
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_ACCEPT"
 msgstr ""
@@ -202,6 +213,30 @@ msgstr ""
 msgid "PRINTOUT_RETRY"
 msgstr ""
 
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid ""
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+msgid "Unknown Title"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+msgid "PRINTOUT_LAST_UPDATED"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+msgid "1984-01-01"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_GLOBAL"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_FRIENDS"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_GLOBAL_AROUND_USER"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_USERS"
 msgstr ""
