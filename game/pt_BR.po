@@ -121,7 +121,7 @@ msgstr "Continuar"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "GOTO_OVERWORLD"
-msgstr "Ir para o mapa"
+msgstr "Ir para o Mapa"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "LEVEL_EDITOR"
