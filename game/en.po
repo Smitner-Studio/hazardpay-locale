@@ -40,37 +40,37 @@ msgstr "I'm listening"
 
 #: dialogue/intro.dialogue
 msgid "INTRO_LINE_1"
-msgstr "Good, I have an urgent messsage from up-top."
+msgstr "Good, I have an urgent message from up-top"
 
 #: dialogue/intro.dialogue
 msgid "INTRO_LINE_2"
 msgstr ""
 "There's been an accident in Sector 5 - It's unclear what happened, all core-"
-"systems are down."
+"systems are down"
 
 #: dialogue/intro.dialogue
 msgid "INTRO_LINE_3"
-msgstr "Load up the truck and get on-site immediately."
+msgstr "Load up the truck and get on-site immediately"
 
 #: dialogue/intro.dialogue
 msgid "INTRO_LINE_4"
-msgstr "Remove all evidence, leave no trace behind."
+msgstr "Remove all evidence, leave no trace behind"
 
 #: dialogue/intro.dialogue
 msgid "INTRO_LINE_5"
-msgstr "And call me when it's done."
+msgstr "And call me when it's done"
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "CONFIRM_EXIT"
 msgstr "Are you sure you want to exit"
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
-msgid "NO"
-msgstr "No"
-
-#: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "YES"
 msgstr "Yes"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "NO"
+msgstr "No"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/screens/main_menu.tscn
@@ -135,12 +135,13 @@ msgid "COPYRIGHT_NOTICE"
 msgstr "Copyright© Smitner.Studio 2024"
 
 #: scenes/ui/screens/level_preview_screen.tscn
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_HEADER"
 msgstr "Brief"
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_ATTACH_SUMMARY"
-msgstr "Attach Summary"
+msgstr "Attach Summary Here"
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_SCORES"
@@ -212,6 +213,14 @@ msgstr "Complete"
 msgid "PRINTOUT_RETRY"
 msgstr "Retry"
 
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_OPTIONAL_NOTE"
+msgstr "Clearance Level 3 Required, Do not proceed."
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_REQUIRED_NOTE"
+msgstr "Destroy all Evidence. Leave no Trace"
+
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
 msgid "Unknown Title"
 msgstr ""
@@ -249,9 +258,6 @@ msgstr "Users"
 
 #~ msgid "CONFIRM_RESET_PROGRESS"
 #~ msgstr "Are you sure you want to destroy all progress"
-
-#~ msgid "PRINTOUT_INCOMPLETE"
-#~ msgstr "Incomplete"
 
 #~ msgid "PRINTOUT_DISMISS"
 #~ msgstr "Dismiss"

@@ -66,11 +66,11 @@ msgid "CONFIRM_EXIT"
 msgstr ""
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
-msgid "NO"
+msgid "YES"
 msgstr ""
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
-msgid "YES"
+msgid "NO"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
@@ -137,6 +137,7 @@ msgid "COPYRIGHT_NOTICE"
 msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_HEADER"
 msgstr ""
 
@@ -211,6 +212,14 @@ msgstr ""
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_RETRY"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_OPTIONAL_NOTE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_REQUIRED_NOTE"
 msgstr ""
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
