@@ -30,6 +30,7 @@ msgstr "You"
 
 #: dialogue/intro.dialogue dialogue/road_blocked.dialogue
 #: dialogue/road_unblocked.dialogue dialogue/road_block_no_exit.dialogue
+#: dialogue/exit_unfinished_required_level.dialogue
 msgctxt "dialogue"
 msgid "RADIO"
 msgstr "Radio"
@@ -178,7 +179,8 @@ msgstr ""
 
 #: dialogue/road_unblocked.dialogue
 msgid ""
-"[[Well Done|Good Job|Good]]. You now have access this Sector, please proceed."
+"[[Well Done|Good Job|Good]]. You now have access to this Sector, please "
+"proceed."
 msgstr ""
 
 #: dialogue/road_block_no_exit.dialogue
@@ -210,16 +212,16 @@ msgid "COMPLETE"
 msgstr "Complete"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_RETRY"
-msgstr "Retry"
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_OPTIONAL_NOTE"
 msgstr "Clearance Level 3 Required, Do not proceed."
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_REQUIRED_NOTE"
 msgstr "Destroy all Evidence. Leave no Trace"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_RETRY"
+msgstr "Retry"
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
 msgid "Unknown Title"
@@ -248,6 +250,34 @@ msgstr "Around You"
 #: scenes/ui/screens/level_preview/ScoreReportSheet.gd
 msgid "LEADERBOARD_DATA_REQUEST_USERS"
 msgstr "Users"
+
+#: dialogue/exit_unfinished_required_level.dialogue
+msgid "I suggust you continue what you started."
+msgstr ""
+
+#: dialogue/exit_unfinished_required_level.dialogue
+msgid "Get back to work, you're not finished."
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "GENERIC_DEAD_MESSAGE"
+msgstr "You died covering up the crimes of IPT, You will not be remembered."
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "MOVEMENT"
+msgstr "Movement"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "RESET"
+msgstr "Reset"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "UNDO"
+msgstr "Undo"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "ENTER_LEVEL"
+msgstr "Open Brief"
 
 #, fuzzy
 #~| msgid "PRINTOUT_ACCEPT"

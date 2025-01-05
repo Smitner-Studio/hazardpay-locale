@@ -13,6 +13,9 @@
 # res://scenes/ui/screens/level_preview/score_tab.tscn
 # res://scenes/ui/screens/level_preview/score_report_sheet.tscn
 # res://scenes/ui/screens/level_preview/ScoreReportSheet.gd
+# res://dialogue/exit_unfinished_required_level.dialogue
+# res://scenes/ui/screens/player_death_screen.tscn
+# res://scenes/ui/screens/game_controls.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -33,6 +36,7 @@ msgstr ""
 #: dialogue/road_blocked.dialogue
 #: dialogue/road_unblocked.dialogue
 #: dialogue/road_block_no_exit.dialogue
+#: dialogue/exit_unfinished_required_level.dialogue
 msgctxt "dialogue"
 msgid "RADIO"
 msgstr ""
@@ -179,7 +183,7 @@ msgid "Security will open the gate when you do what you're paid for."
 msgstr ""
 
 #: dialogue/road_unblocked.dialogue
-msgid "[[Well Done|Good Job|Good]]. You now have access this Sector, please proceed."
+msgid "[[Well Done|Good Job|Good]]. You now have access to this Sector, please proceed."
 msgstr ""
 
 #: dialogue/road_block_no_exit.dialogue
@@ -211,15 +215,15 @@ msgid "COMPLETE"
 msgstr ""
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_RETRY"
-msgstr ""
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_OPTIONAL_NOTE"
 msgstr ""
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_REQUIRED_NOTE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_RETRY"
 msgstr ""
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
@@ -248,4 +252,32 @@ msgstr ""
 
 #: scenes/ui/screens/level_preview/ScoreReportSheet.gd
 msgid "LEADERBOARD_DATA_REQUEST_USERS"
+msgstr ""
+
+#: dialogue/exit_unfinished_required_level.dialogue
+msgid "I suggust you continue what you started."
+msgstr ""
+
+#: dialogue/exit_unfinished_required_level.dialogue
+msgid "Get back to work, you're not finished."
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "GENERIC_DEAD_MESSAGE"
+msgstr ""
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "MOVEMENT"
+msgstr ""
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "RESET"
+msgstr ""
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "UNDO"
+msgstr ""
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "ENTER_LEVEL"
 msgstr ""
