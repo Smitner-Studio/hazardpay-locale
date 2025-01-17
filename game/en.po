@@ -79,16 +79,24 @@ msgid "SETTINGS"
 msgstr "Settings"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "MAIN"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "LANGUAGE"
 msgstr "Language"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "FULLSCREEN"
-msgstr "Fullscreen"
+msgid "UPLOAD_SCORE"
+msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "RESET_PROGRESS"
 msgstr "Reset Progress"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AUDIO"
+msgstr "Audio"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/screens/credits_panel.tscn
@@ -102,6 +110,22 @@ msgstr "Effects"
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "AMBIANCE"
 msgstr "Ambiance"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "VISUAL"
+msgstr "Visual"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "FULLSCREEN"
+msgstr "Fullscreen"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "INPUT"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "HAPTIC_ENABLED"
+msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "APPLY_CLOSE"
@@ -213,7 +237,7 @@ msgstr "Complete"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_OPTIONAL_NOTE"
-msgstr "Clearance Level 3 Required, Do not proceed."
+msgstr "Clearance Level 3 Required, Do not proceed"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_REQUIRED_NOTE"
@@ -261,7 +285,7 @@ msgstr ""
 
 #: scenes/ui/screens/player_death_screen.tscn
 msgid "GENERIC_DEAD_MESSAGE"
-msgstr "You died covering up the crimes of IPT, You will not be remembered."
+msgstr "You died covering up the crimes of IPT, You will not be remembered"
 
 #: scenes/ui/screens/game_controls.tscn
 msgid "MOVEMENT"
@@ -277,7 +301,19 @@ msgstr "Undo"
 
 #: scenes/ui/screens/game_controls.tscn
 msgid "ENTER_LEVEL"
-msgstr "Open Brief"
+msgstr "Enter Level"
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "LEVEL_COMPLETE"
+msgstr "Level Complete"
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "RETRY"
+msgstr "Retry"
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "CONTINUE"
+msgstr "Continue"
 
 #, fuzzy
 #~| msgid "PRINTOUT_ACCEPT"
@@ -291,12 +327,6 @@ msgstr "Open Brief"
 
 #~ msgid "PRINTOUT_DISMISS"
 #~ msgstr "Dismiss"
-
-#~ msgid "VISUAL"
-#~ msgstr "Visual"
-
-#~ msgid "AUDIO"
-#~ msgstr "Audio"
 
 #~ msgid "Settings"
 #~ msgstr "Settings"

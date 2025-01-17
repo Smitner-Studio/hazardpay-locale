@@ -16,6 +16,7 @@
 # res://dialogue/exit_unfinished_required_level.dialogue
 # res://scenes/ui/screens/player_death_screen.tscn
 # res://scenes/ui/screens/game_controls.tscn
+# res://scenes/ui/screens/level_complete/level_complete_screen.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -83,15 +84,23 @@ msgid "SETTINGS"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "MAIN"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "LANGUAGE"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "FULLSCREEN"
+msgid "UPLOAD_SCORE"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "RESET_PROGRESS"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AUDIO"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
@@ -105,6 +114,22 @@ msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "AMBIANCE"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "VISUAL"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "FULLSCREEN"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "INPUT"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "HAPTIC_ENABLED"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
@@ -280,4 +305,16 @@ msgstr ""
 
 #: scenes/ui/screens/game_controls.tscn
 msgid "ENTER_LEVEL"
+msgstr ""
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "LEVEL_COMPLETE"
+msgstr ""
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "RETRY"
+msgstr ""
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "CONTINUE"
 msgstr ""
