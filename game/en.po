@@ -91,6 +91,7 @@ msgid "UPLOAD_SCORE"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/panels/settings/Settings.gd
 msgid "RESET_PROGRESS"
 msgstr "Reset Progress"
 
@@ -158,6 +159,10 @@ msgstr "Exit"
 #: scenes/ui/screens/main_menu.tscn
 msgid "COPYRIGHT_NOTICE"
 msgstr "Copyright© Smitner.Studio 2024"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "LEVEL_SELECT"
+msgstr "Level Select"
 
 #: scenes/ui/screens/level_preview_screen.tscn
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
@@ -247,6 +252,14 @@ msgstr "Destroy all Evidence. Leave no Trace"
 msgid "PRINTOUT_RETRY"
 msgstr "Retry"
 
+#: scenes/ui/screens/level_preview/score_tab.tscn
+msgid "PRINTOUT_SCORE_LOADING"
+msgstr "Scores Loading"
+
+#: scenes/ui/screens/level_preview/score_tab.tscn
+msgid "ERROR"
+msgstr "Error"
+
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
 msgid "Unknown Title"
 msgstr ""
@@ -315,15 +328,24 @@ msgstr "Retry"
 msgid "CONTINUE"
 msgstr "Continue"
 
+#: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+msgid "OPEN_STEAM_PROFILE"
+msgstr "Open Steam Profile"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+msgid "CONFIRM_OPEN_STEAM_PROFILE"
+msgstr "Are you sure you want to open the Steam Profile of the selected user"
+
+#: scenes/ui/panels/settings/Settings.gd
+msgid "CONFIRM_RESET_PROGRESS"
+msgstr "Are you sure you want to destroy all evidence of your progress"
+
 #, fuzzy
 #~| msgid "PRINTOUT_ACCEPT"
 #~ msgid ""
 #~ "PRINTOUT_ACCEPT\n"
 #~ "PRINTOUT_RETRY"
 #~ msgstr "Accept"
-
-#~ msgid "CONFIRM_RESET_PROGRESS"
-#~ msgstr "Are you sure you want to destroy all progress"
 
 #~ msgid "PRINTOUT_DISMISS"
 #~ msgstr "Dismiss"

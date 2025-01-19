@@ -17,6 +17,8 @@
 # res://scenes/ui/screens/player_death_screen.tscn
 # res://scenes/ui/screens/game_controls.tscn
 # res://scenes/ui/screens/level_complete/level_complete_screen.tscn
+# res://scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+# res://scenes/ui/panels/settings/Settings.gd
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -96,6 +98,7 @@ msgid "UPLOAD_SCORE"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/panels/settings/Settings.gd
 msgid "RESET_PROGRESS"
 msgstr ""
 
@@ -163,6 +166,10 @@ msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "COPYRIGHT_NOTICE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "LEVEL_SELECT"
 msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
@@ -251,6 +258,14 @@ msgstr ""
 msgid "PRINTOUT_RETRY"
 msgstr ""
 
+#: scenes/ui/screens/level_preview/score_tab.tscn
+msgid "PRINTOUT_SCORE_LOADING"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/score_tab.tscn
+msgid "ERROR"
+msgstr ""
+
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
 msgid "Unknown Title"
 msgstr ""
@@ -317,4 +332,16 @@ msgstr ""
 
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "CONTINUE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+msgid "OPEN_STEAM_PROFILE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+msgid "CONFIRM_OPEN_STEAM_PROFILE"
+msgstr ""
+
+#: scenes/ui/panels/settings/Settings.gd
+msgid "CONFIRM_RESET_PROGRESS"
 msgstr ""
