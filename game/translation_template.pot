@@ -227,6 +227,7 @@ msgid "REPORT_HEADER"
 msgstr ""
 
 #: scenes/ui/screens/report_sheet.tscn
+#: scenes/ui/screens/player_death_screen.tscn
 msgid "1978-01-01 12:00:00"
 msgstr ""
 
@@ -300,6 +301,10 @@ msgstr ""
 
 #: dialogue/exit_unfinished_required_level.dialogue
 msgid "Get back to work, you're not finished."
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEATH_SCREEN_TITLE"
 msgstr ""
 
 #: scenes/ui/screens/player_death_screen.tscn

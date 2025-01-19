@@ -221,6 +221,7 @@ msgid "REPORT_HEADER"
 msgstr "Report Details"
 
 #: scenes/ui/screens/report_sheet.tscn
+#: scenes/ui/screens/player_death_screen.tscn
 msgid "1978-01-01 12:00:00"
 msgstr ""
 
@@ -297,8 +298,14 @@ msgid "Get back to work, you're not finished."
 msgstr ""
 
 #: scenes/ui/screens/player_death_screen.tscn
+msgid "DEATH_SCREEN_TITLE"
+msgstr "Deceased Employee Notice"
+
+#: scenes/ui/screens/player_death_screen.tscn
 msgid "GENERIC_DEAD_MESSAGE"
-msgstr "You died covering up the crimes of IPT, You will not be remembered"
+msgstr ""
+"You died covering up the crimes of IPT. You will not celebrated, You will "
+"not be remembered."
 
 #: scenes/ui/screens/game_controls.tscn
 msgid "MOVEMENT"
