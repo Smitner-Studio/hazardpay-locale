@@ -80,7 +80,7 @@ msgstr "Settings"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "MAIN"
-msgstr ""
+msgstr "Main"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "LANGUAGE"
@@ -88,7 +88,7 @@ msgstr "Language"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "UPLOAD_SCORE"
-msgstr ""
+msgstr "Upload Highscores"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/panels/settings/Settings.gd
@@ -122,11 +122,11 @@ msgstr "Fullscreen"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "INPUT"
-msgstr ""
+msgstr "Input"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "HAPTIC_ENABLED"
-msgstr ""
+msgstr "Haptics Enabled"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "APPLY_CLOSE"
@@ -158,7 +158,7 @@ msgstr "Exit"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "COPYRIGHT_NOTICE"
-msgstr "Copyright© Smitner.Studio 2024"
+msgstr "Copyright© Smitner.Studio 2025"
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "LEVEL_SELECT"
@@ -218,7 +218,7 @@ msgstr ""
 
 #: scenes/ui/screens/report_sheet.tscn
 msgid "REPORT_HEADER"
-msgstr "Report Details"
+msgstr "REPORT_HEADER"
 
 #: scenes/ui/screens/report_sheet.tscn
 #: scenes/ui/screens/player_death_screen.tscn
@@ -243,7 +243,7 @@ msgstr "Complete"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_OPTIONAL_NOTE"
-msgstr "Clearance Level 3 Required, Do not proceed"
+msgstr "Proceed at your own risk"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_REQUIRED_NOTE"
@@ -303,9 +303,7 @@ msgstr "Deceased Employee Notice"
 
 #: scenes/ui/screens/player_death_screen.tscn
 msgid "GENERIC_DEAD_MESSAGE"
-msgstr ""
-"You died covering up the crimes of IPT. You will not celebrated, You will "
-"not be remembered."
+msgstr "You died covering up the crimes of IPT. You will not be remembered."
 
 #: scenes/ui/screens/game_controls.tscn
 msgid "MOVEMENT"
