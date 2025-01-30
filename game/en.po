@@ -23,7 +23,7 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: dialogue/intro.dialogue
+#: dialogue/intro.dialogue dialogue/rebel_sci_intro.dialogue
 msgctxt "dialogue"
 msgid "YOU"
 msgstr "You"
@@ -36,30 +36,26 @@ msgid "RADIO"
 msgstr "Radio"
 
 #: dialogue/intro.dialogue
-msgid "IM_LISTENING"
-msgstr "I'm listening"
-
-#: dialogue/intro.dialogue
-msgid "INTRO_LINE_1"
-msgstr "Good, I have an urgent message from up-top"
-
-#: dialogue/intro.dialogue
-msgid "INTRO_LINE_2"
+msgid "I'm listening."
 msgstr ""
-"There's been an accident in Sector 5 - It's unclear what happened, all core-"
-"systems are down"
 
 #: dialogue/intro.dialogue
-msgid "INTRO_LINE_3"
-msgstr "Load up the truck and get on-site immediately"
+msgid "Good, I have urgent instructions from leadership."
+msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "INTRO_LINE_4"
-msgstr "Remove all evidence, leave no trace behind"
+msgid ""
+"There's been an incident deep in the facility. The details are unclear, All "
+"offsite communication systems are down. You will have to go in blind."
+msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "INTRO_LINE_5"
-msgstr "And call me when it's done"
+msgid "Load up the truck and work your way torwards Sector 5."
+msgstr ""
+
+#: dialogue/intro.dialogue
+msgid "Destroy all evidence, leave no trace."
+msgstr ""
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "CONFIRM_EXIT"
@@ -93,7 +89,20 @@ msgstr "Upload Highscores"
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/panels/settings/Settings.gd
 msgid "RESET_PROGRESS"
-msgstr "Reset Progress"
+msgstr "Destroy Progress"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS_DETAIL"
+msgstr "Destroys all evidence of you playing this game"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/panels/settings/Settings.gd
+msgid "RESET_SETTINGS"
+msgstr "Reset Settings"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_SETTINGS_DETAIL"
+msgstr "Resets the settings to their default values"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "AUDIO"
@@ -160,6 +169,30 @@ msgstr "Exit"
 msgid "COPYRIGHT_NOTICE"
 msgstr "Copyright© Smitner.Studio 2025"
 
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST"
+msgstr "Wishlist"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST_BODY"
+msgstr "Add Hazard Pay to your Wishlist to be notified upon release!"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST_BUTTON"
+msgstr "Open Steam"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD"
+msgstr "Discord"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD_BODY"
+msgstr "Join the Discord server to share feedback and get the latest updates."
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD_BUTTON"
+msgstr "Join Discord"
+
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "LEVEL_SELECT"
 msgstr "Level Select"
@@ -187,12 +220,49 @@ msgid "PRINTOUT_ACCEPT"
 msgstr "Accept"
 
 #: scenes/ui/screens/credits_panel.tscn
-msgid "DESIGN_AND_DEVELOPOMENT"
+msgid "DEVELOPMENT"
 msgstr "Design and Development"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Arran Smith\n"
+"[url=https://smitner.studio]https://smitner.studio[/url]"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "CC-BY-4.0"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Giuseppe \"reDD\" Zano\n"
+"[url=https://giuseppezano.bandcamp.com/]https://giuseppezano.bandcamp.com[/"
+"url]"
+msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid "TRANSLATION"
 msgstr "Translation"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"V.\n"
+"Ravi\n"
+"Georges Kaplan\n"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "PLAYTESTERS"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Ravi\n"
+"Georges Kaplan\n"
+"Matt Schikore\n"
+"Paul James\n"
+"Buromomento\n"
+msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid "DISMISS"
@@ -218,7 +288,7 @@ msgstr ""
 
 #: scenes/ui/screens/report_sheet.tscn
 msgid "REPORT_HEADER"
-msgstr "REPORT_HEADER"
+msgstr "Report Details"
 
 #: scenes/ui/screens/report_sheet.tscn
 #: scenes/ui/screens/player_death_screen.tscn
@@ -342,8 +412,75 @@ msgid "CONFIRM_OPEN_STEAM_PROFILE"
 msgstr "Are you sure you want to open the Steam Profile of the selected user"
 
 #: scenes/ui/panels/settings/Settings.gd
+msgid "CONFIRM_RESET_SETTINGS"
+msgstr "Are you sure you want to apply the default settings"
+
+#: scenes/ui/panels/settings/Settings.gd
 msgid "CONFIRM_RESET_PROGRESS"
 msgstr "Are you sure you want to destroy all evidence of your progress"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "dialogue"
+msgid "SCIENTIST"
+msgstr "Scientist"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid "Gott sei Dank, you're here - It's been days since I called for help."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid ""
+"The containment failed. We've lost control, and now there are specimens "
+"loose all over the facility. It's chaos."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid ""
+"Ludwig and I managed to get PRS-86 back in containment. It was terrifying, "
+"but we did it..."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid ""
+"Ludwig didn't make it. I... I can't think about that right now. There's work "
+"to be done."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid ""
+"Build a [color=\"#fdd179\"]Battery[/color], the base is already prepared, "
+"route power into the circuit and neutralize PRS-86."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid "Roger that."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid ""
+"Please.. If you see any of my colleagues, save them. It's not our fault. You "
+"can't understand the conditions IPT has had us working under."
+msgstr ""
+
+#~ msgid "IM_LISTENING"
+#~ msgstr "I'm listening"
+
+#~ msgid "INTRO_LINE_1"
+#~ msgstr "Good, I have an urgent message from up-top"
+
+#~ msgid "INTRO_LINE_2"
+#~ msgstr ""
+#~ "There's been an accident in Sector 5 - It's unclear what happened, all "
+#~ "core-systems are down"
+
+#~ msgid "INTRO_LINE_3"
+#~ msgstr "Load up the truck and get on-site immediately"
+
+#~ msgid "INTRO_LINE_4"
+#~ msgstr "Remove all evidence, leave no trace behind"
+
+#~ msgid "INTRO_LINE_5"
+#~ msgstr "And call me when it's done"
 
 #, fuzzy
 #~| msgid "PRINTOUT_ACCEPT"

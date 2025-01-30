@@ -19,6 +19,7 @@
 # res://scenes/ui/screens/level_complete/level_complete_screen.tscn
 # res://scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
 # res://scenes/ui/panels/settings/Settings.gd
+# res://dialogue/rebel_sci_intro.dialogue
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -31,6 +32,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: dialogue/intro.dialogue
+#: dialogue/rebel_sci_intro.dialogue
 msgctxt "dialogue"
 msgid "YOU"
 msgstr ""
@@ -45,27 +47,23 @@ msgid "RADIO"
 msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "IM_LISTENING"
+msgid "I'm listening."
 msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "INTRO_LINE_1"
+msgid "Good, I have urgent instructions from leadership."
 msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "INTRO_LINE_2"
+msgid "There's been an incident deep in the facility. The details are unclear, All offsite communication systems are down. You will have to go in blind."
 msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "INTRO_LINE_3"
+msgid "Load up the truck and work your way torwards Sector 5."
 msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "INTRO_LINE_4"
-msgstr ""
-
-#: dialogue/intro.dialogue
-msgid "INTRO_LINE_5"
+msgid "Destroy all evidence, leave no trace."
 msgstr ""
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
@@ -100,6 +98,19 @@ msgstr ""
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/panels/settings/Settings.gd
 msgid "RESET_PROGRESS"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS_DETAIL"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/panels/settings/Settings.gd
+msgid "RESET_SETTINGS"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_SETTINGS_DETAIL"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
@@ -168,6 +179,30 @@ msgstr ""
 msgid "COPYRIGHT_NOTICE"
 msgstr ""
 
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST_BODY"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST_BUTTON"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD_BODY"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD_BUTTON"
+msgstr ""
+
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "LEVEL_SELECT"
 msgstr ""
@@ -195,11 +230,47 @@ msgid "PRINTOUT_ACCEPT"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
-msgid "DESIGN_AND_DEVELOPOMENT"
+msgid "DEVELOPMENT"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Arran Smith\n"
+"[url=https://smitner.studio]https://smitner.studio[/url]"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "CC-BY-4.0"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Giuseppe \"reDD\" Zano\n"
+"[url=https://giuseppezano.bandcamp.com/]https://giuseppezano.bandcamp.com[/url]"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid "TRANSLATION"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"V.\n"
+"Ravi\n"
+"Georges Kaplan\n"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "PLAYTESTERS"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Ravi\n"
+"Georges Kaplan\n"
+"Matt Schikore\n"
+"Paul James\n"
+"Buromomento\n"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
@@ -348,5 +419,42 @@ msgid "CONFIRM_OPEN_STEAM_PROFILE"
 msgstr ""
 
 #: scenes/ui/panels/settings/Settings.gd
+msgid "CONFIRM_RESET_SETTINGS"
+msgstr ""
+
+#: scenes/ui/panels/settings/Settings.gd
 msgid "CONFIRM_RESET_PROGRESS"
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "dialogue"
+msgid "SCIENTIST"
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid "Gott sei Dank, you're here - It's been days since I called for help."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid "The containment failed. We've lost control, and now there are specimens loose all over the facility. It's chaos."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid "Ludwig and I managed to get PRS-86 back in containment. It was terrifying, but we did it..."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid "Ludwig didn't make it. I... I can't think about that right now. There's work to be done."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid "Build a [color=\"#fdd179\"]Battery[/color], the base is already prepared, route power into the circuit and neutralize PRS-86."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid "Roger that."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgid "Please.. If you see any of my colleagues, save them. It's not our fault. You can't understand the conditions IPT has had us working under."
 msgstr ""
