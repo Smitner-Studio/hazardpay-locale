@@ -31,29 +31,35 @@ msgstr "You"
 #: dialogue/intro.dialogue dialogue/road_blocked.dialogue
 #: dialogue/road_unblocked.dialogue dialogue/road_block_no_exit.dialogue
 #: dialogue/exit_unfinished_required_level.dialogue
+#: dialogue/road_blocked_demo.dialogue
 msgctxt "dialogue"
 msgid "RADIO"
 msgstr "Radio"
 
 #: dialogue/intro.dialogue
+msgctxt "I_LISTEN"
 msgid "I'm listening."
 msgstr ""
 
 #: dialogue/intro.dialogue
+msgctxt "INSTRUCTIONS"
 msgid "Good, I have urgent instructions from leadership."
 msgstr ""
 
 #: dialogue/intro.dialogue
+msgctxt "BLIND"
 msgid ""
 "There's been an incident deep in the facility. The details are unclear, All "
 "offsite communication systems are down. You will have to go in blind."
 msgstr ""
 
 #: dialogue/intro.dialogue
+msgctxt "TOWARD_SECTOR_5"
 msgid "Load up the truck and work your way torwards Sector 5."
 msgstr ""
 
 #: dialogue/intro.dialogue
+msgctxt "NO_TRACE"
 msgid "Destroy all evidence, leave no trace."
 msgstr ""
 
@@ -76,7 +82,7 @@ msgstr "Settings"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "MAIN"
-msgstr "Main"
+msgstr "General"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "LANGUAGE"
@@ -175,7 +181,8 @@ msgstr "Wishlist"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "CTA_WISHLIST_BODY"
-msgstr "Add Hazard Pay to your Wishlist to be notified upon release!"
+msgstr ""
+"Add Hazard Pay to your Wishlist to be notified about the upcoming release."
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "CTA_WISHLIST_BUTTON"
@@ -190,6 +197,7 @@ msgid "CTA_DISCORD_BODY"
 msgstr "Join the Discord server to share feedback and get the latest updates."
 
 #: scenes/ui/screens/main_menu.tscn
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
 msgid "CTA_DISCORD_BUTTON"
 msgstr "Join Discord"
 
@@ -265,24 +273,29 @@ msgid ""
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
 msgid "DISMISS"
 msgstr "Dismiss"
 
 #: dialogue/road_blocked.dialogue
+msgctxt "GET_BACK"
 msgid "Get back to the labs, you're not finished."
 msgstr ""
 
 #: dialogue/road_blocked.dialogue
+msgctxt "GET_BACK_2"
 msgid "Security will open the gate when you do what you're paid for."
 msgstr ""
 
 #: dialogue/road_unblocked.dialogue
+msgctxt "PROCEED_TO_NEXT_SECTOR"
 msgid ""
 "[[Well Done|Good Job|Good]]. You now have access to this Sector, please "
 "proceed."
 msgstr ""
 
 #: dialogue/road_block_no_exit.dialogue
+msgctxt "JOB_IS_NOT_FINISHED"
 msgid "You're not leaving until the job is finished."
 msgstr ""
 
@@ -360,16 +373,18 @@ msgid "LEADERBOARD_DATA_REQUEST_USERS"
 msgstr "Users"
 
 #: dialogue/exit_unfinished_required_level.dialogue
+msgctxt "CONTINUE_WHAT_YOU_STARTED"
 msgid "I suggust you continue what you started."
 msgstr ""
 
 #: dialogue/exit_unfinished_required_level.dialogue
+msgctxt "NOT_FINISHED"
 msgid "Get back to work, you're not finished."
 msgstr ""
 
 #: scenes/ui/screens/player_death_screen.tscn
 msgid "DEATH_SCREEN_TITLE"
-msgstr "Deceased Employee Notice"
+msgstr "Notice of Employee Termination"
 
 #: scenes/ui/screens/player_death_screen.tscn
 msgid "GENERIC_DEAD_MESSAGE"
@@ -409,11 +424,11 @@ msgstr "Open Steam Profile"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
 msgid "CONFIRM_OPEN_STEAM_PROFILE"
-msgstr "Are you sure you want to open the Steam Profile of the selected user"
+msgstr "Are you sure you want to open the Steam Profile of the selected user?"
 
 #: scenes/ui/panels/settings/Settings.gd
 msgid "CONFIRM_RESET_SETTINGS"
-msgstr "Are you sure you want to apply the default settings"
+msgstr "Are you sure you want to apply the default settings?"
 
 #: scenes/ui/panels/settings/Settings.gd
 msgid "CONFIRM_RESET_PROGRESS"
@@ -425,42 +440,82 @@ msgid "SCIENTIST"
 msgstr "Scientist"
 
 #: dialogue/rebel_sci_intro.dialogue
+msgctxt "THANK_GOD"
 msgid "Gott sei Dank, you're here - It's been days since I called for help."
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
+msgctxt "CHAOS"
 msgid ""
 "The containment failed. We've lost control, and now there are specimens "
 "loose all over the facility. It's chaos."
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
+msgctxt "BACK_INTO_CONTAINMENT"
 msgid ""
 "Ludwig and I managed to get PRS-86 back in containment. It was terrifying, "
 "but we did it..."
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
+msgctxt "WORK_TO_BE_DONE"
 msgid ""
 "Ludwig didn't make it. I... I can't think about that right now. There's work "
 "to be done."
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
+msgctxt "BUILD_BATTERY"
 msgid ""
 "Build a [color=\"#fdd179\"]Battery[/color], the base is already prepared, "
 "route power into the circuit and neutralize PRS-86."
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
+msgctxt "ROGER"
 msgid "Roger that."
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
+msgctxt "SAVE_US"
 msgid ""
 "Please.. If you see any of my colleagues, save them. It's not our fault. You "
 "can't understand the conditions IPT has had us working under."
 msgstr ""
+
+#: dialogue/road_blocked_demo.dialogue
+msgctxt "DEMO_NO_MORE"
+msgid "That's all for the demo."
+msgstr ""
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "THANKS_DEMO_HEADER"
+msgstr "Thank you"
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "THANKS_DEMO_BODY"
+msgstr ""
+"Thank you for playing the Hazard Pay demo.\n"
+"\n"
+"I hope you felt puzzled and curious - Get ready to fall headfirst into a "
+"deep state conspiracy and discover the secrets you've been helping to "
+"conceal, when the full release comes later this year.\n"
+"\n"
+"If you have any feedback, I would love hear it - Join the Discord community "
+"to share your thoughts, get access to preview builds and the latest updates."
+"\v\n"
+"Please consider leaving a review on Steam, IPT will make it worth your "
+"while.\n"
+"\vCheers, Smitner"
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "CTA_REVIEW_BUTTON"
+msgstr "Leave a review"
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "DONT_SHOW_AGAIN"
+msgstr "Don't show again"
 
 #~ msgid "IM_LISTENING"
 #~ msgstr "I'm listening"
