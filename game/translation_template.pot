@@ -22,6 +22,7 @@
 # res://dialogue/rebel_sci_intro.dialogue
 # res://dialogue/road_blocked_demo.dialogue
 # res://scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+# res://scenes/ui/screens/rewind_screen/rewind_screen.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -244,8 +245,8 @@ msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid ""
-"Arran Smith\n"
-"[url=https://smitner.studio]https://smitner.studio[/url]"
+"Arran Smith | mail@smitner.studio\n"
+"[url=https://smitner.studio]https://smitner.studio[/url]\n"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
@@ -267,6 +268,7 @@ msgid ""
 "V.\n"
 "Ravi\n"
 "Georges Kaplan\n"
+"Gigi"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
@@ -403,6 +405,10 @@ msgid "MOVEMENT"
 msgstr ""
 
 #: scenes/ui/screens/game_controls.tscn
+msgid "PEEK"
+msgstr ""
+
+#: scenes/ui/screens/game_controls.tscn
 msgid "RESET"
 msgstr ""
 
@@ -501,4 +507,8 @@ msgstr ""
 
 #: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
 msgid "DONT_SHOW_AGAIN"
+msgstr ""
+
+#: scenes/ui/screens/rewind_screen/rewind_screen.tscn
+msgid "REWIND"
 msgstr ""

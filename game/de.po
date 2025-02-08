@@ -236,8 +236,8 @@ msgstr "Design und Entwicklung"
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid ""
-"Arran Smith\n"
-"[url=https://smitner.studio]https://smitner.studio[/url]"
+"Arran Smith | mail@smitner.studio\n"
+"[url=https://smitner.studio]https://smitner.studio[/url]\n"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
@@ -260,6 +260,7 @@ msgid ""
 "V.\n"
 "Ravi\n"
 "Georges Kaplan\n"
+"Gigi"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
@@ -404,6 +405,10 @@ msgid "MOVEMENT"
 msgstr "Bewegung"
 
 #: scenes/ui/screens/game_controls.tscn
+msgid "PEEK"
+msgstr "Vorschau"
+
+#: scenes/ui/screens/game_controls.tscn
 msgid "RESET"
 msgstr "Neustart"
 
@@ -542,3 +547,7 @@ msgstr "Eine Bewertung hinterlassen"
 #: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
 msgid "DONT_SHOW_AGAIN"
 msgstr "Nicht mehr anzeigen"
+
+#: scenes/ui/screens/rewind_screen/rewind_screen.tscn
+msgid "REWIND"
+msgstr "Rückspulen"

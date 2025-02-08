@@ -233,8 +233,8 @@ msgstr "Design and Development"
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid ""
-"Arran Smith\n"
-"[url=https://smitner.studio]https://smitner.studio[/url]"
+"Arran Smith | mail@smitner.studio\n"
+"[url=https://smitner.studio]https://smitner.studio[/url]\n"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
@@ -257,6 +257,7 @@ msgid ""
 "V.\n"
 "Ravi\n"
 "Georges Kaplan\n"
+"Gigi"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
@@ -374,7 +375,7 @@ msgstr "Users"
 
 #: dialogue/exit_unfinished_required_level.dialogue
 msgctxt "CONTINUE_WHAT_YOU_STARTED"
-msgid "I suggust you continue what you started."
+msgid "I suggest you continue what you started."
 msgstr ""
 
 #: dialogue/exit_unfinished_required_level.dialogue
@@ -393,6 +394,10 @@ msgstr "You died covering up the crimes of IPT. You will not be remembered."
 #: scenes/ui/screens/game_controls.tscn
 msgid "MOVEMENT"
 msgstr "Movement"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "PEEK"
+msgstr "Peek"
 
 #: scenes/ui/screens/game_controls.tscn
 msgid "RESET"
@@ -516,6 +521,10 @@ msgstr "Leave a review"
 #: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
 msgid "DONT_SHOW_AGAIN"
 msgstr "Don't show again"
+
+#: scenes/ui/screens/rewind_screen/rewind_screen.tscn
+msgid "REWIND"
+msgstr "Rewind"
 
 #~ msgid "IM_LISTENING"
 #~ msgstr "I'm listening"
