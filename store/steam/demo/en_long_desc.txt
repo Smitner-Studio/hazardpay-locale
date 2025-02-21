@@ -1,0 +1,20 @@
+[h2]Destroy evidence, leave no trace[/h2]
+
+[p]
+You've received another job, it pays well but something's not right. Pack up the truck and head to the location - Your task is to [i]clean up[/i] the [i]accident[/i].[/p][p]Don't leave anything behind, not even your footsteps.
+[/p]
+
+
+[h2]Watch your step[/h2]
+
+[p]
+There's plenty of Hazards, tread carefully and try not to get yourself killed - Your employer, IPT is closely watching.
+[/p]
+
+[h2]Demo Features[/h2]
+
+[list]
+[*][p]13 Levels showcasing a wide variety of mechanics.[/p][/*]
+[*][p]Dynamic Electrical System[/p][/*][*][p]Steam Deck / Controller Support with Haptics[/p][/*]
+[*][p]Steam Leaderboards and Rich Presence[/p][/*]
+[/list]
