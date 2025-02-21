@@ -1,0 +1,23 @@
+[h2]Destrua evidências, não deixe sequer traços[/h2]
+
+[p]
+Você recebeu mais um trabalho, que paga bem mas algo não parece certo. Prepare seu caminhão e dirija-se ao local - Seu trabalho é [i]limpar[/i] o [i]acidente[/i].[/p][p]Não deixe nada para trás, nem seus próprios passos.
+[/p]
+
+
+[h2]Olha onde pisa[/h2]
+
+[p]
+Há muitos perigos por lá, aja com cautela e tente não morrer - Seu chefe, a IPT, está observando de perto.
+[/p]
+
+
+[h2]Recursos da Demonstração[/h2]
+
+[list]
+[*][p]13 níveis que apresentam uma ampla variedade de mecânicas.[/p][/*]
+[*][p]Sistema elétrico dinâmico.[/p][/*]
+[*][p]Steam Deck / Suporte a controle com recursos táteis.[/p][/*]
+[*][p]Steam Leaderboards and Rich Presence[/p][/*]
+[*][p]Placares de líderes e presença rica da Steam[/p][/*]
+[/list]
