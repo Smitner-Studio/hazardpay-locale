@@ -30,52 +30,60 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
 
-#: dialogue/intro.dialogue
+#: dialogue/intro.dialogue dialogue/rebel_sci_intro.dialogue
 msgctxt "dialogue"
 msgid "YOU"
 msgstr "Você"
 
 #: dialogue/intro.dialogue dialogue/road_blocked.dialogue
 #: dialogue/road_unblocked.dialogue dialogue/road_block_no_exit.dialogue
+#: dialogue/exit_unfinished_required_level.dialogue
+#: dialogue/road_blocked_demo.dialogue
 msgctxt "dialogue"
 msgid "RADIO"
 msgstr "Rádio"
 
 #: dialogue/intro.dialogue
-msgid "IM_LISTENING"
+msgctxt "I_LISTEN"
+msgid "I'm listening."
 msgstr "Estou ouvindo."
 
 #: dialogue/intro.dialogue
-msgid "INTRO_LINE_1"
-msgstr "Ótimo, tenho uma mensagem urgente dos seus superiores."
+msgctxt "INSTRUCTIONS"
+msgid "Good, I have urgent instructions from leadership."
+msgstr "Ótimo, tenho instruções urgentes de seus superiores."
 
 #: dialogue/intro.dialogue
-msgid "INTRO_LINE_2"
-msgstr "Houve um acidente no Setor 5 - Não está claro o que aconteceu, todos os sistemas centrais estão inativos."
+msgctxt "BLIND"
+msgid ""
+"There's been an incident deep in the facility. The details are unclear, All "
+"offsite communication systems are down. You will have to go in blind."
+msgstr ""
+"Houve um incidente no interior das instalações. Os detalhes não estão "
+"claros. Todos os sistemas de comunicação externos estão fora do ar. Você "
+"terá que entrar às cegas."
 
 #: dialogue/intro.dialogue
-msgid "INTRO_LINE_3"
-msgstr "Carregue o caminhão e vá para o local imediatamente."
+msgctxt "TOWARD_SECTOR_5"
+msgid "Load up the truck and work your way torwards Sector 5."
+msgstr "Prepare  caminhão e siga em direção ao Setor 5."
 
 #: dialogue/intro.dialogue
-msgid "INTRO_LINE_4"
-msgstr "Remova todas as evidências, não deixe nem sequer rastros."
-
-#: dialogue/intro.dialogue
-msgid "INTRO_LINE_5"
-msgstr "E retorne a ligação para mim quando terminar."
+msgctxt "NO_TRACE"
+msgid "Destroy all evidence, leave no trace."
+msgstr "Destrua todas as evidências, não deixe sequer traços."
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "CONFIRM_EXIT"
 msgstr "Tem certeza de que deseja sair?"
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
-msgid "NO"
-msgstr "Não"
-
-#: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "YES"
 msgstr "Sim"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "NO"
+msgstr "Não"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/screens/main_menu.tscn
@@ -83,16 +91,38 @@ msgid "SETTINGS"
 msgstr "Configurações"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "MAIN"
+msgstr "Geral"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "LANGUAGE"
 msgstr "Idioma"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "FULLSCREEN"
-msgstr "Tela Cheia"
+msgid "UPLOAD_SCORE"
+msgstr "Carregar Pontuações"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/panels/settings/Settings.gd
 msgid "RESET_PROGRESS"
-msgstr "Reiniciar Progresso"
+msgstr "Destruir Progresso"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS_DETAIL"
+msgstr "Destrói todas as evidências de que você jogou este jogo"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/panels/settings/Settings.gd
+msgid "RESET_SETTINGS"
+msgstr "Redefinir Configurações"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_SETTINGS_DETAIL"
+msgstr "Redefine as configurações para seus valores padrão"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AUDIO"
+msgstr "Audio"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/screens/credits_panel.tscn
@@ -106,6 +136,22 @@ msgstr "Efeitos"
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "AMBIANCE"
 msgstr "Ambientação"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "VISUAL"
+msgstr "Visual"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "FULLSCREEN"
+msgstr "Tela Cheia"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "INPUT"
+msgstr "Entrada"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "HAPTIC_ENABLED"
+msgstr "Ativar recursos táteis"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "APPLY_CLOSE"
@@ -137,11 +183,45 @@ msgstr "Sair"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "COPYRIGHT_NOTICE"
-msgstr "Copyright© Smitner.Studio 2024"
+msgstr "Copyright© Smitner.Studio 2025"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST"
+msgstr "Lista de Desejos"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST_BODY"
+msgstr ""
+"Adicione Hazard Pay à sua lista de desejos para ser notificado sobre o "
+"futuro lançamento."
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST_BUTTON"
+msgstr "Abrir Steam"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD"
+msgstr "Discord"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD_BODY"
+msgstr ""
+"Entre no servidor do Discord para compartilhar sua experiência e receber as "
+"últimas atualizações."
+
+#: scenes/ui/screens/main_menu.tscn
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "CTA_DISCORD_BUTTON"
+msgstr "Entrar no servidor do Discord"
 
 #: scenes/ui/screens/level_preview_screen.tscn
+msgid "LEVEL_SELECT"
+msgstr "Seleção de Nível"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_HEADER"
-msgstr "Brief"
+msgstr "Anexo"
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_ATTACH_SUMMARY"
@@ -161,38 +241,87 @@ msgid "PRINTOUT_ACCEPT"
 msgstr "Aceitar"
 
 #: scenes/ui/screens/credits_panel.tscn
-msgid "DESIGN_AND_DEVELOPOMENT"
+msgid "DEVELOPMENT"
 msgstr "Design e Desenvolvimento"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Arran Smith | mail@smitner.studio\n"
+"[url=https://smitner.studio]https://smitner.studio[/url]\n"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "CC-BY-4.0"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Giuseppe \"reDD\" Zano\n"
+"[url=https://giuseppezano.bandcamp.com/]https://giuseppezano.bandcamp.com[/"
+"url]"
+msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid "TRANSLATION"
 msgstr "Tradução"
 
 #: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"V.\n"
+"Ravi\n"
+"Georges Kaplan\n"
+"Gigi"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "PLAYTESTERS"
+msgstr "Testadores do jogo"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Ravi\n"
+"Georges Kaplan\n"
+"Matt Schikore\n"
+"Paul James\n"
+"Buromomento\n"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
 msgid "DISMISS"
 msgstr "Dispensar"
 
 #: dialogue/road_blocked.dialogue
+msgctxt "GET_BACK"
 msgid "Get back to the labs, you're not finished."
-msgstr ""
+msgstr "Volte aos laboratórios, você ainda não terminou."
 
 #: dialogue/road_blocked.dialogue
+msgctxt "GET_BACK_2"
 msgid "Security will open the gate when you do what you're paid for."
 msgstr ""
+"A segurança abrirá o portão quando você fizer o que foi pago para fazer."
 
 #: dialogue/road_unblocked.dialogue
-msgid "[[Well Done|Good Job|Good]]. You now have access this Sector, please proceed."
+msgctxt "PROCEED_TO_NEXT_SECTOR"
+msgid ""
+"[[Well Done|Good Job|Good]]. You now have access to this Sector, please "
+"proceed."
 msgstr ""
+"[[Bem Feito|Bom Trabalho|Ótimo]]. Você agora tem acesso a esse Setor, por "
+"favor, prossiga."
 
 #: dialogue/road_block_no_exit.dialogue
+msgctxt "JOB_IS_NOT_FINISHED"
 msgid "You're not leaving until the job is finished."
-msgstr ""
+msgstr "Você não sairá até que o trabalho esteja concluído."
 
 #: scenes/ui/screens/report_sheet.tscn
 msgid "REPORT_HEADER"
-msgstr "Reportar Detalhes"
+msgstr "Detalhes de Relatório"
 
 #: scenes/ui/screens/report_sheet.tscn
+#: scenes/ui/screens/player_death_screen.tscn
 msgid "1978-01-01 12:00:00"
 msgstr ""
 
@@ -206,15 +335,31 @@ msgstr ""
 
 #: scenes/ui/screens/report_sheet.tscn
 msgid "SIGNED"
-msgstr "Assinado"
+msgstr "Assinatura"
 
 #: scenes/ui/screens/report_sheet.tscn
 msgid "COMPLETE"
 msgstr "Completo"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_OPTIONAL_NOTE"
+msgstr "Prossiga por sua própria conta e risco"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_REQUIRED_NOTE"
+msgstr "Destrua Todas As Evidências. Não Deixe Sequer Rastros"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_RETRY"
 msgstr "Tentar Novamente"
+
+#: scenes/ui/screens/level_preview/score_tab.tscn
+msgid "PRINTOUT_SCORE_LOADING"
+msgstr "Pontos Carregando"
+
+#: scenes/ui/screens/level_preview/score_tab.tscn
+msgid "ERROR"
+msgstr "Erro"
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
 msgid "Unknown Title"
@@ -243,3 +388,189 @@ msgstr "Próximos a Você"
 #: scenes/ui/screens/level_preview/ScoreReportSheet.gd
 msgid "LEADERBOARD_DATA_REQUEST_USERS"
 msgstr "Usuários"
+
+#: dialogue/exit_unfinished_required_level.dialogue
+msgctxt "CONTINUE_WHAT_YOU_STARTED"
+msgid "I suggest you continue what you started."
+msgstr "Sugiro que você continue o que começou."
+
+#: dialogue/exit_unfinished_required_level.dialogue
+msgctxt "NOT_FINISHED"
+msgid "Get back to work, you're not finished."
+msgstr "Volte ao trabalho, você ainda não terminou."
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEATH_SCREEN_TITLE"
+msgstr "Aviso de Demissão de Funcionário"
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "GENERIC_DEAD_MESSAGE"
+msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "MOVEMENT"
+msgstr "Mover"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "PEEK"
+msgstr "Espiar"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "RESET"
+msgstr "Reiniciar"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "UNDO"
+msgstr "Desfazer"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "ENTER_LEVEL"
+msgstr "Adentrar Nível"
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "LEVEL_COMPLETE"
+msgstr "Nível Completo"
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "RETRY"
+msgstr "Tentar Novamente"
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "CONTINUE"
+msgstr "Continuar"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+msgid "OPEN_STEAM_PROFILE"
+msgstr "Abrir perfil da Steam"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+msgid "CONFIRM_OPEN_STEAM_PROFILE"
+msgstr ""
+"Você tem certeza que deseja abrir o perfil da Steam do usuário selecionado?"
+
+#: scenes/ui/panels/settings/Settings.gd
+msgid "CONFIRM_RESET_SETTINGS"
+msgstr "Você tem certeza que deseja aplicar as configurações padrão?"
+
+#: scenes/ui/panels/settings/Settings.gd
+msgid "CONFIRM_RESET_PROGRESS"
+msgstr ""
+"Você tem certeza que deseja destruir todas as evidências do seu progresso?"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "dialogue"
+msgid "SCIENTIST"
+msgstr "Cientista"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "THANK_GOD"
+msgid "Gott sei Dank, you're here - It's been days since I called for help."
+msgstr ""
+"Graças a Deus, você está aqui - Fazem dias desde que eu chamei por ajuda."
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "CHAOS"
+msgid ""
+"The containment failed. We've lost control, and now there are specimens "
+"loose all over the facility. It's chaos."
+msgstr ""
+"A contenção falhou. Perdemos o controle e agora há espécimes soltos por toda "
+"a instalação. Aqui está um caos."
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "BACK_INTO_CONTAINMENT"
+msgid ""
+"Ludwig and I managed to get PRS-86 back in containment. It was terrifying, "
+"but we did it..."
+msgstr ""
+"O Ludwig e eu conseguimos colocar a PRS-86 de volta para contenção. Foi "
+"assustador, mas conseguimos..."
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "WORK_TO_BE_DONE"
+msgid ""
+"Ludwig didn't make it. I... I can't think about that right now. There's work "
+"to be done."
+msgstr ""
+"O Ludwig não conseguiu. Eu... Eu não posso pensar nisso agora. Há trabalho a "
+"ser feito."
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "BUILD_BATTERY"
+msgid ""
+"Build a [color=\"#fdd179\"]Battery[/color], the base is already prepared, "
+"route power into the circuit and neutralize PRS-86."
+msgstr ""
+"Construa uma [color=\"#fdd179\"]Bateria[/color], a base já está preparada, "
+"direcione a energia para o circuito e neutralize o PRS-86"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "ROGER"
+msgid "Roger that."
+msgstr "Entendido."
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "SAVE_US"
+msgid ""
+"Please.. If you see any of my colleagues, save them. It's not our fault. You "
+"can't understand the conditions IPT has had us working under."
+msgstr ""
+"Por favor... se você ver algum de meus colegas, salve-os. Não é a nossa "
+"culpa. Você não entende em que condições que a IPT nos fez trabalhar."
+
+#: dialogue/road_blocked_demo.dialogue
+msgctxt "DEMO_NO_MORE"
+msgid "That's all for the demo."
+msgstr "Isso é tudo para a demonstração."
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "THANKS_DEMO_HEADER"
+msgstr "Obrigado"
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "THANKS_DEMO_BODY"
+msgstr ""
+"Obrigado à você por ter jogado a demonstração de Hazard Pay.\n"
+"\n"
+"Espero que tenha se sentido intrigado e curioso - Prepare-se para cair de "
+"cabeça em uma conspiração profunda e descobrir os segredos que você ajudou a "
+"ocultar, quando o lançamento completo chegar no final deste ano.\n"
+"\n"
+"Se você tiver algum comentário sobre o jogo, eu adoraria ouvir. Entre no "
+"servidor do Discord para compartilhar seus pensamentos, ter acesso a versões "
+"prévias e às últimas atualizações.\n"
+"Por favor, considere deixar uma análise na Steam, a IPT fará com que valha a "
+"pena\n"
+"Abraços, Smitner"
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "CTA_REVIEW_BUTTON"
+msgstr "Fazer Análise"
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "DONT_SHOW_AGAIN"
+msgstr "Não mostrar novamente"
+
+#: scenes/ui/screens/rewind_screen/rewind_screen.tscn
+msgid "REWIND"
+msgstr "Retroceder"
+
+#~ msgid "IM_LISTENING"
+#~ msgstr "Estou ouvindo."
+
+#~ msgid "INTRO_LINE_1"
+#~ msgstr "Ótimo, tenho uma mensagem urgente dos seus superiores."
+
+#~ msgid "INTRO_LINE_2"
+#~ msgstr ""
+#~ "Houve um acidente no Setor 5 - Não está claro o que aconteceu, todos os "
+#~ "sistemas centrais estão inativos."
+
+#~ msgid "INTRO_LINE_3"
+#~ msgstr "Carregue o caminhão e vá para o local imediatamente."
+
+#~ msgid "INTRO_LINE_4"
+#~ msgstr "Remova todas as evidências, não deixe nem sequer rastros."
+
+#~ msgid "INTRO_LINE_5"
+#~ msgstr "E retorne a ligação para mim quando terminar."
