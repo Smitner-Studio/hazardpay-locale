@@ -136,6 +136,10 @@ msgid "FULLSCREEN"
 msgstr "Fullscreen"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "UI_SCALE"
+msgstr "UI Scale"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "INPUT"
 msgstr "Input"
 
