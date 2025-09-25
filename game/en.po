@@ -167,6 +167,10 @@ msgstr "To Overworld"
 msgid "LEVEL_EDITOR"
 msgstr "Level Editor"
 
+#: scenes/ui/screens/main_menu/MenuItems.gd
+msgid "LEVEL_EDITOR_EDIT_CURRENT"
+msgstr "Edit Current Level"
+
 #: scenes/ui/screens/main_menu.tscn scenes/ui/screens/credits_panel.tscn
 msgid "CREDITS"
 msgstr "Credits"
