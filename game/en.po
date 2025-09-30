@@ -19,7 +19,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.7\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -136,10 +136,6 @@ msgid "FULLSCREEN"
 msgstr "Fullscreen"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "UI_SCALE"
-msgstr "UI Scale"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "INPUT"
 msgstr "Input"
 
@@ -181,7 +177,7 @@ msgstr "Exit"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "COPYRIGHT_NOTICE"
-msgstr "Copyright© Smitner.Studio 2025"
+msgstr "Copyright© Smitner Studio 2025"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "CTA_WISHLIST"
@@ -533,6 +529,52 @@ msgstr "Don't show again"
 #: scenes/ui/screens/rewind_screen/rewind_screen.tscn
 msgid "REWIND"
 msgstr "Rewind"
+
+#: scripts/LevelManager.gd (Dynamic Mission Statements)
+msgid "BRIEF_STANDARD_CLEANUP"
+msgstr "Destroy all evidence, leave no trace"
+
+# Dynamic Mission Statement Keys - Modular Composition System
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_NO_EVIDENCE"
+msgstr "N/A"
+
+# Severity Headers
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_LOW"
+msgstr "Standard Protocols"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_MEDIUM"
+msgstr "Caution Advised"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_HIGH"
+msgstr "Containment Failure"
+
+# Evidence Bullet Points
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_BIOLOGICAL"
+msgstr "Biological contamination"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_RECORDS"
+msgstr "Classified documents"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_CHEMICAL"
+msgstr "Chemical hazards"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_EQUIPMENT"
+msgstr "Proprietary equipment"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_EMPLOYEE"
+msgstr "Personnel involvement"
+
+#~ msgid "UI_SCALE"
+#~ msgstr "UI Scale"
 
 #~ msgid "IM_LISTENING"
 #~ msgstr "I'm listening"

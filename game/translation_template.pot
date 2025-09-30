@@ -516,3 +516,46 @@ msgstr ""
 #: scenes/ui/screens/rewind_screen/rewind_screen.tscn
 msgid "REWIND"
 msgstr ""
+
+#: scripts/LevelManager.gd (Dynamic Mission Statements)
+msgid "BRIEF_STANDARD_CLEANUP"
+msgstr ""
+
+# Dynamic Mission Statement Keys - Modular Composition System
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_NO_EVIDENCE"
+msgstr ""
+
+# Severity Headers
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_LOW"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_MEDIUM"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_HIGH"
+msgstr ""
+
+# Evidence Bullet Points
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_BIOLOGICAL"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_RECORDS"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_CHEMICAL"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_EQUIPMENT"
+msgstr "Electronic equipment requires disposal"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_EMPLOYEE"
+msgstr ""
