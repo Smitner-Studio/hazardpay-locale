@@ -225,6 +225,18 @@ msgstr "Berichtszusammenfassung"
 msgid "PRINTOUT_SCORES"
 msgstr "Punktzahl"
 
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_ANY"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_SAVIOUR"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_EMPTY"
+msgstr ""
+
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_BACK"
 msgstr "Zurück"
@@ -335,6 +347,18 @@ msgstr "Unterschr."
 #: scenes/ui/screens/report_sheet.tscn
 msgid "COMPLETE"
 msgstr "Erledigt"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "GRADE"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "GRADE_ACCEPTABLE"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "NO_NOTES"
+msgstr ""
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_OPTIONAL_NOTE"

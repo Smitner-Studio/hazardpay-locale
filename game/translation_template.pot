@@ -23,6 +23,8 @@
 # res://dialogue/road_blocked_demo.dialogue
 # res://scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
 # res://scenes/ui/screens/rewind_screen/rewind_screen.tscn
+# res://dialogue/special_road.dialogue
+# res://dialogue/playtest_complete_unblocked.dialogue
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -34,18 +36,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
+#. TRANSLATORS: Character name
 #: dialogue/intro.dialogue
 #: dialogue/rebel_sci_intro.dialogue
+#: dialogue/special_road.dialogue
 msgctxt "dialogue"
 msgid "YOU"
 msgstr ""
 
+#. TRANSLATORS: Character name
 #: dialogue/intro.dialogue
 #: dialogue/road_blocked.dialogue
 #: dialogue/road_unblocked.dialogue
 #: dialogue/road_block_no_exit.dialogue
 #: dialogue/exit_unfinished_required_level.dialogue
 #: dialogue/road_blocked_demo.dialogue
+#: dialogue/playtest_complete_unblocked.dialogue
 msgctxt "dialogue"
 msgid "RADIO"
 msgstr ""
@@ -67,7 +73,7 @@ msgstr ""
 
 #: dialogue/intro.dialogue
 msgctxt "TOWARD_SECTOR_5"
-msgid "Load up the truck and work your way torwards Sector 5."
+msgid "Load up the truck and work your way towards Sector 5."
 msgstr ""
 
 #: dialogue/intro.dialogue
@@ -85,11 +91,6 @@ msgstr ""
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "NO"
-msgstr ""
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-#: scenes/ui/screens/main_menu.tscn
-msgid "SETTINGS"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
@@ -148,6 +149,14 @@ msgid "FULLSCREEN"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "UI_SCALE"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "100%"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "INPUT"
 msgstr ""
 
@@ -157,6 +166,10 @@ msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "APPLY_CLOSE"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "MENU_ACTIONS"
 msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
@@ -172,11 +185,15 @@ msgid "GOTO_OVERWORLD"
 msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
+msgid "PLAYTEST_LEVELS"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
 msgid "LEVEL_EDITOR"
 msgstr ""
 
-#: scenes/ui/screens/main_menu/MenuItems.gd
-msgid "LEVEL_EDITOR_EDIT_CURRENT"
+#: scenes/ui/screens/main_menu.tscn
+msgid "SETTINGS"
 msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
@@ -224,6 +241,10 @@ msgstr ""
 #: scenes/ui/screens/level_preview_screen.tscn
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_HEADER"
+msgstr ""
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "MISSION"
 msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
@@ -338,16 +359,32 @@ msgstr ""
 msgid "COMPLETE"
 msgstr ""
 
+#: scenes/ui/screens/report_sheet.tscn
+msgid "GRADE"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "GRADE_ACCEPTABLE"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "NO_NOTES"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_COMMUNITY"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_RETRY"
+msgstr ""
+
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_OPTIONAL_NOTE"
 msgstr ""
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_REQUIRED_NOTE"
-msgstr ""
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_RETRY"
+msgid "\n"
 msgstr ""
 
 #: scenes/ui/screens/level_preview/score_tab.tscn
@@ -401,7 +438,23 @@ msgid "DEATH_SCREEN_TITLE"
 msgstr ""
 
 #: scenes/ui/screens/player_death_screen.tscn
-msgid "GENERIC_DEAD_MESSAGE"
+msgid "DEAD_MESSAGE_1"
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_2"
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_3"
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_4"
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_5"
 msgstr ""
 
 #: scenes/ui/screens/game_controls.tscn
@@ -436,6 +489,10 @@ msgstr ""
 msgid "CONTINUE"
 msgstr ""
 
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "CHOOSE_RECORD_PROMPT"
+msgstr ""
+
 #: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
 msgid "OPEN_STEAM_PROFILE"
 msgstr ""
@@ -452,7 +509,9 @@ msgstr ""
 msgid "CONFIRM_RESET_PROGRESS"
 msgstr ""
 
+#. TRANSLATORS: Character name
 #: dialogue/rebel_sci_intro.dialogue
+#: dialogue/special_road.dialogue
 msgctxt "dialogue"
 msgid "SCIENTIST"
 msgstr ""
@@ -469,7 +528,7 @@ msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
 msgctxt "BACK_INTO_CONTAINMENT"
-msgid "Ludwig and I managed to get PRS-86 back in containment. It was terrifying, but we did it..."
+msgid "Ludwig and I managed to get [color=\"#fdd179\"]PRS-86[/color] back in containment. It was terrifying, but we did it..."
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
@@ -517,16 +576,39 @@ msgstr ""
 msgid "REWIND"
 msgstr ""
 
-#: scripts/LevelManager.gd (Dynamic Mission Statements)
+#: dialogue/special_road.dialogue
+msgid "Nope, I don't trust you."
+msgstr ""
+
+#: dialogue/special_road.dialogue
+msgid "Actually, you know what?"
+msgstr ""
+
+#: dialogue/special_road.dialogue
+msgid "..."
+msgstr ""
+
+#: dialogue/playtest_complete_unblocked.dialogue
+msgid "Smitner here, Thanks for playing! Please give some feedback on the Discord."
+msgstr ""
+
+# Dynamic keys - used in code, not extracted automatically
+#: scenes/ui/screens/main_menu/MenuItems.gd
+msgid "LEVEL_EDITOR_EDIT_CURRENT"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_REQUIRED_NOTE"
+msgstr ""
+
+#: scripts/LevelManager.gd
 msgid "BRIEF_STANDARD_CLEANUP"
 msgstr ""
 
-# Dynamic Mission Statement Keys - Modular Composition System
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_NO_EVIDENCE"
 msgstr ""
 
-# Severity Headers
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_HEADER_LOW"
 msgstr ""
@@ -539,7 +621,6 @@ msgstr ""
 msgid "BRIEF_HEADER_HIGH"
 msgstr ""
 
-# Evidence Bullet Points
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_BIOLOGICAL"
 msgstr ""
@@ -554,8 +635,20 @@ msgstr ""
 
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_EQUIPMENT"
-msgstr "Electronic equipment requires disposal"
+msgstr ""
 
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_EMPLOYEE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_ANY"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_SAVIOUR"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_EMPTY"
 msgstr ""
