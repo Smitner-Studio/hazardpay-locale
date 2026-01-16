@@ -504,6 +504,10 @@ msgstr "Retry"
 msgid "CONTINUE"
 msgstr "Continue"
 
+#: dialogue/balloon.tscn
+msgid "SKIP"
+msgstr "Skip"
+
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "CHOOSE_RECORD_PROMPT"
 msgstr "Filing official report. Confirm."

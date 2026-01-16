@@ -489,6 +489,10 @@ msgstr ""
 msgid "CONTINUE"
 msgstr ""
 
+#: dialogue/balloon.tscn
+msgid "SKIP"
+msgstr ""
+
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "CHOOSE_RECORD_PROMPT"
 msgstr ""

@@ -460,6 +460,10 @@ msgstr "Wiederholen"
 msgid "CONTINUE"
 msgstr "Weiter"
 
+#: dialogue/balloon.tscn
+msgid "SKIP"
+msgstr "Überspringen"
+
 #: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
 msgid "OPEN_STEAM_PROFILE"
 msgstr "Steam Profil öffnen"

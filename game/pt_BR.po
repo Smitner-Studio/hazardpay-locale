@@ -463,6 +463,10 @@ msgstr "Tentar Novamente"
 msgid "CONTINUE"
 msgstr "Continuar"
 
+#: dialogue/balloon.tscn
+msgid "SKIP"
+msgstr "Pular"
+
 #: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
 msgid "OPEN_STEAM_PROFILE"
 msgstr "Abrir perfil da Steam"
