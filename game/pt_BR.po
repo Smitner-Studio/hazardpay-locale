@@ -30,15 +30,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
 
+#. TRANSLATORS: Character name
 #: dialogue/intro.dialogue dialogue/rebel_sci_intro.dialogue
+#: dialogue/special_road.dialogue
 msgctxt "dialogue"
 msgid "YOU"
 msgstr "Você"
 
+#. TRANSLATORS: Character name
 #: dialogue/intro.dialogue dialogue/road_blocked.dialogue
 #: dialogue/road_unblocked.dialogue dialogue/road_block_no_exit.dialogue
 #: dialogue/exit_unfinished_required_level.dialogue
 #: dialogue/road_blocked_demo.dialogue
+#: dialogue/playtest_complete_unblocked.dialogue
 msgctxt "dialogue"
 msgid "RADIO"
 msgstr "Rádio"
@@ -64,8 +68,9 @@ msgstr ""
 "terá que entrar às cegas."
 
 #: dialogue/intro.dialogue
+#, fuzzy
 msgctxt "TOWARD_SECTOR_5"
-msgid "Load up the truck and work your way torwards Sector 5."
+msgid "Load up the truck and work your way towards Sector 5."
 msgstr "Prepare  caminhão e siga em direção ao Setor 5."
 
 #: dialogue/intro.dialogue
@@ -84,11 +89,6 @@ msgstr "Sim"
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "NO"
 msgstr "Não"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-#: scenes/ui/screens/main_menu.tscn
-msgid "SETTINGS"
-msgstr "Configurações"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "MAIN"
@@ -146,6 +146,14 @@ msgid "FULLSCREEN"
 msgstr "Tela Cheia"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "UI_SCALE"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "100%"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "INPUT"
 msgstr "Entrada"
 
@@ -156,6 +164,10 @@ msgstr "Ativar recursos táteis"
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "APPLY_CLOSE"
 msgstr "Aplicar e Sair"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "MENU_ACTIONS"
+msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "START_GAME"
@@ -170,8 +182,17 @@ msgid "GOTO_OVERWORLD"
 msgstr "Ir para o Mapa"
 
 #: scenes/ui/screens/main_menu.tscn
+#, fuzzy
+msgid "PLAYTEST_LEVELS"
+msgstr "Testadores do jogo"
+
+#: scenes/ui/screens/main_menu.tscn
 msgid "LEVEL_EDITOR"
 msgstr "Editor de Níveis"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "SETTINGS"
+msgstr "Configurações"
 
 #: scenes/ui/screens/main_menu.tscn scenes/ui/screens/credits_panel.tscn
 msgid "CREDITS"
@@ -224,24 +245,16 @@ msgid "PRINTOUT_HEADER"
 msgstr "Anexo"
 
 #: scenes/ui/screens/level_preview_screen.tscn
+msgid "MISSION"
+msgstr ""
+
+#: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_ATTACH_SUMMARY"
 msgstr "Anexar Sumário"
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_SCORES"
 msgstr "Pontos"
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_SCORES_ANY"
-msgstr ""
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_SCORES_SAVIOUR"
-msgstr ""
-
-#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
-msgid "LEADERBOARD_EMPTY"
-msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_BACK"
@@ -251,6 +264,14 @@ msgstr "Voltar"
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_ACCEPT"
 msgstr "Aceitar"
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "COMMUNITY_LEVELS"
+msgstr ""
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "LOADING_LEVEL"
+msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid "DEVELOPMENT"
@@ -365,17 +386,26 @@ msgstr ""
 msgid "NO_NOTES"
 msgstr ""
 
+#: scenes/ui/screens/report_sheet.tscn
+msgid "DATED"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+#, fuzzy
+msgid "PRINTOUT_COMMUNITY"
+msgstr "Tentar Novamente"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_RETRY"
+msgstr "Tentar Novamente"
+
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_OPTIONAL_NOTE"
 msgstr "Prossiga por sua própria conta e risco"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_REQUIRED_NOTE"
-msgstr "Destrua Todas As Evidências. Não Deixe Sequer Rastros"
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_RETRY"
-msgstr "Tentar Novamente"
+msgid "\n"
+msgstr ""
 
 #: scenes/ui/screens/level_preview/score_tab.tscn
 msgid "PRINTOUT_SCORE_LOADING"
@@ -386,7 +416,7 @@ msgid "ERROR"
 msgstr "Erro"
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
-msgid "Unknown Title"
+msgid "UNKNOWN_TITLE"
 msgstr ""
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
@@ -428,7 +458,28 @@ msgid "DEATH_SCREEN_TITLE"
 msgstr "Aviso de Demissão de Funcionário"
 
 #: scenes/ui/screens/player_death_screen.tscn
-msgid "GENERIC_DEAD_MESSAGE"
+#, fuzzy
+msgid "DEAD_MESSAGE_1"
+msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
+
+#: scenes/ui/screens/player_death_screen.tscn
+#, fuzzy
+msgid "DEAD_MESSAGE_2"
+msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
+
+#: scenes/ui/screens/player_death_screen.tscn
+#, fuzzy
+msgid "DEAD_MESSAGE_3"
+msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
+
+#: scenes/ui/screens/player_death_screen.tscn
+#, fuzzy
+msgid "DEAD_MESSAGE_4"
+msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
+
+#: scenes/ui/screens/player_death_screen.tscn
+#, fuzzy
+msgid "DEAD_MESSAGE_5"
 msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
 
 #: scenes/ui/screens/game_controls.tscn
@@ -451,6 +502,10 @@ msgstr "Desfazer"
 msgid "ENTER_LEVEL"
 msgstr "Adentrar Nível"
 
+#: scenes/ui/screens/evidence_display_sequence.tscn
+msgid "SCANNING"
+msgstr ""
+
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "LEVEL_COMPLETE"
 msgstr "Nível Completo"
@@ -466,6 +521,10 @@ msgstr "Continuar"
 #: dialogue/balloon.tscn
 msgid "SKIP"
 msgstr "Pular"
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "CHOOSE_RECORD_PROMPT"
+msgstr ""
 
 #: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
 msgid "OPEN_STEAM_PROFILE"
@@ -485,7 +544,8 @@ msgid "CONFIRM_RESET_PROGRESS"
 msgstr ""
 "Você tem certeza que deseja destruir todas as evidências do seu progresso?"
 
-#: dialogue/rebel_sci_intro.dialogue
+#. TRANSLATORS: Character name
+#: dialogue/rebel_sci_intro.dialogue dialogue/special_road.dialogue
 msgctxt "dialogue"
 msgid "REBEL_SCIENTIST"
 msgstr "Cientista"
@@ -506,10 +566,11 @@ msgstr ""
 "a instalação. Aqui está um caos."
 
 #: dialogue/rebel_sci_intro.dialogue
+#, fuzzy
 msgctxt "BACK_INTO_CONTAINMENT"
 msgid ""
-"Ludwig and I managed to get PRS-86 back in containment. It was terrifying, "
-"but we did it..."
+"Ludwig and I managed to get [color=\"#fdd179\"]PRS-86[/color] back in "
+"containment. It was terrifying, but we did it..."
 msgstr ""
 "O Ludwig e eu conseguimos colocar a PRS-86 de volta para contenção. Foi "
 "assustador, mas conseguimos..."
@@ -582,6 +643,122 @@ msgstr "Não mostrar novamente"
 #: scenes/ui/screens/rewind_screen/rewind_screen.tscn
 msgid "REWIND"
 msgstr "Retroceder"
+
+#: dialogue/special_road.dialogue
+msgid "Nope, I don't trust you."
+msgstr ""
+
+#: dialogue/special_road.dialogue
+msgid "Actually, you know what?"
+msgstr ""
+
+#: dialogue/special_road.dialogue
+msgid "..."
+msgstr ""
+
+#: dialogue/playtest_complete_unblocked.dialogue
+msgid ""
+"Smitner here, Thanks for playing! Please give some feedback on the Discord."
+msgstr ""
+
+#: scenes/ui/screens/main_menu/MenuItems.gd
+#, fuzzy
+msgid "LEVEL_EDITOR_EDIT_CURRENT"
+msgstr "Editor de Níveis"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_REQUIRED_NOTE"
+msgstr "Destrua Todas As Evidências. Não Deixe Sequer Rastros"
+
+#: scripts/LevelManager.gd
+msgid "BRIEF_STANDARD_CLEANUP"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_NO_EVIDENCE"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+#, fuzzy
+msgid "BRIEF_HEADER_LOW"
+msgstr "Detalhes de Relatório"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_MEDIUM"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+#, fuzzy
+msgid "BRIEF_HEADER_HIGH"
+msgstr "Detalhes de Relatório"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_BIOLOGICAL"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_RECORDS"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_CHEMICAL"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_EQUIPMENT"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_EMPLOYEE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_ANY"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_SAVIOUR"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_EMPTY"
+msgstr ""
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+#, fuzzy
+msgid "TUTORIAL_PUSH_VENT"
+msgstr "Reset to start over."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_LOOK"
+msgstr "Hold to look around without moving."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+#, fuzzy
+msgid "TUTORIAL_SHOW_INSPECTABLE"
+msgstr "Reset to start over."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+#, fuzzy
+msgid "TUTORIAL_INSPECT"
+msgstr "Reset to start over."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_UNDO"
+msgstr "Made a mistake? Undo your last move."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_RESET"
+msgstr "Reset to start over."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+#, fuzzy
+msgid "TUTORIAL_LEAVE_ROOM"
+msgstr "Hold to look around without moving."
+
+#, fuzzy
+#~ msgid "TUTORIAL_MOVEMENT"
+#~ msgstr "Mover"
 
 #~ msgid "IM_LISTENING"
 #~ msgstr "Estou ouvindo."

@@ -21,86 +21,103 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: dialogue/intro.dialogue
+#. TRANSLATORS: Character name
+#: dialogue/intro.dialogue dialogue/rebel_sci_intro.dialogue
+#: dialogue/special_road.dialogue
 msgctxt "dialogue"
-msgid "You"
-msgstr "Вы"
+msgid "YOU"
+msgstr ""
+
+#. TRANSLATORS: Character name
+#: dialogue/intro.dialogue dialogue/road_blocked.dialogue
+#: dialogue/road_unblocked.dialogue dialogue/road_block_no_exit.dialogue
+#: dialogue/exit_unfinished_required_level.dialogue
+#: dialogue/road_blocked_demo.dialogue
+#: dialogue/playtest_complete_unblocked.dialogue
+msgctxt "dialogue"
+msgid "RADIO"
+msgstr ""
 
 #: dialogue/intro.dialogue
-msgctxt "dialogue"
-msgid "Radio"
-msgstr "Радио"
-
-#: dialogue/intro.dialogue
+#, fuzzy
+msgctxt "I_LISTEN"
 msgid "I'm listening."
 msgstr "Я слушаю."
 
 #: dialogue/intro.dialogue
-msgid "Good, I have an urgent messsage from up-top."
+#, fuzzy
+msgctxt "INSTRUCTIONS"
+msgid "Good, I have urgent instructions from leadership."
 msgstr "Отлично, у меня есть срочное сообщение от руководства."
 
 #: dialogue/intro.dialogue
+msgctxt "BLIND"
 msgid ""
-"There's been an accident in Sector 5 - It's unclear what happened, all core-"
-"systems are down."
+"There's been an incident deep in the facility. The details are unclear, All "
+"offsite communication systems are down. You will have to go in blind."
 msgstr ""
-"Произошел несчастный случай в 5 секторе, что случилось - не ясно, все "
-"системы вырублены."
 
 #: dialogue/intro.dialogue
-msgid "Load up the truck and get on-site immediately."
-msgstr "Заводи машину и сейчас же отправляйся к точке."
+msgctxt "TOWARD_SECTOR_5"
+msgid "Load up the truck and work your way towards Sector 5."
+msgstr ""
 
 #: dialogue/intro.dialogue
-msgid "Remove all evidence, leave no trace behind."
+#, fuzzy
+msgctxt "NO_TRACE"
+msgid "Destroy all evidence, leave no trace."
 msgstr "Избавься от всех улик, не оставляй следов за собой."
 
-#: dialogue/intro.dialogue
-msgid "And call me when it's done."
-msgstr "И позвони мне когда закончишь."
-
-#: scenes/ui/panels/ConfirmPopupPanel.tscn scenes/ui/screens/main_menu.tscn
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "CONFIRM_EXIT"
 msgstr "Вы уверены, что хотите выйти"
-
-#: scenes/ui/panels/ConfirmPopupPanel.tscn
-msgid "NO"
-msgstr "Нет"
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "YES"
 msgstr "Да"
 
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "CONFIRM_RESET_PROGRESS"
-msgstr "Вы уверены, что хотите удалить весь прогресс"
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "NO"
+msgstr "Нет"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
-#: scenes/ui/screens/main_menu.tscn
-msgid "SETTINGS"
-msgstr "Настройки"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "VISUAL"
-msgstr "Графика"
+msgid "MAIN"
+msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "LANGUAGE"
 msgstr "Язык"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "FULLSCREEN"
-msgstr "Полный экран"
+msgid "UPLOAD_SCORE"
+msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/panels/settings/Settings.gd
 msgid "RESET_PROGRESS"
 msgstr "Сбросить прогресс"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#, fuzzy
+msgid "RESET_PROGRESS_DETAIL"
+msgstr "Сбросить прогресс"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/panels/settings/Settings.gd
+#, fuzzy
+msgid "RESET_SETTINGS"
+msgstr "Настройки"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_SETTINGS_DETAIL"
+msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "AUDIO"
 msgstr "Аудио"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/screens/credits_panel.tscn
 msgid "MUSIC"
 msgstr "Музыка"
 
@@ -113,8 +130,36 @@ msgid "AMBIANCE"
 msgstr "Атмосфера"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "VISUAL"
+msgstr "Графика"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "FULLSCREEN"
+msgstr "Полный экран"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "UI_SCALE"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "100%"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "INPUT"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "HAPTIC_ENABLED"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "APPLY_CLOSE"
 msgstr "Принять и закрыть"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "MENU_ACTIONS"
+msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "START_GAME"
@@ -130,6 +175,22 @@ msgid "GOTO_OVERWORLD"
 msgstr "Вернуться к карте"
 
 #: scenes/ui/screens/main_menu.tscn
+msgid "PLAYTEST_LEVELS"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "LEVEL_EDITOR"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "SETTINGS"
+msgstr "Настройки"
+
+#: scenes/ui/screens/main_menu.tscn scenes/ui/screens/credits_panel.tscn
+msgid "CREDITS"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
 msgid "EXIT"
 msgstr "Выйти"
 
@@ -137,26 +198,552 @@ msgstr "Выйти"
 msgid "COPYRIGHT_NOTICE"
 msgstr "Авторское право © Smitner.Studio 2024"
 
-#: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_COMPLETE"
-msgstr "Завершено"
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST_BODY"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST_BUTTON"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD_BODY"
+msgstr ""
+
+#: scenes/ui/screens/main_menu.tscn
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "CTA_DISCORD_BUTTON"
+msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_INCOMPLETE"
-msgstr "Не завершено"
+msgid "LEVEL_SELECT"
+msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_HEADER"
 msgstr "Сводка"
 
 #: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_STATUS"
-msgstr "Статус"
+msgid "MISSION"
+msgstr ""
 
 #: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_ACCEPT"
+#, fuzzy
+msgid "PRINTOUT_ATTACH_SUMMARY"
+msgstr "Сводка"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+#, fuzzy
+msgid "PRINTOUT_SCORES"
+msgstr "Завершено"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+#, fuzzy
+msgid "PRINTOUT_BACK"
 msgstr "Принять"
 
 #: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_DISMISS"
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_ACCEPT"
+msgstr "Принять"
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "COMMUNITY_LEVELS"
+msgstr ""
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "LOADING_LEVEL"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "DEVELOPMENT"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Arran Smith | mail@smitner.studio\n"
+"[url=https://smitner.studio]https://smitner.studio[/url]\n"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "CC-BY-4.0"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Giuseppe \"reDD\" Zano\n"
+"[url=https://giuseppezano.bandcamp.com/]https://giuseppezano.bandcamp.com[/"
+"url]"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "TRANSLATION"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"V.\n"
+"Ravi\n"
+"Georges Kaplan\n"
+"Gigi"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "PLAYTESTERS"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Ravi\n"
+"Georges Kaplan\n"
+"Matt Schikore\n"
+"Paul James\n"
+"Buromomento\n"
+msgstr ""
+
+#: scenes/ui/screens/credits_panel.tscn
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+#, fuzzy
+msgid "DISMISS"
 msgstr "Отказаться"
+
+#: dialogue/road_blocked.dialogue
+msgctxt "GET_BACK"
+msgid "Get back to the labs, you're not finished."
+msgstr ""
+
+#: dialogue/road_blocked.dialogue
+msgctxt "GET_BACK_2"
+msgid "Security will open the gate when you do what you're paid for."
+msgstr ""
+
+#: dialogue/road_unblocked.dialogue
+msgctxt "PROCEED_TO_NEXT_SECTOR"
+msgid ""
+"[[Well Done|Good Job|Good]]. You now have access to this Sector, please "
+"proceed."
+msgstr ""
+
+#: dialogue/road_block_no_exit.dialogue
+msgctxt "JOB_IS_NOT_FINISHED"
+msgid "You're not leaving until the job is finished."
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+#, fuzzy
+msgid "REPORT_HEADER"
+msgstr "Сводка"
+
+#: scenes/ui/screens/report_sheet.tscn
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "1978-01-01 12:00:00"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "MOVES"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "000"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "SIGNED"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+#, fuzzy
+msgid "COMPLETE"
+msgstr "Завершено"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "GRADE"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "GRADE_ACCEPTABLE"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "NO_NOTES"
+msgstr ""
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "DATED"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+#, fuzzy
+msgid "PRINTOUT_COMMUNITY"
+msgstr "Завершено"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+#, fuzzy
+msgid "PRINTOUT_RETRY"
+msgstr "Сводка"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+#, fuzzy
+msgid "PRINTOUT_OPTIONAL_NOTE"
+msgstr "Завершено"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "\n"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/score_tab.tscn
+#, fuzzy
+msgid "PRINTOUT_SCORE_LOADING"
+msgstr "Сводка"
+
+#: scenes/ui/screens/level_preview/score_tab.tscn
+msgid "ERROR"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+msgid "UNKNOWN_TITLE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+#, fuzzy
+msgid "PRINTOUT_LAST_UPDATED"
+msgstr "Статус"
+
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+msgid "1984-01-01"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_GLOBAL"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_FRIENDS"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_GLOBAL_AROUND_USER"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_USERS"
+msgstr ""
+
+#: dialogue/exit_unfinished_required_level.dialogue
+msgctxt "CONTINUE_WHAT_YOU_STARTED"
+msgid "I suggest you continue what you started."
+msgstr ""
+
+#: dialogue/exit_unfinished_required_level.dialogue
+msgctxt "NOT_FINISHED"
+msgid "Get back to work, you're not finished."
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEATH_SCREEN_TITLE"
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_1"
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_2"
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_3"
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_4"
+msgstr ""
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_5"
+msgstr ""
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "MOVEMENT"
+msgstr ""
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "PEEK"
+msgstr ""
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "RESET"
+msgstr ""
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "UNDO"
+msgstr ""
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "ENTER_LEVEL"
+msgstr ""
+
+#: scenes/ui/screens/evidence_display_sequence.tscn
+msgid "SCANNING"
+msgstr ""
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "LEVEL_COMPLETE"
+msgstr ""
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "RETRY"
+msgstr ""
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+#, fuzzy
+msgid "CONTINUE"
+msgstr "Продолжить"
+
+#: dialogue/balloon.tscn
+msgid "SKIP"
+msgstr ""
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "CHOOSE_RECORD_PROMPT"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+msgid "OPEN_STEAM_PROFILE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+#, fuzzy
+msgid "CONFIRM_OPEN_STEAM_PROFILE"
+msgstr "Вы уверены, что хотите удалить весь прогресс"
+
+#: scenes/ui/panels/settings/Settings.gd
+#, fuzzy
+msgid "CONFIRM_RESET_SETTINGS"
+msgstr "Вы уверены, что хотите удалить весь прогресс"
+
+#: scenes/ui/panels/settings/Settings.gd
+msgid "CONFIRM_RESET_PROGRESS"
+msgstr "Вы уверены, что хотите удалить весь прогресс"
+
+#. TRANSLATORS: Character name
+#: dialogue/rebel_sci_intro.dialogue dialogue/special_road.dialogue
+msgctxt "dialogue"
+msgid "REBEL_SCIENTIST"
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "THANK_GOD"
+msgid "Gott sei Dank, you're here - It's been days since I called for help."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "CHAOS"
+msgid ""
+"The containment failed. We've lost control, and now there are specimens "
+"loose all over the facility. It's chaos."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "BACK_INTO_CONTAINMENT"
+msgid ""
+"Ludwig and I managed to get [color=\"#fdd179\"]PRS-86[/color] back in "
+"containment. It was terrifying, but we did it..."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "WORK_TO_BE_DONE"
+msgid ""
+"Ludwig didn't make it. I... I can't think about that right now. There's work "
+"to be done."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "BUILD_BATTERY"
+msgid ""
+"Build a [color=\"#fdd179\"]Battery[/color], the base is already prepared, "
+"route power into the circuit and neutralize PRS-86."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "ROGER"
+msgid "Roger that."
+msgstr ""
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "SAVE_US"
+msgid ""
+"Please.. If you see any of my colleagues, save them. It's not our fault. You "
+"can't understand the conditions IPT has had us working under."
+msgstr ""
+
+#: dialogue/road_blocked_demo.dialogue
+msgctxt "DEMO_NO_MORE"
+msgid "That's all for the demo."
+msgstr ""
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "THANKS_DEMO_HEADER"
+msgstr ""
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "THANKS_DEMO_BODY"
+msgstr ""
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "CTA_REVIEW_BUTTON"
+msgstr ""
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "DONT_SHOW_AGAIN"
+msgstr ""
+
+#: scenes/ui/screens/rewind_screen/rewind_screen.tscn
+msgid "REWIND"
+msgstr ""
+
+#: dialogue/special_road.dialogue
+msgid "Nope, I don't trust you."
+msgstr ""
+
+#: dialogue/special_road.dialogue
+msgid "Actually, you know what?"
+msgstr ""
+
+#: dialogue/special_road.dialogue
+msgid "..."
+msgstr ""
+
+#: dialogue/playtest_complete_unblocked.dialogue
+msgid ""
+"Smitner here, Thanks for playing! Please give some feedback on the Discord."
+msgstr ""
+
+# Dynamic keys - used in code, not extracted automatically
+#: scenes/ui/screens/main_menu/MenuItems.gd
+msgid "LEVEL_EDITOR_EDIT_CURRENT"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+#, fuzzy
+msgid "PRINTOUT_REQUIRED_NOTE"
+msgstr "Не завершено"
+
+#: scripts/LevelManager.gd
+msgid "BRIEF_STANDARD_CLEANUP"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_NO_EVIDENCE"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_LOW"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_MEDIUM"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_HIGH"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_BIOLOGICAL"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_RECORDS"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_CHEMICAL"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_EQUIPMENT"
+msgstr ""
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_EMPLOYEE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+#, fuzzy
+msgid "PRINTOUT_SCORES_ANY"
+msgstr "Завершено"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+#, fuzzy
+msgid "PRINTOUT_SCORES_SAVIOUR"
+msgstr "Статус"
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_EMPTY"
+msgstr ""
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+#, fuzzy
+msgid "TUTORIAL_PUSH_VENT"
+msgstr "Reset to start over."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_LOOK"
+msgstr "Hold to look around without moving."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+#, fuzzy
+msgid "TUTORIAL_SHOW_INSPECTABLE"
+msgstr "Reset to start over."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+#, fuzzy
+msgid "TUTORIAL_INSPECT"
+msgstr "Reset to start over."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_UNDO"
+msgstr "Made a mistake? Undo your last move."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_RESET"
+msgstr "Reset to start over."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+#, fuzzy
+msgid "TUTORIAL_LEAVE_ROOM"
+msgstr "Hold to look around without moving."
+
+#~ msgid "TUTORIAL_MOVEMENT"
+#~ msgstr "Use the arrows to move."
+
+#~ msgctxt "dialogue"
+#~ msgid "You"
+#~ msgstr "Вы"
+
+#~ msgctxt "dialogue"
+#~ msgid "Radio"
+#~ msgstr "Радио"
+
+#~ msgid ""
+#~ "There's been an accident in Sector 5 - It's unclear what happened, all "
+#~ "core-systems are down."
+#~ msgstr ""
+#~ "Произошел несчастный случай в 5 секторе, что случилось - не ясно, все "
+#~ "системы вырублены."
+
+#~ msgid "Load up the truck and get on-site immediately."
+#~ msgstr "Заводи машину и сейчас же отправляйся к точке."
+
+#~ msgid "And call me when it's done."
+#~ msgstr "И позвони мне когда закончишь."

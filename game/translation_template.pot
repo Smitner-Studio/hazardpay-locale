@@ -674,17 +674,29 @@ msgid "LEADERBOARD_EMPTY"
 msgstr ""
 
 #: scripts/tutorial/TutorialPromptContainer.gd
-msgid "TUTORIAL_MOVEMENT"
-msgstr "Use the arrows to move."
+msgid "TUTORIAL_PUSH_VENT"
+msgstr "Push the vent cover onto the hazard."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_LOOK"
+msgstr "Hold to look around without moving."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_SHOW_INSPECTABLE"
+msgstr "Some items can be inspected."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_INSPECT"
+msgstr "Approach and inspect an item."
 
 #: scripts/tutorial/TutorialPromptContainer.gd
 msgid "TUTORIAL_UNDO"
-msgstr "Made a mistake? Undo your last move."
+msgstr "Undo your last move."
 
 #: scripts/tutorial/TutorialPromptContainer.gd
 msgid "TUTORIAL_RESET"
 msgstr "Reset to start over."
 
 #: scripts/tutorial/TutorialPromptContainer.gd
-msgid "TUTORIAL_LOOK"
-msgstr "Hold to look around without moving."
+msgid "TUTORIAL_LEAVE_ROOM"
+msgstr "Answer the radio."
