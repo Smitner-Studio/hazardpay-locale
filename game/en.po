@@ -390,7 +390,7 @@ msgstr "Retry"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_OPTIONAL_NOTE"
-msgstr "Proceed at your own risk"
+msgstr "Systems volatile. Engage at own risk."
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "\n"
@@ -646,7 +646,7 @@ msgstr "Edit Current Level"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_REQUIRED_NOTE"
-msgstr "Destroy all Evidence. Leave no Trace"
+msgstr "Systems viable. Proceed with directive."
 
 #: scripts/LevelManager.gd
 msgid "BRIEF_STANDARD_CLEANUP"
@@ -655,41 +655,41 @@ msgstr "Destroy all evidence, leave no trace"
 # Dynamic Mission Statement Keys - Modular Composition System
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_NO_EVIDENCE"
-msgstr "N/A"
+msgstr "Area neutralised, no action required."
 
 # Severity Headers
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_HEADER_LOW"
-msgstr "Standard Protocols"
+msgstr "Routine Sanitation"
 
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_HEADER_MEDIUM"
-msgstr "Caution Advised"
+msgstr "Hazardous Interference"
 
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_HEADER_HIGH"
-msgstr "Containment Failure"
+msgstr "Containment Breach"
 
 # Evidence Bullet Points
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_BIOLOGICAL"
-msgstr "Biological contamination"
+msgstr "Biological Residue"
 
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_RECORDS"
-msgstr "Classified documents"
+msgstr "Intel"
 
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_CHEMICAL"
-msgstr "Chemical hazards"
+msgstr "Toxin"
 
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_EQUIPMENT"
-msgstr "Proprietary equipment"
+msgstr "Hardware"
 
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_EMPLOYEE"
-msgstr "Personnel involvement"
+msgstr "Personnel"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_SCORES_ANY"
