@@ -368,6 +368,14 @@ msgstr "Acceptable"
 msgid "NO_NOTES"
 msgstr "No notes"
 
+#: scenes/ui/screens/ReportSheet.gd
+msgid "REPORT_ALL_RESCUED"
+msgstr "All personnel recovered"
+
+#: scenes/ui/screens/ReportSheet.gd
+msgid "REPORT_SCI_STATUS"
+msgstr "{rescued}/{total} personnel recovered"
+
 #: scenes/ui/screens/report_sheet.tscn
 msgid "DATED"
 msgstr "Dated"
@@ -723,11 +731,13 @@ msgstr "Reset to start over. (Hold)"
 msgid "TUTORIAL_LEAVE_ROOM"
 msgstr "Answer the [color=\"#fdd179\"]Radio[/color]"
 
-#~ msgid "REPORT_ALL_RESCUED"
-#~ msgstr "All personnel recovered"
+#: scripts/ui/screens/EvidenceDisplaySequence.gd
+msgid "EVIDENCE_DETECTED"
+msgstr "Evidence detected"
 
-#~ msgid "REPORT_SCI_STATUS"
-#~ msgstr "{rescued}/{total} personnel recovered"
+#: scripts/ui/screens/EvidenceDisplaySequence.gd
+msgid "NO_EVIDENCE_DETECTED"
+msgstr "No evidence detected"
 
 #~ msgid "SHOW_HINT"
 #~ msgstr "Show Hints"

@@ -379,6 +379,14 @@ msgstr ""
 msgid "NO_NOTES"
 msgstr ""
 
+#: scenes/ui/screens/ReportSheet.gd
+msgid "REPORT_ALL_RESCUED"
+msgstr ""
+
+#: scenes/ui/screens/ReportSheet.gd
+msgid "REPORT_SCI_STATUS"
+msgstr ""
+
 #: scenes/ui/screens/report_sheet.tscn
 msgid "DATED"
 msgstr ""
@@ -700,3 +708,11 @@ msgstr "Reset to start over."
 #: scripts/tutorial/TutorialPromptContainer.gd
 msgid "TUTORIAL_LEAVE_ROOM"
 msgstr "Answer the radio."
+
+#: scripts/ui/screens/EvidenceDisplaySequence.gd
+msgid "EVIDENCE_DETECTED"
+msgstr ""
+
+#: scripts/ui/screens/EvidenceDisplaySequence.gd
+msgid "NO_EVIDENCE_DETECTED"
+msgstr ""
