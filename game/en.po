@@ -19,23 +19,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #. TRANSLATORS: Character name
-#: dialogue/intro.dialogue dialogue/rebel_sci_intro.dialogue
-#: dialogue/special_road.dialogue
+#: dialogue/intro.dialogue dialogue/rebel_sci_intro.dialogue dialogue/special_road.dialogue
 msgctxt "dialogue"
 msgid "YOU"
 msgstr "You"
 
 #. TRANSLATORS: Character name
-#: dialogue/intro.dialogue dialogue/road_blocked.dialogue
-#: dialogue/road_unblocked.dialogue dialogue/road_block_no_exit.dialogue
-#: dialogue/exit_unfinished_required_level.dialogue
-#: dialogue/road_blocked_demo.dialogue
-#: dialogue/playtest_complete_unblocked.dialogue
+#: dialogue/intro.dialogue dialogue/road_blocked.dialogue dialogue/road_unblocked.dialogue
+#: dialogue/road_block_no_exit.dialogue dialogue/exit_unfinished_required_level.dialogue
+#: dialogue/road_blocked_demo.dialogue dialogue/playtest_complete_unblocked.dialogue
 msgctxt "dialogue"
 msgid "RADIO"
 msgstr "Radio"
@@ -53,8 +50,8 @@ msgstr ""
 #: dialogue/intro.dialogue
 msgctxt "BLIND"
 msgid ""
-"There's been an incident deep in the facility. The details are unclear, All "
-"offsite communication systems are down. You will have to go in blind."
+"There's been an incident deep in the facility. The details are unclear, All offsite "
+"communication systems are down. You will have to go in blind."
 msgstr ""
 
 #: dialogue/intro.dialogue
@@ -91,8 +88,7 @@ msgstr "Language"
 msgid "UPLOAD_SCORE"
 msgstr "Upload Highscores"
 
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-#: scenes/ui/panels/settings/Settings.gd
+#: scenes/ui/panels/settings/SettingsPanel.tscn scenes/ui/panels/settings/Settings.gd
 msgid "RESET_PROGRESS"
 msgstr "Destroy Progress"
 
@@ -100,8 +96,7 @@ msgstr "Destroy Progress"
 msgid "RESET_PROGRESS_DETAIL"
 msgstr "Destroys all evidence of you playing this game"
 
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-#: scenes/ui/panels/settings/Settings.gd
+#: scenes/ui/panels/settings/SettingsPanel.tscn scenes/ui/panels/settings/Settings.gd
 msgid "RESET_SETTINGS"
 msgstr "Reset Settings"
 
@@ -113,8 +108,7 @@ msgstr "Resets the settings to their default values"
 msgid "AUDIO"
 msgstr "Audio"
 
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-#: scenes/ui/screens/credits_panel.tscn
+#: scenes/ui/panels/settings/SettingsPanel.tscn scenes/ui/screens/credits_panel.tscn
 msgid "MUSIC"
 msgstr "Music"
 
@@ -193,18 +187,19 @@ msgstr "Exit"
 #: scenes/ui/screens/main_menu.tscn
 msgid "COPYRIGHT_NOTICE"
 msgstr "Copyright© Smitner Studio 2025"
+
 #: scenes/ui/screens/main_menu.tscn
 msgid "CTA_WISHLIST"
 msgstr "Wishlist"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "CTA_WISHLIST_BODY"
-msgstr ""
-"Add Hazard Pay to your Wishlist to be notified about the upcoming release."
+msgstr "Add Hazard Pay to your Wishlist to be notified about the upcoming release."
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "CTA_WISHLIST_BUTTON"
 msgstr "Open Steam"
+
 #: scenes/ui/screens/main_menu.tscn
 msgid "CTA_DISCORD"
 msgstr "Discord"
@@ -213,8 +208,7 @@ msgstr "Discord"
 msgid "CTA_DISCORD_BODY"
 msgstr "Join the Discord server to share feedback and get the latest updates."
 
-#: scenes/ui/screens/main_menu.tscn
-#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+#: scenes/ui/screens/main_menu.tscn scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
 msgid "CTA_DISCORD_BUTTON"
 msgstr "Join Discord"
 
@@ -239,18 +233,6 @@ msgstr "Attach Summary Here"
 msgid "PRINTOUT_SCORES"
 msgstr "Scores"
 
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_SCORES_ANY"
-msgstr "Scores: Any%"
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_SCORES_SAVIOUR"
-msgstr "Scores: Saviour"
-
-#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
-msgid "LEADERBOARD_EMPTY"
-msgstr "No entries yet"
-
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_BACK"
 msgstr "Back"
@@ -259,6 +241,14 @@ msgstr "Back"
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_ACCEPT"
 msgstr "Accept"
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "COMMUNITY_LEVELS"
+msgstr "Community Levels"
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "LOADING_LEVEL"
+msgstr "Loading level..."
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid "DEVELOPMENT"
@@ -277,8 +267,7 @@ msgstr ""
 #: scenes/ui/screens/credits_panel.tscn
 msgid ""
 "Giuseppe \"reDD\" Zano\n"
-"[url=https://giuseppezano.bandcamp.com/]https://giuseppezano.bandcamp.com[/"
-"url]"
+"[url=https://giuseppezano.bandcamp.com/]https://giuseppezano.bandcamp.com[/url]"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
@@ -306,8 +295,7 @@ msgid ""
 "Buromomento\n"
 msgstr ""
 
-#: scenes/ui/screens/credits_panel.tscn
-#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+#: scenes/ui/screens/credits_panel.tscn scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
 msgid "DISMISS"
 msgstr "Dismiss"
 
@@ -323,9 +311,7 @@ msgstr ""
 
 #: dialogue/road_unblocked.dialogue
 msgctxt "PROCEED_TO_NEXT_SECTOR"
-msgid ""
-"[[Well Done|Good Job|Good]]. You now have access to this Sector, please "
-"proceed."
+msgid "[[Well Done|Good Job|Good]]. You now have access to this Sector, please proceed."
 msgstr ""
 
 #: dialogue/road_block_no_exit.dialogue
@@ -337,8 +323,7 @@ msgstr ""
 msgid "REPORT_HEADER"
 msgstr "Report Details"
 
-#: scenes/ui/screens/report_sheet.tscn
-#: scenes/ui/screens/player_death_screen.tscn
+#: scenes/ui/screens/report_sheet.tscn scenes/ui/screens/player_death_screen.tscn
 msgid "1978-01-01 12:00:00"
 msgstr ""
 
@@ -370,13 +355,9 @@ msgstr "Acceptable"
 msgid "NO_NOTES"
 msgstr "No notes"
 
-#: scenes/ui/screens/ReportSheet.gd
-msgid "REPORT_ALL_RESCUED"
-msgstr "All personnel recovered"
-
-#: scenes/ui/screens/ReportSheet.gd
-msgid "REPORT_SCI_STATUS"
-msgstr "{rescued}/{total} personnel recovered"
+#: scenes/ui/screens/report_sheet.tscn
+msgid "DATED"
+msgstr "Dated"
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_COMMUNITY"
@@ -403,8 +384,8 @@ msgid "ERROR"
 msgstr "Error"
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
-msgid "Unknown Title"
-msgstr ""
+msgid "UNKNOWN_TITLE"
+msgstr "Unknown Title"
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
 msgid "PRINTOUT_LAST_UPDATED"
@@ -446,15 +427,20 @@ msgstr "Notice of Employee Termination"
 
 #: scenes/ui/screens/player_death_screen.tscn
 msgid "DEAD_MESSAGE_1"
-msgstr "Exit interview for Employee #{employee_number} has been cancelled due to scheduling conflicts."
+msgstr ""
+"Exit interview for Employee #{employee_number} has been cancelled due to scheduling conflicts."
 
 #: scenes/ui/screens/player_death_screen.tscn
 msgid "DEAD_MESSAGE_2"
-msgstr "Per company policy 7.4.2, Employee #{employee_number} has been delisted. No liability is assumed by IPT or its subsidiaries."
+msgstr ""
+"Per company policy 7.4.2, Employee #{employee_number} has been delisted. No liability is "
+"assumed by IPT or its subsidiaries."
 
 #: scenes/ui/screens/player_death_screen.tscn
 msgid "DEAD_MESSAGE_3"
-msgstr "Employee #{employee_number} failed to complete mandatory safety training. This outcome was preventable. File closed."
+msgstr ""
+"Employee #{employee_number} failed to complete mandatory safety training. This outcome was "
+"preventable. File closed."
 
 #: scenes/ui/screens/player_death_screen.tscn
 msgid "DEAD_MESSAGE_4"
@@ -484,13 +470,9 @@ msgstr "Undo"
 msgid "ENTER_LEVEL"
 msgstr "Enter Level"
 
-#: scenes/ui/screens/game_controls.tscn
-msgid "SHOW_HINT"
-msgstr "Show Hints"
-
-#: scenes/ui/screens/game_controls.tscn
-msgid "HIDE_HINT"
-msgstr "Hide Hints"
+#: scenes/ui/screens/evidence_display_sequence.tscn
+msgid "SCANNING"
+msgstr "Scanning"
 
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "LEVEL_COMPLETE"
@@ -531,7 +513,7 @@ msgstr "Are you sure you want to destroy all evidence of your progress"
 #. TRANSLATORS: Character name
 #: dialogue/rebel_sci_intro.dialogue dialogue/special_road.dialogue
 msgctxt "dialogue"
-msgid "SCIENTIST"
+msgid "REBEL_SCIENTIST"
 msgstr "Scientist"
 
 #: dialogue/rebel_sci_intro.dialogue
@@ -542,29 +524,27 @@ msgstr ""
 #: dialogue/rebel_sci_intro.dialogue
 msgctxt "CHAOS"
 msgid ""
-"The containment failed. We've lost control, and now there are specimens "
-"loose all over the facility. It's chaos."
+"The containment failed. We've lost control, and now there are specimens loose all over the "
+"facility. It's chaos."
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
 msgctxt "BACK_INTO_CONTAINMENT"
 msgid ""
-"Ludwig and I managed to get [color=\"#fdd179\"]PRS-86[/color] back in "
-"containment. It was terrifying, but we did it..."
+"Ludwig and I managed to get [color=\"#fdd179\"]PRS-86[/color] back in containment. It was "
+"terrifying, but we did it..."
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
 msgctxt "WORK_TO_BE_DONE"
-msgid ""
-"Ludwig didn't make it. I... I can't think about that right now. There's work "
-"to be done."
+msgid "Ludwig didn't make it. I... I can't think about that right now. There's work to be done."
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
 msgctxt "BUILD_BATTERY"
 msgid ""
-"Build a [color=\"#fdd179\"]Battery[/color], the base is already prepared, "
-"route power into the circuit and neutralize PRS-86."
+"Build a [color=\"#fdd179\"]Battery[/color], the base is already prepared, route power into the "
+"circuit and neutralize PRS-86."
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
@@ -575,8 +555,8 @@ msgstr ""
 #: dialogue/rebel_sci_intro.dialogue
 msgctxt "SAVE_US"
 msgid ""
-"Please.. If you see any of my colleagues, save them. It's not our fault. You "
-"can't understand the conditions IPT has had us working under."
+"Please.. If you see any of my colleagues, save them. It's not our fault. You can't understand "
+"the conditions IPT has had us working under."
 msgstr ""
 
 #: dialogue/road_blocked_demo.dialogue
@@ -593,15 +573,13 @@ msgid "THANKS_DEMO_BODY"
 msgstr ""
 "Thank you for playing the Hazard Pay demo.\n"
 "\n"
-"I hope you felt puzzled and curious - Get ready to fall headfirst into a "
-"deep state conspiracy and discover the secrets you've been helping to "
-"conceal, when the full release comes later this year.\n"
+"I hope you felt puzzled and curious - Get ready to fall headfirst into a deep state conspiracy "
+"and discover the secrets you've been helping to conceal, when the full release comes later "
+"this year.\n"
 "\n"
-"If you have any feedback, I would love hear it - Join the Discord community "
-"to share your thoughts, get access to preview builds and the latest updates."
-"\v\n"
-"Please consider leaving a review on Steam, IPT will make it worth your "
-"while.\n"
+"If you have any feedback, I would love hear it - Join the Discord community to share your "
+"thoughts, get access to preview builds and the latest updates.\v\n"
+"Please consider leaving a review on Steam, IPT will make it worth your while.\n"
 "\vCheers, Smitner"
 
 #: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
@@ -611,18 +589,6 @@ msgstr "Leave a review"
 #: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
 msgid "DONT_SHOW_AGAIN"
 msgstr "Don't show again"
-
-#: scenes/ui/screens/playtest_warning/playtest_warning_screen.tscn
-msgid "PLAYTEST_WARNING_HEADER"
-msgstr "Before You Go..."
-
-#: scenes/ui/screens/playtest_warning/playtest_warning_screen.tscn
-msgid "PLAYTEST_WARNING_BODY"
-msgstr "The playtest levels are bonus content! We recommend playing through the main overworld levels first to learn the mechanics."
-
-#: scenes/ui/screens/playtest_warning/playtest_warning_screen.tscn
-msgid "PLAYTEST_CONTINUE"
-msgstr "Continue anyway"
 
 #: scenes/ui/screens/rewind_screen/rewind_screen.tscn
 msgid "REWIND"
@@ -641,51 +607,122 @@ msgid "..."
 msgstr ""
 
 #: dialogue/playtest_complete_unblocked.dialogue
-msgid ""
-"Smitner here, Thanks for playing! Please give some feedback on the Discord."
+msgid "Smitner here, Thanks for playing! Please give some feedback on the Discord."
 msgstr ""
+
 #: scenes/ui/screens/main_menu/MenuItems.gd
 msgid "LEVEL_EDITOR_EDIT_CURRENT"
 msgstr "Edit Current Level"
+
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_REQUIRED_NOTE"
 msgstr "Destroy all Evidence. Leave no Trace"
+
 #: scripts/LevelManager.gd
 msgid "BRIEF_STANDARD_CLEANUP"
 msgstr "Destroy all evidence, leave no trace"
 
 # Dynamic Mission Statement Keys - Modular Composition System
-
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_NO_EVIDENCE"
 msgstr "N/A"
 
 # Severity Headers
-
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_HEADER_LOW"
 msgstr "Standard Protocols"
+
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_HEADER_MEDIUM"
 msgstr "Caution Advised"
+
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_HEADER_HIGH"
 msgstr "Containment Failure"
 
 # Evidence Bullet Points
-
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_BIOLOGICAL"
 msgstr "Biological contamination"
+
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_RECORDS"
 msgstr "Classified documents"
+
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_CHEMICAL"
 msgstr "Chemical hazards"
+
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_EQUIPMENT"
 msgstr "Proprietary equipment"
+
 #: scripts/levels/LevelEvidenceAnalyzer.gd
 msgid "BRIEF_ITEM_EMPLOYEE"
 msgstr "Personnel involvement"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_ANY"
+msgstr "Scores: Any%"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_SAVIOUR"
+msgstr "Scores: Saviour"
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_EMPTY"
+msgstr "No entries yet"
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_PUSH_VENT"
+msgstr "Push the [color=\"#fdd179\"]Vent[/color] to cover the hazard. Be mindful where you step."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_LOOK"
+msgstr "Survey your surroundings. Assessment precedes action."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_SHOW_INSPECTABLE"
+msgstr ""
+"Some [color=\"#fdd179\"]Items[/color] can be inspected. Anomalies to be logged, not "
+"investigated."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_INSPECT"
+msgstr ""
+"Approach, face and inspect an [color=\"#fdd179\"]Item[/color]. Understanding precedes action."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_UNDO"
+msgstr "Undo previous action. Hold to continue. Mistakes must be corrected."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_RESET"
+msgstr "Reset for a fresh perspective. Tapes will be destroyed."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_LEAVE_ROOM"
+msgstr "Answer the [color=\"#fdd179\"]Radio[/color]. Control awaits your report."
+
+#~ msgid "REPORT_ALL_RESCUED"
+#~ msgstr "All personnel recovered"
+
+#~ msgid "REPORT_SCI_STATUS"
+#~ msgstr "{rescued}/{total} personnel recovered"
+
+#~ msgid "SHOW_HINT"
+#~ msgstr "Show Hints"
+
+#~ msgid "HIDE_HINT"
+#~ msgstr "Hide Hints"
+
+#~ msgid "PLAYTEST_WARNING_HEADER"
+#~ msgstr "Before You Go..."
+
+#~ msgid "PLAYTEST_WARNING_BODY"
+#~ msgstr ""
+#~ "The playtest levels are bonus content! We recommend playing through the main overworld "
+#~ "levels first to learn the mechanics."
+
+#~ msgid "PLAYTEST_CONTINUE"
+#~ msgstr "Continue anyway"

@@ -485,7 +485,7 @@ msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
 msgctxt "dialogue"
-msgid "SCIENTIST"
+msgid "REBEL_SCIENTIST"
 msgstr "Wissenschaftler"
 
 #: dialogue/rebel_sci_intro.dialogue

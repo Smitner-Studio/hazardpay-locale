@@ -264,6 +264,14 @@ msgstr ""
 msgid "PRINTOUT_ACCEPT"
 msgstr ""
 
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "COMMUNITY_LEVELS"
+msgstr ""
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "LOADING_LEVEL"
+msgstr ""
+
 #: scenes/ui/screens/credits_panel.tscn
 msgid "DEVELOPMENT"
 msgstr ""
@@ -371,6 +379,10 @@ msgstr ""
 msgid "NO_NOTES"
 msgstr ""
 
+#: scenes/ui/screens/report_sheet.tscn
+msgid "DATED"
+msgstr ""
+
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_COMMUNITY"
 msgstr ""
@@ -396,7 +408,7 @@ msgid "ERROR"
 msgstr ""
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
-msgid "Unknown Title"
+msgid "UNKNOWN_TITLE"
 msgstr ""
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
@@ -477,6 +489,10 @@ msgstr ""
 msgid "ENTER_LEVEL"
 msgstr ""
 
+#: scenes/ui/screens/evidence_display_sequence.tscn
+msgid "SCANNING"
+msgstr ""
+
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "LEVEL_COMPLETE"
 msgstr ""
@@ -517,7 +533,7 @@ msgstr ""
 #: dialogue/rebel_sci_intro.dialogue
 #: dialogue/special_road.dialogue
 msgctxt "dialogue"
-msgid "SCIENTIST"
+msgid "REBEL_SCIENTIST"
 msgstr ""
 
 #: dialogue/rebel_sci_intro.dialogue
@@ -656,3 +672,19 @@ msgstr ""
 #: scenes/ui/screens/level_preview/ScoreReportSheet.gd
 msgid "LEADERBOARD_EMPTY"
 msgstr ""
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_MOVEMENT"
+msgstr "Use the arrows to move."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_UNDO"
+msgstr "Made a mistake? Undo your last move."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_RESET"
+msgstr "Reset to start over."
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_LOOK"
+msgstr "Hold to look around without moving."
