@@ -739,6 +739,11 @@ msgstr "Evidence detected"
 msgid "NO_EVIDENCE_DETECTED"
 msgstr "No evidence detected"
 
+#: scripts/overworld/OverworldPromptContainer.gd
+msgid "PREVIEW"
+msgstr "Open Preview"
+
+
 #~ msgid "SHOW_HINT"
 #~ msgstr "Show Hints"
 

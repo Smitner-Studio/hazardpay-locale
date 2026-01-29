@@ -716,3 +716,8 @@ msgstr ""
 #: scripts/ui/screens/EvidenceDisplaySequence.gd
 msgid "NO_EVIDENCE_DETECTED"
 msgstr ""
+
+#: scripts/overworld/OverworldPromptContainer.gd
+msgid "PREVIEW"
+msgstr ""
+
