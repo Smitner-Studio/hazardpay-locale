@@ -30,54 +30,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
 
-#. TRANSLATORS: Character name
-#: dialogue/intro.dialogue dialogue/rebel_sci_intro.dialogue
-#: dialogue/special_road.dialogue
-msgctxt "dialogue"
-msgid "YOU"
-msgstr "Você"
-
-#. TRANSLATORS: Character name
-#: dialogue/intro.dialogue dialogue/road_blocked.dialogue
-#: dialogue/road_unblocked.dialogue dialogue/road_block_no_exit.dialogue
-#: dialogue/exit_unfinished_required_level.dialogue
-#: dialogue/road_blocked_demo.dialogue
-#: dialogue/playtest_complete_unblocked.dialogue
-msgctxt "dialogue"
-msgid "RADIO"
-msgstr "Rádio"
-
-#: dialogue/intro.dialogue
-msgctxt "I_LISTEN"
-msgid "I'm listening."
-msgstr "Estou ouvindo."
-
-#: dialogue/intro.dialogue
-msgctxt "INSTRUCTIONS"
-msgid "Good, I have urgent instructions from leadership."
-msgstr "Ótimo, tenho instruções urgentes de seus superiores."
-
-#: dialogue/intro.dialogue
-msgctxt "BLIND"
-msgid ""
-"There's been an incident deep in the facility. The details are unclear, All "
-"offsite communication systems are down. You will have to go in blind."
-msgstr ""
-"Houve um incidente no interior das instalações. Os detalhes não estão "
-"claros. Todos os sistemas de comunicação externos estão fora do ar. Você "
-"terá que entrar às cegas."
-
-#: dialogue/intro.dialogue
-#, fuzzy
-msgctxt "TOWARD_SECTOR_5"
-msgid "Load up the truck and work your way towards Sector 5."
-msgstr "Prepare  caminhão e siga em direção ao Setor 5."
-
-#: dialogue/intro.dialogue
-msgctxt "NO_TRACE"
-msgid "Destroy all evidence, leave no trace."
-msgstr "Destrua todas as evidências, não deixe sequer traços."
-
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "CONFIRM_EXIT"
 msgstr "Tem certeza de que deseja sair?"
@@ -108,17 +60,9 @@ msgid "RESET_PROGRESS"
 msgstr "Destruir Progresso"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "RESET_PROGRESS_DETAIL"
-msgstr "Destrói todas as evidências de que você jogou este jogo"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
 #: scenes/ui/panels/settings/Settings.gd
 msgid "RESET_SETTINGS"
 msgstr "Redefinir Configurações"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "RESET_SETTINGS_DETAIL"
-msgstr "Redefine as configurações para seus valores padrão"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "AUDIO"
@@ -138,20 +82,16 @@ msgid "AMBIANCE"
 msgstr "Ambientação"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "UI"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "VISUAL"
 msgstr "Visual"
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "FULLSCREEN"
 msgstr "Tela Cheia"
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "UI_SCALE"
-msgstr ""
-
-#: scenes/ui/panels/settings/SettingsPanel.tscn
-msgid "100%"
-msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "INPUT"
@@ -164,6 +104,10 @@ msgstr "Ativar recursos táteis"
 #: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "APPLY_CLOSE"
 msgstr "Aplicar e Sair"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "COPYRIGHT_NOTICE"
+msgstr "Copyright© Smitner.Studio 2025"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "MENU_ACTIONS"
@@ -181,14 +125,18 @@ msgstr "Continuar"
 msgid "GOTO_OVERWORLD"
 msgstr "Ir para o Mapa"
 
-#: scenes/ui/screens/main_menu.tscn
-#, fuzzy
-msgid "PLAYTEST_LEVELS"
-msgstr "Testadores do jogo"
+#: scenes/ui/screens/main_menu.tscn scenes/ui/screens/game_complete_screen.tscn
+msgid "THANKS_DEMO_HEADER"
+msgstr "Obrigado"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "LEVEL_EDITOR"
 msgstr "Editor de Níveis"
+
+#: scenes/ui/screens/main_menu.tscn
+#, fuzzy
+msgid "PLAYTEST_LEVELS"
+msgstr "Testadores do jogo"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "SETTINGS"
@@ -203,8 +151,8 @@ msgid "EXIT"
 msgstr "Sair"
 
 #: scenes/ui/screens/main_menu.tscn
-msgid "COPYRIGHT_NOTICE"
-msgstr "Copyright© Smitner.Studio 2025"
+msgid "Hazard Pay"
+msgstr ""
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "CTA_WISHLIST"
@@ -217,10 +165,6 @@ msgstr ""
 "futuro lançamento."
 
 #: scenes/ui/screens/main_menu.tscn
-msgid "CTA_WISHLIST_BUTTON"
-msgstr "Abrir Steam"
-
-#: scenes/ui/screens/main_menu.tscn
 msgid "CTA_DISCORD"
 msgstr "Discord"
 
@@ -229,32 +173,6 @@ msgid "CTA_DISCORD_BODY"
 msgstr ""
 "Entre no servidor do Discord para compartilhar sua experiência e receber as "
 "últimas atualizações."
-
-#: scenes/ui/screens/main_menu.tscn
-#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
-msgid "CTA_DISCORD_BUTTON"
-msgstr "Entrar no servidor do Discord"
-
-#: scenes/ui/screens/level_preview_screen.tscn
-msgid "LEVEL_SELECT"
-msgstr "Seleção de Nível"
-
-#: scenes/ui/screens/level_preview_screen.tscn
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_HEADER"
-msgstr "Anexo"
-
-#: scenes/ui/screens/level_preview_screen.tscn
-msgid "MISSION"
-msgstr ""
-
-#: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_ATTACH_SUMMARY"
-msgstr "Anexar Sumário"
-
-#: scenes/ui/screens/level_preview_screen.tscn
-msgid "PRINTOUT_SCORES"
-msgstr "Pontos"
 
 #: scenes/ui/screens/level_preview_screen.tscn
 msgid "PRINTOUT_BACK"
@@ -265,12 +183,18 @@ msgstr "Voltar"
 msgid "PRINTOUT_ACCEPT"
 msgstr "Aceitar"
 
-#: scenes/ui/panels/community/CommunityPanel.tscn
-msgid "COMMUNITY_LEVELS"
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_HEADER"
+msgstr "Anexo"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_ANY"
 msgstr ""
 
-#: scenes/ui/panels/community/CommunityPanel.tscn
-msgid "LOADING_LEVEL"
+#: scenes/ui/screens/level_preview_screen.tscn
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_SAVIOUR"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
@@ -279,8 +203,10 @@ msgstr "Design e Desenvolvimento"
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid ""
-"Arran Smith | mail@smitner.studio\n"
-"[url=https://smitner.studio]https://smitner.studio[/url]\n"
+"Smitner Studio UG\n"
+"- Smitner \n"
+"- Liliren (Writing)\n"
+"- Fragile (Level Design)"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
@@ -301,7 +227,7 @@ msgstr "Tradução"
 #: scenes/ui/screens/credits_panel.tscn
 msgid ""
 "V.\n"
-"Ravi\n"
+"Ravi de Satana \"RKS\"\n"
 "Georges Kaplan\n"
 "Gigi"
 msgstr ""
@@ -312,51 +238,21 @@ msgstr "Testadores do jogo"
 
 #: scenes/ui/screens/credits_panel.tscn
 msgid ""
-"Ravi\n"
+"Ravi de Satana \"RKS\"\n"
 "Georges Kaplan\n"
 "Matt Schikore\n"
 "Paul James\n"
 "Buromomento\n"
+"Jagriff"
 msgstr ""
 
 #: scenes/ui/screens/credits_panel.tscn
-#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
 msgid "DISMISS"
 msgstr "Dispensar"
-
-#: dialogue/road_blocked.dialogue
-msgctxt "GET_BACK"
-msgid "Get back to the labs, you're not finished."
-msgstr "Volte aos laboratórios, você ainda não terminou."
-
-#: dialogue/road_blocked.dialogue
-msgctxt "GET_BACK_2"
-msgid "Security will open the gate when you do what you're paid for."
-msgstr ""
-"A segurança abrirá o portão quando você fizer o que foi pago para fazer."
-
-#: dialogue/road_unblocked.dialogue
-msgctxt "PROCEED_TO_NEXT_SECTOR"
-msgid ""
-"[[Well Done|Good Job|Good]]. You now have access to this Sector, please "
-"proceed."
-msgstr ""
-"[[Bem Feito|Bom Trabalho|Ótimo]]. Você agora tem acesso a esse Setor, por "
-"favor, prossiga."
-
-#: dialogue/road_block_no_exit.dialogue
-msgctxt "JOB_IS_NOT_FINISHED"
-msgid "You're not leaving until the job is finished."
-msgstr "Você não sairá até que o trabalho esteja concluído."
 
 #: scenes/ui/screens/report_sheet.tscn
 msgid "REPORT_HEADER"
 msgstr "Detalhes de Relatório"
-
-#: scenes/ui/screens/report_sheet.tscn
-#: scenes/ui/screens/player_death_screen.tscn
-msgid "1978-01-01 12:00:00"
-msgstr ""
 
 #: scenes/ui/screens/report_sheet.tscn
 msgid "MOVES"
@@ -366,54 +262,22 @@ msgstr "Passos"
 msgid "000"
 msgstr ""
 
-#: scenes/ui/screens/report_sheet.tscn
-msgid "SIGNED"
-msgstr "Assinatura"
-
-#: scenes/ui/screens/report_sheet.tscn
-msgid "COMPLETE"
-msgstr "Completo"
-
-#: scenes/ui/screens/report_sheet.tscn
-msgid "GRADE"
-msgstr ""
-
-#: scenes/ui/screens/report_sheet.tscn
-msgid "GRADE_ACCEPTABLE"
-msgstr ""
-
-#: scenes/ui/screens/report_sheet.tscn
+#: scenes/ui/screens/report_sheet.tscn scenes/ui/screens/ReportSheet.gd
 msgid "NO_NOTES"
-msgstr ""
-
-#: scenes/ui/screens/ReportSheet.gd
-msgid "REPORT_ALL_RESCUED"
-msgstr ""
-
-#: scenes/ui/screens/ReportSheet.gd
-msgid "REPORT_SCI_STATUS"
 msgstr ""
 
 #: scenes/ui/screens/report_sheet.tscn
 msgid "DATED"
 msgstr ""
 
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-#, fuzzy
-msgid "PRINTOUT_COMMUNITY"
-msgstr "Tentar Novamente"
+#: scenes/ui/screens/report_sheet.tscn
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "1978-01-01 12:00:00"
+msgstr ""
 
 #: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
 msgid "PRINTOUT_RETRY"
 msgstr "Tentar Novamente"
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_OPTIONAL_NOTE"
-msgstr "Prossiga por sua própria conta e risco"
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "\n"
-msgstr ""
 
 #: scenes/ui/screens/level_preview/score_tab.tscn
 msgid "PRINTOUT_SCORE_LOADING"
@@ -425,6 +289,11 @@ msgstr "Erro"
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
 msgid "UNKNOWN_TITLE"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_EMPTY"
 msgstr ""
 
 #: scenes/ui/screens/level_preview/score_report_sheet.tscn
@@ -451,72 +320,22 @@ msgstr "Próximos a Você"
 msgid "LEADERBOARD_DATA_REQUEST_USERS"
 msgstr "Usuários"
 
-#: dialogue/exit_unfinished_required_level.dialogue
-msgctxt "CONTINUE_WHAT_YOU_STARTED"
-msgid "I suggest you continue what you started."
-msgstr "Sugiro que você continue o que começou."
-
-#: dialogue/exit_unfinished_required_level.dialogue
-msgctxt "NOT_FINISHED"
-msgid "Get back to work, you're not finished."
-msgstr "Volte ao trabalho, você ainda não terminou."
-
 #: scenes/ui/screens/player_death_screen.tscn
 msgid "DEATH_SCREEN_TITLE"
 msgstr "Aviso de Demissão de Funcionário"
 
 #: scenes/ui/screens/player_death_screen.tscn
 #, fuzzy
-msgid "DEAD_MESSAGE_1"
+msgid "GENERIC_DEAD_MESSAGE"
 msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
 
 #: scenes/ui/screens/player_death_screen.tscn
-#, fuzzy
-msgid "DEAD_MESSAGE_2"
-msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
-
-#: scenes/ui/screens/player_death_screen.tscn
-#, fuzzy
-msgid "DEAD_MESSAGE_3"
-msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
-
-#: scenes/ui/screens/player_death_screen.tscn
-#, fuzzy
-msgid "DEAD_MESSAGE_4"
-msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
-
-#: scenes/ui/screens/player_death_screen.tscn
-#, fuzzy
-msgid "DEAD_MESSAGE_5"
-msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
-
-#: scenes/ui/screens/game_controls.tscn
-msgid "MOVEMENT"
-msgstr "Mover"
-
-#: scenes/ui/screens/game_controls.tscn
-msgid "PEEK"
-msgstr "Espiar"
-
-#: scenes/ui/screens/game_controls.tscn
-msgid "RESET"
-msgstr "Reiniciar"
-
-#: scenes/ui/screens/game_controls.tscn
 msgid "UNDO"
 msgstr "Desfazer"
 
-#: scenes/ui/screens/game_controls.tscn
-msgid "ENTER_LEVEL"
-msgstr "Adentrar Nível"
-
-#: scenes/ui/screens/evidence_display_sequence.tscn
-msgid "SCANNING"
-msgstr ""
-
-#: scenes/ui/screens/level_complete/level_complete_screen.tscn
-msgid "LEVEL_COMPLETE"
-msgstr "Nível Completo"
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "RESET"
+msgstr "Reiniciar"
 
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "RETRY"
@@ -525,10 +344,6 @@ msgstr "Tentar Novamente"
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "CONTINUE"
 msgstr "Continuar"
-
-#: dialogue/balloon.tscn
-msgid "SKIP"
-msgstr "Pular"
 
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "CHOOSE_RECORD_PROMPT"
@@ -553,78 +368,572 @@ msgstr ""
 "Você tem certeza que deseja destruir todas as evidências do seu progresso?"
 
 #. TRANSLATORS: Character name
-#: dialogue/rebel_sci_intro.dialogue dialogue/special_road.dialogue
+#: dialogue/inspect/inspect_acid.dialogue
+#: dialogue/inspect/inspect_flesh.dialogue
+#: dialogue/inspect/inspect_diary.dialogue
+#: dialogue/inspect/inspect_open_vent.dialogue dialogue/story/intro.dialogue
+#: dialogue/story/otto_radio_intro.dialogue dialogue/test/test.dialogue
+msgctxt "dialogue"
+msgid "YOU"
+msgstr "Você"
+
+#: dialogue/inspect/inspect_acid.dialogue
+msgid "Hmmm, careful"
+msgstr ""
+
+#: dialogue/inspect/inspect_flesh.dialogue
+msgid "Still warm..."
+msgstr ""
+
+#. TRANSLATORS: Character name
+#: dialogue/inspect/inspect_sci.dialogue dialogue/react/react_sci.dialogue
+#, fuzzy
+msgctxt "dialogue"
+msgid "SCIENTIST"
+msgstr "Cientista"
+
+#: dialogue/inspect/inspect_sci.dialogue
+msgctxt "SCI01_PAIN"
+msgid "AGH,THE PAIN… I-I CAN’T [shake]THINK![/shake]"
+msgstr ""
+
+#: dialogue/inspect/inspect_sci.dialogue
+msgctxt "SCI01_DARK"
+msgid "It’s so d-dark. I can’t…"
+msgstr ""
+
+#: dialogue/inspect/inspect_sci.dialogue
+msgctxt "SCI01_WHY"
+msgid "[shake]NOT LIKE THIS. WHY…[/shake]"
+msgstr ""
+
+#: dialogue/inspect/inspect_sci.dialogue
+msgctxt "SCI01_EYES"
+msgid "MY EYES… IT TOOK M-MY…"
+msgstr ""
+
+#. TRANSLATORS: Character name
+#: dialogue/inspect/inspect_tied_sci.dialogue
+#: dialogue/react/react_tied_sci.dialogue
+#, fuzzy
+msgctxt "dialogue"
+msgid "TIED_SCIENTIST"
+msgstr "Cientista"
+
+#: dialogue/inspect/inspect_tied_sci.dialogue
+msgid "What the?! Unhand me!"
+msgstr ""
+
+#: dialogue/inspect/inspect_tied_sci.dialogue
+msgid "Ugh, damn it! This falls outside protocol!"
+msgstr ""
+
+#: dialogue/inspect/inspect_tied_sci.dialogue
+msgid "This can’t be authorised…"
+msgstr ""
+
+#: dialogue/inspect/inspect_tied_sci.dialogue
+msgid "I work here, damn it! Untie me!"
+msgstr ""
+
+#: dialogue/inspect/inspect_tied_sci.dialogue
+msgid "Whatever, just get me out of here!"
+msgstr ""
+
+#: dialogue/inspect/inspect_tied_sci.dialogue
+msgid "You’re restraining me?"
+msgstr ""
+
+#. TRANSLATORS: Character name
+#: dialogue/idle/idle_level.dialogue dialogue/idle/idle_overworld.dialogue
+#: dialogue/road_blocks/sector_2_open.dialogue
+#: dialogue/road_blocks/sector_all_blocked.dialogue
+#: dialogue/road_blocks/road_block_no_exit.dialogue
+#: dialogue/road_blocks/sector_all_open.dialogue dialogue/story/intro.dialogue
+#: dialogue/level/exit_unfinished_required_level.dialogue
+msgctxt "dialogue"
+msgid "RADIO"
+msgstr "Rádio"
+
+#: dialogue/idle/idle_level.dialogue dialogue/idle/idle_overworld.dialogue
+msgctxt "IDLE_LEVEL_TIER_3"
+msgid ""
+"Hey {{ProgressManagerGlobal.get_employee_number_formatted()}}, easter egg"
+msgstr ""
+
+#: dialogue/idle/idle_level.dialogue dialogue/idle/idle_overworld.dialogue
+msgctxt "IDLE_LEVEL_TIER_2"
+msgid "Second Threat"
+msgstr ""
+
+#: dialogue/idle/idle_level.dialogue dialogue/idle/idle_overworld.dialogue
+msgctxt "IDLE_LEVEL_TIER_1"
+msgid "First threat"
+msgstr ""
+
+#: dialogue/inspect/inspect_diary.dialogue
+msgid "I don't remember writing this"
+msgstr ""
+
+#: dialogue/inspect/inspect_open_vent.dialogue
+msgid "That looks deep"
+msgstr ""
+
+#: dialogue/road_blocks/sector_2_open.dialogue
+msgctxt "01_GATE_SAVED"
+msgid ""
+"[[Adequate work|Minimum requirements met|Minimum objective met]]. "
+"[[Deviation recorded|Execution deficient|Improvement expected]]. Stand by."
+"[wait=0.05] Sector-02 security clearance granted. IPT reminds you of "
+"directive parameters.[wait=0.02] Leave no trace. Personnel not excluded. "
+"Your performance has been logged. [[Further discrepancies|Failure to comply|"
+"Failure to align with directive]] may result in [[premature termination|an "
+"expiration of service|adverse disciplinary action]]."
+msgstr ""
+
+#: dialogue/road_blocks/sector_2_open.dialogue
+msgctxt "01_GATE_KILLED"
+msgid ""
+"[[Performance exemplary|Function achieved, no deviation noted|Commendation "
+"logged, maintain standard]]. Execution aligned with directive. IPT thanks "
+"you for [[upholding our values|modelling our ethos|your tactical economy]]. "
+"Efficiency is loyalty, Comrade. Proceed to Sector-02, security clearance has "
+"been granted. Your efforts have been logged as a model of Excellence."
+msgstr ""
+
+#: dialogue/road_blocks/sector_all_blocked.dialogue
+msgctxt "01_GATE_DENIED"
+msgid ""
+"Higher security clearance will be granted once all hazards have been "
+"neutralised. Do not lose sight of the [[mission|directive|why you are here]]."
+msgstr ""
+
+#: dialogue/road_blocks/sector_all_blocked.dialogue
+msgctxt "02_GATE_DENIED"
+msgid ""
+"[[Hazards|Anomalies]] still detected in this sector. IPT reminds you that "
+"loyalty is proven not by intention, but by outcome. Complete your [[function|"
+"directive|objective]]."
+msgstr ""
+
+#: dialogue/road_blocks/sector_all_blocked.dialogue
+msgctxt "03_GATE_DENIED"
+msgid ""
+"Security clearance denied. Evidence of containment breach still detected. "
+"You are not done here."
+msgstr ""
+
+#: dialogue/road_blocks/road_block_no_exit.dialogue
+msgctxt "JOB_IS_NOT_FINISHED"
+msgid "You're not leaving until the job is finished."
+msgstr "Você não sairá até que o trabalho esteja concluído."
+
+#: dialogue/road_blocks/sector_all_open.dialogue
+msgctxt "PROCEED_TO_NEXT_SECTOR"
+msgid ""
+"[[Well Done|Good Job|Good]]. You now have access to this Sector, please "
+"proceed."
+msgstr ""
+"[[Bem Feito|Bom Trabalho|Ótimo]]. Você agora tem acesso a esse Setor, por "
+"favor, prossiga."
+
+#: dialogue/story/intro.dialogue
+msgctxt "ACKOWLEDGE"
+msgid ""
+"Recovery Unit {{ProgressManagerGlobal.get_employee_number_formatted()}}, "
+"this is IPT Control. Transmission is active. Acknowledge."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "098_CONFIRM"
+msgid ""
+"{{ProgressManagerGlobal.get_employee_number_formatted()}} receiving. Signal "
+"confirmed. Standing by."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "MISSION_BRIEF"
+msgid ""
+"Mission brief follows: Contain facility breach. Secure sensitive materials. "
+"Eliminate all active threats to Directive. Leave no trace."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "INTERNAL_SYSTEMS"
+msgid "Internal systems degraded, technical intervention required."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "UNDERSTOOD"
+msgid "Understood."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "ANOMALIES"
+msgid ""
+"Anomalies to be logged, not investigated. It is not your function. "
+"Understanding is not required."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "PROTOCOL_6X"
+msgid "Per protocol 6-X, personnel recovery is… [wait=1] no longer a priority."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgid "…"
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "SECTOR01_CLEARANCE"
+msgid ""
+"Security authorisation has already been granted for Sector-01. Higher "
+"clearance will be issued upon completion of lower sectors."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "CUT_OFF_RECEIVE"
+msgid "I did not receive any auth -[next=0.05]"
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "INSTRUCTION_STANDS"
+msgid ""
+"You did. At zero seven four zero local. [wait=2] Your objection is noted. "
+"Instruction stands."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "UNDERSTOOD_DOT"
+msgid "… Understood."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "REMIND_COMRADE"
+msgid ""
+"Need I remind you, Comrade. Compliance is freedom. Efficiency is loyalty. "
+"Instruction Precedes Truth."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "YES"
+msgid "Yes."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "PROCEED_SECTORS"
+msgid "Proceed to Sectors. You have been issued a Level 2 recovery vehicle."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "DEVIATE_DIRECTIVE"
+msgid "Failure to comply will be interpreted as deviation from Directive."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "PROCEED_VEHICLE"
+msgid "Proceed to vehicle and remain on standby. Control out."
+msgstr ""
+
+#: dialogue/story/intro.dialogue
+msgctxt "098_INSTRUCTED"
+msgid ""
+"Instruction received. {{ProgressManagerGlobal."
+"get_employee_number_formatted()}} out."
+msgstr ""
+
+#. TRANSLATORS: Character name
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "dialogue"
+msgid "UNKNOWN"
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "ANYONE_COPY"
+msgid ""
+"Recovery Unit {{ProgressManagerGlobal.get_employee_number_formatted()}}, "
+"does anyone copy?[next=0.05]"
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "MATTER_TIME"
+msgid "It was only a matter of time before one of you showed up."
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "EYES_SCHMIDT"
+msgid ""
+"Do you have eyes on [color=\"#fdd179\"]Schmidt[/color]? Please tell me he’s "
+"still breathing! That damn awful sound… [wait=0.05] Don’t say he’s-"
+"[wait=0.02] he’s dead?"
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "FUNNY_ALIVE"
+msgid ""
+"Huh, eyes… Funny you should say that. [wait=1] He’s alive, that much is "
+"certain. [next=0.05]"
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "NO_JOKES"
+msgid ""
+"[[No jokes|Don’t be joking with me|Nothing funny here]], [[This is bad|This "
+"is worse than I thought]]."
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "KEEP_CLEAN"
+msgid ""
+"You might have your hands full on this one. Listen, keep them clean. I don’t "
+"give a shit what your orders are."
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "SCHMIDT_OUT"
+msgid ""
+"Get [color=\"#fdd179\"]Schmidt[/color] out of here! Use what you can, he "
+"might still be in shock."
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "REACHED_SECTOR01"
+msgid ""
+"I doubt he’s the only one… Fuck, I didn’t think it [[had already reached|"
+"could reach]] Sector-01."
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "IT_QUESTION"
+msgid "… It?"
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "NO_TIME"
+msgid ""
+"No time. You must save the others. I’ll meet you in Sector-02. You’re apart "
+"of this now."
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "HAVE_ORDERS"
+msgid "I have my orders."
+msgstr ""
+
+#: dialogue/story/otto_radio_intro.dialogue
+msgctxt "ORDERS_EXIST"
+msgid ""
+"[[Wake up|Open your eyes]] Regimehund! No order absolves you of choice. "
+"Orders exist, but the action is yours."
+msgstr ""
+
+#: dialogue/level/exit_unfinished_required_level.dialogue
+msgctxt "CONTINUE_WHAT_YOU_STARTED"
+msgid "I suggest you continue what you started."
+msgstr "Sugiro que você continue o que começou."
+
+#: dialogue/level/exit_unfinished_required_level.dialogue
+msgctxt "NOT_FINISHED"
+msgid "Get back to work, you're not finished."
+msgstr "Volte ao trabalho, você ainda não terminou."
+
+#. TRANSLATORS: Character name
+#: dialogue/test/test.dialogue
 msgctxt "dialogue"
 msgid "REBEL_SCIENTIST"
 msgstr "Cientista"
 
-#: dialogue/rebel_sci_intro.dialogue
-msgctxt "THANK_GOD"
-msgid "Gott sei Dank, you're here - It's been days since I called for help."
-msgstr ""
-"Graças a Deus, você está aqui - Fazem dias desde que eu chamei por ajuda."
-
-#: dialogue/rebel_sci_intro.dialogue
-msgctxt "CHAOS"
-msgid ""
-"The containment failed. We've lost control, and now there are specimens "
-"loose all over the facility. It's chaos."
-msgstr ""
-"A contenção falhou. Perdemos o controle e agora há espécimes soltos por toda "
-"a instalação. Aqui está um caos."
-
-#: dialogue/rebel_sci_intro.dialogue
+#. TRANSLATORS: Character name
+#: dialogue/test/test.dialogue
 #, fuzzy
-msgctxt "BACK_INTO_CONTAINMENT"
-msgid ""
-"Ludwig and I managed to get [color=\"#fdd179\"]PRS-86[/color] back in "
-"containment. It was terrifying, but we did it..."
+msgctxt "dialogue"
+msgid "REBEL_SCIENTIST[1]"
+msgstr "Cientista"
+
+#. TRANSLATORS: Character name
+#: dialogue/test/test.dialogue
+#, fuzzy
+msgctxt "dialogue"
+msgid "REBEL_SCIENTIST[2]"
+msgstr "Cientista"
+
+#. TRANSLATORS: Character name
+#: dialogue/test/test.dialogue
+#, fuzzy
+msgctxt "dialogue"
+msgid "REBEL_SCIENTIST[3]"
+msgstr "Cientista"
+
+#. TRANSLATORS: Character name
+#: dialogue/test/test.dialogue
+msgctxt "dialogue"
+msgid "FLESH"
 msgstr ""
-"O Ludwig e eu conseguimos colocar a PRS-86 de volta para contenção. Foi "
-"assustador, mas conseguimos..."
 
-#: dialogue/rebel_sci_intro.dialogue
-msgctxt "WORK_TO_BE_DONE"
-msgid ""
-"Ludwig didn't make it. I... I can't think about that right now. There's work "
-"to be done."
+#. TRANSLATORS: Character name
+#: dialogue/test/test.dialogue
+msgctxt "dialogue"
+msgid "TONGUE"
 msgstr ""
-"O Ludwig não conseguiu. Eu... Eu não posso pensar nisso agora. Há trabalho a "
-"ser feito."
 
-#: dialogue/rebel_sci_intro.dialogue
-msgctxt "BUILD_BATTERY"
+#: dialogue/test/test.dialogue
 msgid ""
-"Build a [color=\"#fdd179\"]Battery[/color], the base is already prepared, "
-"route power into the circuit and neutralize PRS-86."
+"MY [shake rate=20 level=2]FUCKING[/shake] [shake rate=50 level=10]EYES[/"
+"shake]"
 msgstr ""
-"Construa uma [color=\"#fdd179\"]Bateria[/color], a base já está preparada, "
-"direcione a energia para o circuito e neutralize o PRS-86"
 
-#: dialogue/rebel_sci_intro.dialogue
-msgctxt "ROGER"
-msgid "Roger that."
-msgstr "Entendido."
-
-#: dialogue/rebel_sci_intro.dialogue
-msgctxt "SAVE_US"
-msgid ""
-"Please.. If you see any of my colleagues, save them. It's not our fault. You "
-"can't understand the conditions IPT has had us working under."
+#: dialogue/test/test.dialogue
+msgid "[color=\"#b55945\"]Comrade,[/color] it all going to be [wait=0.1] okay."
 msgstr ""
-"Por favor... se você ver algum de meus colegas, salve-os. Não é a nossa "
-"culpa. Você não entende em que condições que a IPT nos fez trabalhar."
 
-#: dialogue/road_blocked_demo.dialogue
-msgctxt "DEMO_NO_MORE"
-msgid "That's all for the demo."
-msgstr "Isso é tudo para a demonstração."
+#: dialogue/test/test.dialogue
+msgid "Surely.. [wait=0.2]he... [shake]wont.[shake]"
+msgstr ""
 
-#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
-msgid "THANKS_DEMO_HEADER"
-msgstr "Obrigado"
+#: dialogue/test/test.dialogue
+msgid "Surely.."
+msgstr ""
 
-#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+#: dialogue/test/test.dialogue
+msgid "[speed=3]DON'T FEED THE [color=\"#b55945\"]TONGUE![/color]"
+msgstr ""
+
+#: dialogue/test/test.dialogue
+msgid "[wave amp=15 freq=5]*gasp*[/wave]"
+msgstr ""
+
+#: dialogue/test/test.dialogue
+msgid "[wait=2]Who said I was hungry?"
+msgstr ""
+
+#: dialogue/react/react_sci.dialogue
+msgctxt "REACT_SCI_ACID_FLESH"
+msgid "You're... disposing of evidence?"
+msgstr ""
+
+#: dialogue/react/react_sci.dialogue
+msgctxt "REACT_SCI_MONSTER"
+msgid "[shake]MONSTER![/shake]"
+msgstr ""
+
+#: dialogue/react/react_sci.dialogue
+msgctxt "REACT_SCI_SICK"
+msgid "I'm going to be sick..."
+msgstr ""
+
+#: dialogue/react/react_sci.dialogue
+msgctxt "REACT_SCI_ACID_SCI"
+msgid "[shake]NO! NOT HIM![/shake]"
+msgstr ""
+
+#: dialogue/react/react_sci.dialogue
+msgctxt "REACT_SCI_PAY"
+msgid "You'll pay for this!"
+msgstr ""
+
+#: dialogue/react/react_sci.dialogue
+msgctxt "REACT_SCI_MURDERER"
+msgid "[shake]MURDERER![/shake]"
+msgstr ""
+
+#: dialogue/react/react_sci.dialogue
+msgctxt "REACT_SCI_TAPE_SCI"
+msgid "What are you doing to him?!"
+msgstr ""
+
+#: dialogue/react/react_sci.dialogue
+msgctxt "REACT_SCI_TAPE_ALONE"
+msgid "Leave him alone!"
+msgstr ""
+
+#: dialogue/react/react_sci.dialogue
+msgctxt "REACT_SCI_TAPE_HELP"
+msgid "[shake]HELP! SOMEONE![/shake]"
+msgstr ""
+
+#: dialogue/react/react_tied_sci.dialogue
+msgctxt "REACT_TIED_ACID_FLESH"
+msgid "[shake]Oh god, oh god, oh god![/shake]"
+msgstr ""
+
+#: dialogue/react/react_tied_sci.dialogue
+msgctxt "REACT_TIED_ACID_NEXT"
+msgid "Am I next?! [shake]AM I NEXT?![/shake]"
+msgstr ""
+
+#: dialogue/react/react_tied_sci.dialogue
+msgctxt "REACT_TIED_ACID_SCI"
+msgid "Never liked how he made coffee anyway"
+msgstr ""
+
+#: dialogue/react/react_tied_sci.dialogue
+msgctxt "REACT_TIED_ACID_STOP"
+msgid "[shake]PLEASE! PLEASE STOP![/shake]"
+msgstr ""
+
+#: dialogue/react/react_tied_sci.dialogue
+msgctxt "REACT_TIED_TAPE_RUN"
+msgid "Run! [shake]RUN![/shake]"
+msgstr ""
+
+#: dialogue/react/react_tied_sci.dialogue
+msgctxt "REACT_TIED_TAPE_DONT"
+msgid "Don't let them take you too!"
+msgstr ""
+
+#: scenes/ui/screens/ReportSheet.gd
+msgid "REPORT_ALL_RESCUED"
+msgstr ""
+
+#: scenes/ui/screens/ReportSheet.gd
+msgid "REPORT_SCI_STATUS"
+msgstr ""
+
+#: scripts/ui/screens/EvidenceDisplaySequence.gd
+msgid "SCANNING"
+msgstr ""
+
+#: scripts/ui/screens/EvidenceDisplaySequence.gd
+msgid "EVIDENCE_DETECTED"
+msgstr ""
+
+#: scripts/ui/screens/EvidenceDisplaySequence.gd
+msgid "NO_EVIDENCE_DETECTED"
+msgstr ""
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "BACK"
+msgstr ""
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "COMMUNITY_LEVELS"
+msgstr ""
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "LOADING_LEVEL"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/printout_brief_tab.tscn
+msgid "MISSION"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/printout_brief_tab.tscn
+msgid "PRINTOUT_ATTACH_SUMMARY"
+msgstr "Anexar Sumário"
+
+#: scenes/ui/screens/level_preview/LevelPreviewBriefTab.gd
+msgid "PRINTOUT_OPTIONAL_NOTE"
+msgstr "Prossiga por sua própria conta e risco"
+
+#: scenes/ui/screens/level_preview/LevelPreviewBriefTab.gd
+msgid "\n"
+msgstr ""
+
+#: scripts/LevelManager.gd
+msgid "PRINTOUT_REQUIRED_NOTE"
+msgstr "Destrua Todas As Evidências. Não Deixe Sequer Rastros"
+
+#: scenes/ui/screens/game_complete_screen.tscn
 msgid "THANKS_DEMO_BODY"
 msgstr ""
 "Obrigado à você por ter jogado a demonstração de Hazard Pay.\n"
@@ -640,137 +949,265 @@ msgstr ""
 "pena\n"
 "Abraços, Smitner"
 
-#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+#: scenes/ui/screens/game_complete_screen.tscn
 msgid "CTA_REVIEW_BUTTON"
 msgstr "Fazer Análise"
 
-#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+#: scenes/ui/screens/game_complete_screen.tscn
+msgid "CTA_DISCORD_BUTTON"
+msgstr "Entrar no servidor do Discord"
+
+#: scenes/ui/screens/playtest_warning/playtest_warning_screen.tscn
+msgid "PLAYTEST_WARNING_HEADER"
+msgstr ""
+
+#: scenes/ui/screens/playtest_warning/playtest_warning_screen.tscn
+msgid "PLAYTEST_WARNING_BODY"
+msgstr ""
+
+#: scenes/ui/screens/playtest_warning/playtest_warning_screen.tscn
+#, fuzzy
+msgid "PLAYTEST_CONTINUE"
+msgstr "Testadores do jogo"
+
+#: scenes/ui/screens/playtest_warning/playtest_warning_screen.tscn
 msgid "DONT_SHOW_AGAIN"
 msgstr "Não mostrar novamente"
 
-#: scenes/ui/screens/rewind_screen/rewind_screen.tscn
-msgid "REWIND"
-msgstr "Retroceder"
-
-#: dialogue/special_road.dialogue
-msgid "Nope, I don't trust you."
-msgstr ""
-
-#: dialogue/special_road.dialogue
-msgid "Actually, you know what?"
-msgstr ""
-
-#: dialogue/special_road.dialogue
-msgid "..."
-msgstr ""
-
-#: dialogue/playtest_complete_unblocked.dialogue
-msgid ""
-"Smitner here, Thanks for playing! Please give some feedback on the Discord."
-msgstr ""
-
-#: scenes/ui/screens/main_menu/MenuItems.gd
-#, fuzzy
-msgid "LEVEL_EDITOR_EDIT_CURRENT"
-msgstr "Editor de Níveis"
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_REQUIRED_NOTE"
-msgstr "Destrua Todas As Evidências. Não Deixe Sequer Rastros"
-
-#: scripts/LevelManager.gd
-msgid "BRIEF_STANDARD_CLEANUP"
-msgstr ""
-
-#: scripts/levels/LevelEvidenceAnalyzer.gd
-msgid "BRIEF_NO_EVIDENCE"
-msgstr ""
-
-#: scripts/levels/LevelEvidenceAnalyzer.gd
-#, fuzzy
-msgid "BRIEF_HEADER_LOW"
-msgstr "Detalhes de Relatório"
-
-#: scripts/levels/LevelEvidenceAnalyzer.gd
-msgid "BRIEF_HEADER_MEDIUM"
-msgstr ""
-
-#: scripts/levels/LevelEvidenceAnalyzer.gd
-#, fuzzy
-msgid "BRIEF_HEADER_HIGH"
-msgstr "Detalhes de Relatório"
-
-#: scripts/levels/LevelEvidenceAnalyzer.gd
-msgid "BRIEF_ITEM_BIOLOGICAL"
-msgstr ""
-
-#: scripts/levels/LevelEvidenceAnalyzer.gd
-msgid "BRIEF_ITEM_RECORDS"
-msgstr ""
-
-#: scripts/levels/LevelEvidenceAnalyzer.gd
-msgid "BRIEF_ITEM_CHEMICAL"
-msgstr ""
-
-#: scripts/levels/LevelEvidenceAnalyzer.gd
-msgid "BRIEF_ITEM_EQUIPMENT"
-msgstr ""
-
-#: scripts/levels/LevelEvidenceAnalyzer.gd
-msgid "BRIEF_ITEM_EMPLOYEE"
-msgstr ""
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_SCORES_ANY"
-msgstr ""
-
-#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
-msgid "PRINTOUT_SCORES_SAVIOUR"
-msgstr ""
-
-#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
-msgid "LEADERBOARD_EMPTY"
-msgstr ""
-
-#: scripts/tutorial/TutorialPromptContainer.gd
+#: scripts/locale/dynamic_translation_keys.gd
 #, fuzzy
 msgid "TUTORIAL_PUSH_VENT"
 msgstr "Reset to start over."
 
-#: scripts/tutorial/TutorialPromptContainer.gd
+#: scripts/locale/dynamic_translation_keys.gd
 msgid "TUTORIAL_LOOK"
 msgstr "Hold to look around without moving."
 
-#: scripts/tutorial/TutorialPromptContainer.gd
+#: scripts/locale/dynamic_translation_keys.gd
 #, fuzzy
 msgid "TUTORIAL_SHOW_INSPECTABLE"
 msgstr "Reset to start over."
 
-#: scripts/tutorial/TutorialPromptContainer.gd
+#: scripts/locale/dynamic_translation_keys.gd
 #, fuzzy
 msgid "TUTORIAL_INSPECT"
 msgstr "Reset to start over."
 
-#: scripts/tutorial/TutorialPromptContainer.gd
+#: scripts/locale/dynamic_translation_keys.gd
 msgid "TUTORIAL_UNDO"
 msgstr "Made a mistake? Undo your last move."
 
-#: scripts/tutorial/TutorialPromptContainer.gd
+#: scripts/locale/dynamic_translation_keys.gd
 msgid "TUTORIAL_RESET"
 msgstr "Reset to start over."
 
-#: scripts/tutorial/TutorialPromptContainer.gd
+#: scripts/locale/dynamic_translation_keys.gd
 #, fuzzy
 msgid "TUTORIAL_LEAVE_ROOM"
 msgstr "Hold to look around without moving."
 
-#: scripts/ui/screens/EvidenceDisplaySequence.gd
-msgid "EVIDENCE_DETECTED"
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "BRIEF_NO_EVIDENCE"
 msgstr ""
 
-#: scripts/ui/screens/EvidenceDisplaySequence.gd
-msgid "NO_EVIDENCE_DETECTED"
+#: scripts/locale/dynamic_translation_keys.gd
+#, fuzzy
+msgid "BRIEF_HEADER_LOW"
+msgstr "Detalhes de Relatório"
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "BRIEF_HEADER_MEDIUM"
 msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+#, fuzzy
+msgid "BRIEF_HEADER_HIGH"
+msgstr "Detalhes de Relatório"
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "BRIEF_ITEM_BIOLOGICAL"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "BRIEF_ITEM_RECORDS"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "BRIEF_ITEM_CHEMICAL"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "BRIEF_ITEM_EQUIPMENT"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "BRIEF_ITEM_EMPLOYEE"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+#, fuzzy
+msgid "DEAD_MESSAGE_1"
+msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
+
+#: scripts/locale/dynamic_translation_keys.gd
+#, fuzzy
+msgid "DEAD_MESSAGE_2"
+msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
+
+#: scripts/locale/dynamic_translation_keys.gd
+#, fuzzy
+msgid "DEAD_MESSAGE_3"
+msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
+
+#: scripts/locale/dynamic_translation_keys.gd
+#, fuzzy
+msgid "DEAD_MESSAGE_4"
+msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
+
+#: scripts/locale/dynamic_translation_keys.gd
+#, fuzzy
+msgid "DEAD_MESSAGE_5"
+msgstr "Você morreu encobrindo os crimes da IPT. Você não será lembrado."
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "PREVIEW"
+msgstr ""
+
+#~ msgctxt "I_LISTEN"
+#~ msgid "I'm listening."
+#~ msgstr "Estou ouvindo."
+
+#~ msgctxt "INSTRUCTIONS"
+#~ msgid "Good, I have urgent instructions from leadership."
+#~ msgstr "Ótimo, tenho instruções urgentes de seus superiores."
+
+#~ msgctxt "BLIND"
+#~ msgid ""
+#~ "There's been an incident deep in the facility. The details are unclear, "
+#~ "All offsite communication systems are down. You will have to go in blind."
+#~ msgstr ""
+#~ "Houve um incidente no interior das instalações. Os detalhes não estão "
+#~ "claros. Todos os sistemas de comunicação externos estão fora do ar. Você "
+#~ "terá que entrar às cegas."
+
+#, fuzzy
+#~ msgctxt "TOWARD_SECTOR_5"
+#~ msgid "Load up the truck and work your way towards Sector 5."
+#~ msgstr "Prepare  caminhão e siga em direção ao Setor 5."
+
+#~ msgctxt "NO_TRACE"
+#~ msgid "Destroy all evidence, leave no trace."
+#~ msgstr "Destrua todas as evidências, não deixe sequer traços."
+
+#~ msgid "RESET_PROGRESS_DETAIL"
+#~ msgstr "Destrói todas as evidências de que você jogou este jogo"
+
+#~ msgid "RESET_SETTINGS_DETAIL"
+#~ msgstr "Redefine as configurações para seus valores padrão"
+
+#~ msgid "CTA_WISHLIST_BUTTON"
+#~ msgstr "Abrir Steam"
+
+#~ msgid "LEVEL_SELECT"
+#~ msgstr "Seleção de Nível"
+
+#~ msgid "PRINTOUT_SCORES"
+#~ msgstr "Pontos"
+
+#~ msgctxt "GET_BACK"
+#~ msgid "Get back to the labs, you're not finished."
+#~ msgstr "Volte aos laboratórios, você ainda não terminou."
+
+#~ msgctxt "GET_BACK_2"
+#~ msgid "Security will open the gate when you do what you're paid for."
+#~ msgstr ""
+#~ "A segurança abrirá o portão quando você fizer o que foi pago para fazer."
+
+#~ msgid "SIGNED"
+#~ msgstr "Assinatura"
+
+#~ msgid "COMPLETE"
+#~ msgstr "Completo"
+
+#, fuzzy
+#~ msgid "PRINTOUT_COMMUNITY"
+#~ msgstr "Tentar Novamente"
+
+#~ msgid "MOVEMENT"
+#~ msgstr "Mover"
+
+#~ msgid "PEEK"
+#~ msgstr "Espiar"
+
+#~ msgid "ENTER_LEVEL"
+#~ msgstr "Adentrar Nível"
+
+#~ msgid "LEVEL_COMPLETE"
+#~ msgstr "Nível Completo"
+
+#~ msgid "SKIP"
+#~ msgstr "Pular"
+
+#~ msgctxt "THANK_GOD"
+#~ msgid "Gott sei Dank, you're here - It's been days since I called for help."
+#~ msgstr ""
+#~ "Graças a Deus, você está aqui - Fazem dias desde que eu chamei por ajuda."
+
+#~ msgctxt "CHAOS"
+#~ msgid ""
+#~ "The containment failed. We've lost control, and now there are specimens "
+#~ "loose all over the facility. It's chaos."
+#~ msgstr ""
+#~ "A contenção falhou. Perdemos o controle e agora há espécimes soltos por "
+#~ "toda a instalação. Aqui está um caos."
+
+#, fuzzy
+#~ msgctxt "BACK_INTO_CONTAINMENT"
+#~ msgid ""
+#~ "Ludwig and I managed to get [color=\"#fdd179\"]PRS-86[/color] back in "
+#~ "containment. It was terrifying, but we did it..."
+#~ msgstr ""
+#~ "O Ludwig e eu conseguimos colocar a PRS-86 de volta para contenção. Foi "
+#~ "assustador, mas conseguimos..."
+
+#~ msgctxt "WORK_TO_BE_DONE"
+#~ msgid ""
+#~ "Ludwig didn't make it. I... I can't think about that right now. There's "
+#~ "work to be done."
+#~ msgstr ""
+#~ "O Ludwig não conseguiu. Eu... Eu não posso pensar nisso agora. Há "
+#~ "trabalho a ser feito."
+
+#~ msgctxt "BUILD_BATTERY"
+#~ msgid ""
+#~ "Build a [color=\"#fdd179\"]Battery[/color], the base is already prepared, "
+#~ "route power into the circuit and neutralize PRS-86."
+#~ msgstr ""
+#~ "Construa uma [color=\"#fdd179\"]Bateria[/color], a base já está "
+#~ "preparada, direcione a energia para o circuito e neutralize o PRS-86"
+
+#~ msgctxt "ROGER"
+#~ msgid "Roger that."
+#~ msgstr "Entendido."
+
+#~ msgctxt "SAVE_US"
+#~ msgid ""
+#~ "Please.. If you see any of my colleagues, save them. It's not our fault. "
+#~ "You can't understand the conditions IPT has had us working under."
+#~ msgstr ""
+#~ "Por favor... se você ver algum de meus colegas, salve-os. Não é a nossa "
+#~ "culpa. Você não entende em que condições que a IPT nos fez trabalhar."
+
+#~ msgctxt "DEMO_NO_MORE"
+#~ msgid "That's all for the demo."
+#~ msgstr "Isso é tudo para a demonstração."
+
+#~ msgid "REWIND"
+#~ msgstr "Retroceder"
+
+#, fuzzy
+#~ msgid "LEVEL_EDITOR_EDIT_CURRENT"
+#~ msgstr "Editor de Níveis"
 
 #, fuzzy
 #~ msgid "TUTORIAL_MOVEMENT"
