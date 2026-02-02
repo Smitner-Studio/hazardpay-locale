@@ -69,7 +69,7 @@ msgstr ""
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "CONFIRM_EXIT"
-msgstr "Are you sure you want to exit"
+msgstr "Are you sure you want to exit?"
 
 #: scenes/ui/panels/ConfirmPopupPanel.tscn
 msgid "YES"
@@ -192,7 +192,7 @@ msgstr "Exit"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "COPYRIGHT_NOTICE"
-msgstr "Copyright© Smitner Studio 2025"
+msgstr "Copyright© Smitner Studio 2026"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "CTA_WISHLIST"
@@ -742,7 +742,6 @@ msgstr "No evidence detected"
 #: scripts/overworld/OverworldPromptContainer.gd
 msgid "PREVIEW"
 msgstr "Open Preview"
-
 
 #~ msgid "SHOW_HINT"
 #~ msgstr "Show Hints"
