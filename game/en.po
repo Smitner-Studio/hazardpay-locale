@@ -533,7 +533,7 @@ msgstr "Are you sure you want to apply the default settings?"
 
 #: scenes/ui/panels/settings/Settings.gd
 msgid "CONFIRM_RESET_PROGRESS"
-msgstr "Are you sure you want to destroy all evidence of your progress"
+msgstr "Are you sure you want to destroy all evidence of your progress?"
 
 #. TRANSLATORS: Character name
 #: dialogue/rebel_sci_intro.dialogue dialogue/special_road.dialogue
