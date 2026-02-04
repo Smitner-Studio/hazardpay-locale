@@ -131,6 +131,16 @@ msgid "HAPTIC_ENABLED"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "KEYBOARD_BINDINGS"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/panels/settings/Settings.gd
+msgid "RESET_KEYS"
+msgstr ""
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
 msgid "APPLY_CLOSE"
 msgstr ""
 
@@ -393,6 +403,10 @@ msgstr ""
 msgid "CONFIRM_RESET_PROGRESS"
 msgstr ""
 
+#: scenes/ui/panels/settings/Settings.gd
+msgid "CONFIRM_RESET_KEYS"
+msgstr ""
+
 #. TRANSLATORS: Character name
 #: dialogue/inspect/inspect_acid.dialogue
 #: dialogue/inspect/inspect_flesh.dialogue
@@ -493,21 +507,68 @@ msgid "RADIO"
 msgstr ""
 
 #: dialogue/idle/idle_level.dialogue
-#: dialogue/idle/idle_overworld.dialogue
-msgctxt "IDLE_LEVEL_TIER_3"
-msgid "Hey {{ProgressManagerGlobal.get_employee_number_formatted()}}, easter egg"
+msgctxt "IDLE_LEVEL_TIER_6"
+msgid "Attention, {{ProgressManagerGlobal.get_employee_number_formatted()}}. Due to budget constraints, disciplinary action must now be outsourced. All valued employees, who signed a contact agreeing to such measures, must now self-regulate. IPT trusts that you will sustain your allegiance through these testing times.[wait=0.05] Seek out a complementary vat of acid. Proceed with self-administration of penance. Your Solidarität is acknowledged."
 msgstr ""
 
 #: dialogue/idle/idle_level.dialogue
+msgctxt "IDLE_LEVEL_TIER_4"
+msgid "Attention, {{ProgressManagerGlobal.get_employee_number_formatted()}}, you have 90 seconds to submit to protocol 12-B. Disciplinary action will taken if ignored. Warning issued."
+msgstr ""
+
+#: dialogue/idle/idle_level.dialogue
+msgctxt "IDLE_LEVEL_TIER_3"
+msgid "Failure to comply will be interpreted as hostile intent. Move. [wait=0.02]Now."
+msgstr ""
+
+#: dialogue/idle/idle_level.dialogue
+msgctxt "IDLE_LEVEL_TIER_2"
+msgid "Delay is dissent. Proceed as ordered."
+msgstr ""
+
+#: dialogue/idle/idle_level.dialogue
+msgctxt "IDLE_LEVEL_TIER_1"
+msgid "Movement undetected. Per protocol 12-B, all units must take action once orders have been given. Advance as instructed."
+msgstr ""
+
+#: dialogue/idle/idle_overworld.dialogue
+msgctxt "RUMOUR_DIRECTOR"
+msgid "Psst…{{ProgressManagerGlobal.get_employee_number_formatted()}}, are you alone? [wait=0.08] Have you heard the rumours?… About the Director."
+msgstr ""
+
+#: dialogue/idle/idle_overworld.dialogue
+msgctxt "PARANOID"
+msgid "They say he’s paranoid, barely sleeps anymore. Just sits in his office… watching everyone on those telescreens. Records it too."
+msgstr ""
+
+#: dialogue/idle/idle_overworld.dialogue
+msgctxt "SCREENS_CREEPY"
+msgid "Creepy… What does that to a man?"
+msgstr ""
+
+#: dialogue/idle/idle_overworld.dialogue
+msgctxt "CONVO_NEVER_HAPPENED"
+msgid "It affects us all… Don’t you feel it? He knows something.[wait=0.05] You‘d better get moving. For both our sakes, this conversation never happened."
+msgstr ""
+
 #: dialogue/idle/idle_overworld.dialogue
 msgctxt "IDLE_LEVEL_TIER_2"
-msgid "Second Threat"
+msgid "IPT does not condone waste of resources. Advance as ordered. [wait=0.05] Infraction reported."
 msgstr ""
 
-#: dialogue/idle/idle_level.dialogue
+#: dialogue/idle/idle_overworld.dialogue
+msgctxt "IDLE_LEVEL_TIER_3"
+msgid "Further insubordination will result in disciplinary action. Warning issued."
+msgstr ""
+
+#: dialogue/idle/idle_overworld.dialogue
+msgctxt "IDLE_LEVEL_TIER_4"
+msgid "Systems detect no movement. If the vehicle is inoperable, a report must be submitted. Otherwise proceed as ordered."
+msgstr ""
+
 #: dialogue/idle/idle_overworld.dialogue
 msgctxt "IDLE_LEVEL_TIER_1"
-msgid "First threat"
+msgid "Systems detect no movement. Per protocol 12-B, all units must take action once orders have been given.[wait=0.03] Proceed as instructed."
 msgstr ""
 
 #: dialogue/inspect/inspect_diary.dialogue
@@ -522,12 +583,12 @@ msgstr ""
 
 #: dialogue/road_blocks/sector_2_open.dialogue
 msgctxt "01_GATE_SAVED"
-msgid "[[Adequate work|Minimum requirements met|Minimum objective met]]. [[Deviation recorded|Execution deficient|Improvement expected]]. Stand by.[wait=0.05] Sector-02 security clearance granted. IPT reminds you of directive parameters.[wait=0.02] Leave no trace. Personnel not excluded. Your performance has been logged. [[Further discrepancies|Failure to comply|Failure to align with directive]] may result in [[premature termination|an expiration of service|adverse disciplinary action]]."
+msgid "RADIO: [[Adequate work|Minimum requirements met|Minimum objective met|]]. [[Deviation recorded|Execution deficient|Improvement expected]]. Stand by.[wait=0.05] Sector-02 security clearance granted. IPT reminds you of directive parameters.[wait=0.02] Leave no trace. Personnel not excluded. Your performance has been logged. [[Further discrepancies|Failure to comply|Failure to align with directive]], may result in [[premature termination|an expiration of service|adverse disciplinary action]]."
 msgstr ""
 
 #: dialogue/road_blocks/sector_2_open.dialogue
 msgctxt "01_GATE_KILLED"
-msgid "[[Performance exemplary|Function achieved, no deviation noted|Commendation logged, maintain standard]]. Execution aligned with directive. IPT thanks you for [[upholding our values|modelling our ethos|your tactical economy]]. Efficiency is loyalty, Comrade. Proceed to Sector-02, security clearance has been granted. Your efforts have been logged as a model of Excellence."
+msgid "[[Performance exemplary|Function achieved, no deviation noted|Commendation logged, maintain standard]]. Execution aligned with directive. IPT commends you for [[upholding our values|modelling our ethos|your tactical economy]]. Efficiency is loyalty, Comrade. Proceed to Sector-02, security clearance has been granted. Your efforts have been logged as a model of Excellence."
 msgstr ""
 
 #: dialogue/road_blocks/sector_all_blocked.dialogue
@@ -652,7 +713,7 @@ msgstr ""
 
 #: dialogue/story/otto_radio_intro.dialogue
 msgctxt "ANYONE_COPY"
-msgid "Recovery Unit {{ProgressManagerGlobal.get_employee_number_formatted()}}, does anyone copy?[next=0.05]"
+msgid "Recovery Unit {{ProgressManagerGlobal.get_employee_number_formatted()}}, does anyone copy?[next=0.15]"
 msgstr ""
 
 #: dialogue/story/otto_radio_intro.dialogue
@@ -712,12 +773,12 @@ msgstr ""
 
 #: dialogue/level/exit_unfinished_required_level.dialogue
 msgctxt "CONTINUE_WHAT_YOU_STARTED"
-msgid "I suggest you continue what you started."
+msgid "This area is not neutralised. You cannot leave yet. Complete your function."
 msgstr ""
 
 #: dialogue/level/exit_unfinished_required_level.dialogue
 msgctxt "NOT_FINISHED"
-msgid "Get back to work, you're not finished."
+msgid "You're not finished here. There is still evidence. Use what you have and complete the job."
 msgstr ""
 
 #. TRANSLATORS: Character name
@@ -1043,6 +1104,54 @@ msgstr ""
 
 #: scripts/locale/dynamic_translation_keys.gd
 msgid "PREVIEW"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_MOVE_UP"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_MOVE_DOWN"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_MOVE_LEFT"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_MOVE_RIGHT"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_INSPECT"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_SHOW_INSPECTABLE"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_UNDO"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_RESET"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_PAUSE"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_FACE_MODIFIER"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_PRESS_KEY"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "INPUT_UNBOUND"
 msgstr ""
 
 #: scenes/ui/screens/reset_screen/reset_screen.tscn
