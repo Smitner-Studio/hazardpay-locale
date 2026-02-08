@@ -131,7 +131,6 @@ msgid "HAPTIC_ENABLED"
 msgstr ""
 
 #: scenes/ui/panels/settings/SettingsPanel.tscn
-#: scripts/locale/dynamic_translation_keys.gd
 msgid "KEYBOARD_BINDINGS"
 msgstr ""
 
@@ -958,6 +957,11 @@ msgstr ""
 msgid "NO_EVIDENCE_DETECTED"
 msgstr ""
 
+#: scripts/ui/screens/EvidenceDisplaySequence.gd
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_BLOOD"
+msgstr ""
+
 #: scenes/ui/panels/community/CommunityPanel.tscn
 msgid "BACK"
 msgstr ""
@@ -1080,6 +1084,134 @@ msgstr ""
 
 #: scripts/locale/dynamic_translation_keys.gd
 msgid "BRIEF_ITEM_EMPLOYEE"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_ACID_BARREL"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_COVERED_ACID_BARREL"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_FLESH"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_ACID_BARREL_COVER"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_PAPER"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_MOP"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_INACTIVE_DISPOSER"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_ACTIVE_DISPOSER"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_BUTTON"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_METAL_DOOR"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_SCANNER"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_FLESH_GOO"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_TOOLBOX"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_HAMMER"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_RADIO"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_SCIENTIST"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_TIED_SCIENTIST"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_TAPE"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_BATTERY_BASE"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_BATTERY"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_OPEN_VENT"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_CLOSED_VENT"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_VENT_COVER"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_TOUNGUE_CREATURE"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_CLOTHES"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_CLOTHES_BASKET"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_BLOODY_CLOTHES_BASKET"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_INACTIVE_STECKDOSE"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_ACTIVE_STECKDOSE"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_ASH"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_REBEL_SCIENTIST"
+msgstr ""
+
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "ITEM_NAME_TENTACLE_CREATURE"
 msgstr ""
 
 #: scripts/locale/dynamic_translation_keys.gd
