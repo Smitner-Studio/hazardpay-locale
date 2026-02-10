@@ -159,11 +159,11 @@ msgstr "Ações"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "START_GAME"
-msgstr "Iniciar Jogo"
+msgstr "Iniciar"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "CONTINUE_GAME"
-msgstr "Continuar Jogo"
+msgstr "Continuar"
 
 #: scenes/ui/screens/main_menu.tscn
 msgid "GOTO_OVERWORLD"
