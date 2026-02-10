@@ -1,0 +1,762 @@
+# LANGUAGE translation for Hazard Pay for the following files:
+# res://dialogue/intro.dialogue
+# res://scenes/ui/panels/ConfirmPopupPanel.tscn
+# res://scenes/ui/panels/settings/SettingsPanel.tscn
+# res://scenes/ui/screens/main_menu.tscn
+# res://scenes/ui/screens/level_preview_screen.tscn
+# res://scenes/ui/screens/credits_panel.tscn
+# res://dialogue/road_blocked.dialogue
+# res://dialogue/road_unblocked.dialogue
+# res://dialogue/road_block_no_exit.dialogue
+# res://scenes/ui/screens/report_sheet.tscn
+# res://scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+# res://scenes/ui/screens/level_preview/score_tab.tscn
+# res://scenes/ui/screens/level_preview/score_report_sheet.tscn
+# res://scenes/ui/screens/level_preview/ScoreReportSheet.gd
+# res://dialogue/exit_unfinished_required_level.dialogue
+# res://scenes/ui/screens/player_death_screen.tscn
+# res://scenes/ui/screens/game_controls.tscn
+# res://scenes/ui/screens/level_complete/level_complete_screen.tscn
+# res://scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+# res://scenes/ui/panels/settings/Settings.gd
+# res://dialogue/rebel_sci_intro.dialogue
+# res://dialogue/road_blocked_demo.dialogue
+# res://scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+# res://scenes/ui/screens/rewind_screen/rewind_screen.tscn
+# res://dialogue/special_road.dialogue
+# res://dialogue/playtest_complete_unblocked.dialogue
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hazard Pay\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#. TRANSLATORS: Character name
+#: dialogue/intro.dialogue dialogue/rebel_sci_intro.dialogue
+#: dialogue/special_road.dialogue
+msgctxt "dialogue"
+msgid "YOU"
+msgstr "你"
+
+#. TRANSLATORS: Character name
+#: dialogue/intro.dialogue dialogue/road_blocked.dialogue
+#: dialogue/road_unblocked.dialogue dialogue/road_block_no_exit.dialogue
+#: dialogue/exit_unfinished_required_level.dialogue
+#: dialogue/road_blocked_demo.dialogue
+#: dialogue/playtest_complete_unblocked.dialogue
+msgctxt "dialogue"
+msgid "RADIO"
+msgstr "无线电"
+
+#: dialogue/intro.dialogue
+msgctxt "I_LISTEN"
+msgid "I'm listening."
+msgstr "我在听。"
+
+#: dialogue/intro.dialogue
+msgctxt "INSTRUCTIONS"
+msgid "Good, I have urgent instructions from leadership."
+msgstr "很好。我有来自上级的紧急指示。"
+
+#: dialogue/intro.dialogue
+msgctxt "BLIND"
+msgid ""
+"There's been an incident deep in the facility. The details are unclear, All "
+"offsite communication systems are down. You will have to go in blind."
+msgstr ""
+"设施深处发生了一起事故，具体情况不明。所有外部通讯系统已中断。你将只能在信息"
+"全无的情况下进入。"
+
+#: dialogue/intro.dialogue
+msgctxt "TOWARD_SECTOR_5"
+msgid "Load up the truck and work your way towards Sector 5."
+msgstr "装载车辆，向第5区推进。"
+
+#: dialogue/intro.dialogue
+msgctxt "NO_TRACE"
+msgid "Destroy all evidence, leave no trace."
+msgstr "销毁所有证据，别留任何痕迹。"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "CONFIRM_EXIT"
+msgstr "确认退出"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "YES"
+msgstr "是"
+
+#: scenes/ui/panels/ConfirmPopupPanel.tscn
+msgid "NO"
+msgstr "否"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "MAIN"
+msgstr "主菜单"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "LANGUAGE"
+msgstr "语言"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "UPLOAD_SCORE"
+msgstr "上传分数"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/panels/settings/Settings.gd
+msgid "RESET_PROGRESS"
+msgstr "重置进度"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_PROGRESS_DETAIL"
+msgstr "重置所有游戏进度"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/panels/settings/Settings.gd
+msgid "RESET_SETTINGS"
+msgstr "重置设置"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "RESET_SETTINGS_DETAIL"
+msgstr "恢复默认设置"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AUDIO"
+msgstr "音频"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+#: scenes/ui/screens/credits_panel.tscn
+msgid "MUSIC"
+msgstr "音乐"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "EFFECTS"
+msgstr "音效"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "AMBIANCE"
+msgstr "环境音"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "VISUAL"
+msgstr "画面"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "FULLSCREEN"
+msgstr "全屏"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "UI_SCALE"
+msgstr "界面缩放"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "100%"
+msgstr "100%"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "INPUT"
+msgstr "输入"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "HAPTIC_ENABLED"
+msgstr "启用触觉反馈"
+
+#: scenes/ui/panels/settings/SettingsPanel.tscn
+msgid "APPLY_CLOSE"
+msgstr "应用并关闭"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "MENU_ACTIONS"
+msgstr "菜单操作"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "START_GAME"
+msgstr "开始任务"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CONTINUE_GAME"
+msgstr "继续任务"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "GOTO_OVERWORLD"
+msgstr "返回主区域"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "PLAYTEST_LEVELS"
+msgstr "测试关卡"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "LEVEL_EDITOR"
+msgstr "关卡编辑器"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "SETTINGS"
+msgstr "设置"
+
+#: scenes/ui/screens/main_menu.tscn scenes/ui/screens/credits_panel.tscn
+msgid "CREDITS"
+msgstr "制作人员"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "EXIT"
+msgstr "退出"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "COPYRIGHT_NOTICE"
+msgstr "版权声明"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST"
+msgstr "加入愿望单"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST_BODY"
+msgstr "把Hazard Pay加入愿望单"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_WISHLIST_BUTTON"
+msgstr "加入愿望单"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD"
+msgstr "加入Discord"
+
+#: scenes/ui/screens/main_menu.tscn
+msgid "CTA_DISCORD_BODY"
+msgstr "加入我们的Discord社区"
+
+#: scenes/ui/screens/main_menu.tscn
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "CTA_DISCORD_BUTTON"
+msgstr "前往Discord"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "LEVEL_SELECT"
+msgstr "关卡选择"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_HEADER"
+msgstr "任务简报"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "MISSION"
+msgstr "任务"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_ATTACH_SUMMARY"
+msgstr "附加摘要"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_SCORES"
+msgstr "分数记录"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+msgid "PRINTOUT_BACK"
+msgstr "返回"
+
+#: scenes/ui/screens/level_preview_screen.tscn
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_ACCEPT"
+msgstr "确认"
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "COMMUNITY_LEVELS"
+msgstr "社区关卡"
+
+#: scenes/ui/panels/community/CommunityPanel.tscn
+msgid "LOADING_LEVEL"
+msgstr "正在加载关卡"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "DEVELOPMENT"
+msgstr "开发团队"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Arran Smith | mail@smitner.studio\n"
+"[url=https://smitner.studio]https://smitner.studio[/url]\n"
+msgstr ""
+"Arran Smith | mail@smitner.studio\n"
+"[url=https://smitner.studio]https://smitner.studio[/url]\n"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "CC-BY-4.0"
+msgstr "知识共享署名4.0协议"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Giuseppe \"reDD\" Zano\n"
+"[url=https://giuseppezano.bandcamp.com/]https://giuseppezano.bandcamp.com[/"
+"url]"
+msgstr ""
+"Giuseppe \"reDD\" Zano\n"
+"[url=https://giuseppezano.bandcamp.com/]https://giuseppezano.bandcamp.com[/"
+"url]"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "TRANSLATION"
+msgstr "本地化"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"V.\n"
+"Ravi\n"
+"Georges Kaplan\n"
+"Gigi"
+msgstr ""
+"V.\n"
+"Ravi\n"
+"Georges Kaplan\n"
+"Gigi"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid "PLAYTESTERS"
+msgstr "测试人员"
+
+#: scenes/ui/screens/credits_panel.tscn
+msgid ""
+"Ravi\n"
+"Georges Kaplan\n"
+"Matt Schikore\n"
+"Paul James\n"
+"Buromomento\n"
+msgstr ""
+"Ravi\n"
+"Georges Kaplan\n"
+"Matt Schikore\n"
+"Paul James\n"
+"Buromomento\n"
+
+#: scenes/ui/screens/credits_panel.tscn
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "DISMISS"
+msgstr "确认"
+
+#: dialogue/road_blocked.dialogue
+msgctxt "GET_BACK"
+msgid "Get back to the labs, you're not finished."
+msgstr "回实验室去，你还没做完该做的事。"
+
+#: dialogue/road_blocked.dialogue
+msgctxt "GET_BACK_2"
+msgid "Security will open the gate when you do what you're paid for."
+msgstr "把活儿干完，安保自然会打开大门。"
+
+#: dialogue/road_unblocked.dialogue
+msgctxt "PROCEED_TO_NEXT_SECTOR"
+msgid ""
+"[[Well Done|Good Job|Good]]. You now have access to this Sector, please "
+"proceed."
+msgstr "[[干得不错|做得好|很好]].你已获得该区域的访问权限，请继续前进。"
+
+#: dialogue/road_block_no_exit.dialogue
+msgctxt "JOB_IS_NOT_FINISHED"
+msgid "You're not leaving until the job is finished."
+msgstr "任务完成之前，你不能离开。"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "REPORT_HEADER"
+msgstr "执行记录"
+
+#: scenes/ui/screens/report_sheet.tscn
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "1978-01-01 12:00:00"
+msgstr "1978-01-01 12:00:00"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "MOVES"
+msgstr "行动次数"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "000"
+msgstr "000"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "SIGNED"
+msgstr "已签署"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "COMPLETE"
+msgstr "已完成"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "GRADE"
+msgstr "评级"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "GRADE_ACCEPTABLE"
+msgstr "评级：合格"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "NO_NOTES"
+msgstr "无备注"
+
+#: scenes/ui/screens/ReportSheet.gd
+msgid "REPORT_ALL_RESCUED"
+msgstr "已救出全部人员"
+
+#: scenes/ui/screens/ReportSheet.gd
+msgid "REPORT_SCI_STATUS"
+msgstr "科研人员状态"
+
+#: scenes/ui/screens/report_sheet.tscn
+msgid "DATED"
+msgstr "日期"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_COMMUNITY"
+msgstr "社区记录"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_RETRY"
+msgstr "重新执行"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_OPTIONAL_NOTE"
+msgstr "附加备注（可选）"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "\n"
+msgstr ""
+
+#: scenes/ui/screens/level_preview/score_tab.tscn
+msgid "PRINTOUT_SCORE_LOADING"
+msgstr "正在加载分数记录"
+
+#: scenes/ui/screens/level_preview/score_tab.tscn
+msgid "ERROR"
+msgstr "错误"
+
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+msgid "UNKNOWN_TITLE"
+msgstr "未知标题"
+
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+msgid "PRINTOUT_LAST_UPDATED"
+msgstr "最后更新时间"
+
+#: scenes/ui/screens/level_preview/score_report_sheet.tscn
+msgid "1984-01-01"
+msgstr "1984-01-01"
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_GLOBAL"
+msgstr "全球排行榜"
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_FRIENDS"
+msgstr "请求好友排行榜数据"
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_GLOBAL_AROUND_USER"
+msgstr "请求与你排名相近的全球数据"
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_DATA_REQUEST_USERS"
+msgstr "请求用户排行榜数据"
+
+#: dialogue/exit_unfinished_required_level.dialogue
+msgctxt "CONTINUE_WHAT_YOU_STARTED"
+msgid "I suggest you continue what you started."
+msgstr "我建议你继续完成手上的事。"
+
+#: dialogue/exit_unfinished_required_level.dialogue
+msgctxt "NOT_FINISHED"
+msgid "Get back to work, you're not finished."
+msgstr "回去工作，任务还没结束。"
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEATH_SCREEN_TITLE"
+msgstr "死亡"
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_1"
+msgstr "你已失去行动能力"
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_2"
+msgstr "任务失败"
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_3"
+msgstr "事故已记录"
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_4"
+msgstr "损失已记录"
+
+#: scenes/ui/screens/player_death_screen.tscn
+msgid "DEAD_MESSAGE_5"
+msgstr "请重新尝试"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "MOVEMENT"
+msgstr "移动"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "PEEK"
+msgstr "窥探"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "RESET"
+msgstr "重置"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "UNDO"
+msgstr "撤销"
+
+#: scenes/ui/screens/game_controls.tscn
+msgid "ENTER_LEVEL"
+msgstr "进入关卡"
+
+#: scenes/ui/screens/evidence_display_sequence.tscn
+msgid "SCANNING"
+msgstr "扫描中"
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "LEVEL_COMPLETE"
+msgstr "关卡完成"
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "RETRY"
+msgstr "重试"
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "CONTINUE"
+msgstr "继续"
+
+#: dialogue/balloon.tscn
+msgid "SKIP"
+msgstr "跳过"
+
+#: scenes/ui/screens/level_complete/level_complete_screen.tscn
+msgid "CHOOSE_RECORD_PROMPT"
+msgstr "选择记录"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+msgid "OPEN_STEAM_PROFILE"
+msgstr "打开Steam个人资料"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScoreEntry.gd
+msgid "CONFIRM_OPEN_STEAM_PROFILE"
+msgstr "确认打开Steam个人资料"
+
+#: scenes/ui/panels/settings/Settings.gd
+msgid "CONFIRM_RESET_SETTINGS"
+msgstr "确认重置设置"
+
+#: scenes/ui/panels/settings/Settings.gd
+msgid "CONFIRM_RESET_PROGRESS"
+msgstr "确认重置进度"
+
+#. TRANSLATORS: Character name
+#: dialogue/rebel_sci_intro.dialogue dialogue/special_road.dialogue
+msgctxt "dialogue"
+msgid "REBEL_SCIENTIST"
+msgstr "叛逃科学家"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "THANK_GOD"
+msgid "Gott sei Dank, you're here - It's been days since I called for help."
+msgstr "谢天谢地，你终于来了。我呼叫救援好几天了。"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "CHAOS"
+msgid ""
+"The containment failed. We've lost control, and now there are specimens "
+"loose all over the facility. It's chaos."
+msgstr ""
+"封锁失败！我们已经无能为力了，现在设施内到处是逃逸的实验体。现场一片狼藉。"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "BACK_INTO_CONTAINMENT"
+msgid ""
+"Ludwig and I managed to get [color=\"#fdd179\"]PRS-86[/color] back in "
+"containment. It was terrifying, but we did it..."
+msgstr ""
+"我和路德维希终于将[color=\"#fdd179\"]PRS-86[/color]重新收容了。虽然惊险万分，"
+"但总算成功了……"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "WORK_TO_BE_DONE"
+msgid ""
+"Ludwig didn't make it. I... I can't think about that right now. There's work "
+"to be done."
+msgstr "路德维希没能撑过来……我现在不能去想这些。还有工作要完成。"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "BUILD_BATTERY"
+msgid ""
+"Build a [color=\"#fdd179\"]Battery[/color], the base is already prepared, "
+"route power into the circuit and neutralize PRS-86."
+msgstr ""
+"组装 [color=\"#fdd179\"电池[/color]。底座已就绪，将电力接入电路并解除PRS-86的"
+"防护。"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "ROGER"
+msgid "Roger that."
+msgstr "收到。"
+
+#: dialogue/rebel_sci_intro.dialogue
+msgctxt "SAVE_US"
+msgid ""
+"Please.. If you see any of my colleagues, save them. It's not our fault. You "
+"can't understand the conditions IPT has had us working under."
+msgstr ""
+"求求你们……如果看到我的同事，请救救他们。这不是我们的错。你们根本不明白IPT让我"
+"们在怎样的条件下工作。"
+
+#: dialogue/road_blocked_demo.dialogue
+msgctxt "DEMO_NO_MORE"
+msgid "That's all for the demo."
+msgstr "试玩内容到此结束。"
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "THANKS_DEMO_HEADER"
+msgstr "感谢游玩"
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "THANKS_DEMO_BODY"
+msgstr "感谢你体验本次试玩内容"
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "CTA_REVIEW_BUTTON"
+msgstr "撰写评价"
+
+#: scenes/ui/screens/demo_thanks/demo_thanks_screen.tscn
+msgid "DONT_SHOW_AGAIN"
+msgstr "不再显示"
+
+#: scenes/ui/screens/rewind_screen/rewind_screen.tscn
+msgid "REWIND"
+msgstr "回溯"
+
+#: dialogue/special_road.dialogue
+msgid "Nope, I don't trust you."
+msgstr "不，我不信任你。"
+
+#: dialogue/special_road.dialogue
+msgid "Actually, you know what?"
+msgstr "其实……你知道吗？"
+
+#: dialogue/special_road.dialogue
+msgid "..."
+msgstr "..."
+
+#: dialogue/playtest_complete_unblocked.dialogue
+msgid ""
+"Smitner here, Thanks for playing! Please give some feedback on the Discord."
+msgstr "这里是Smitner，感谢游玩！欢迎通过Discord告诉我们你的反馈和建议。"
+
+# Dynamic keys - used in code, not extracted automatically
+#: scenes/ui/screens/main_menu/MenuItems.gd
+msgid "LEVEL_EDITOR_EDIT_CURRENT"
+msgstr "编辑当前关卡"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_REQUIRED_NOTE"
+msgstr "必要备注"
+
+#: scripts/LevelManager.gd
+msgid "BRIEF_STANDARD_CLEANUP"
+msgstr "标准清理任务"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_NO_EVIDENCE"
+msgstr "无证据残留"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_LOW"
+msgstr "难度等级：低"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_MEDIUM"
+msgstr "难度等级：中"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_HEADER_HIGH"
+msgstr "难度等级：高"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_BIOLOGICAL"
+msgstr "生物残留"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_RECORDS"
+msgstr "档案资料"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_CHEMICAL"
+msgstr "化学物质"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_EQUIPMENT"
+msgstr "设备"
+
+#: scripts/levels/LevelEvidenceAnalyzer.gd
+msgid "BRIEF_ITEM_EMPLOYEE"
+msgstr "员工"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_ANY"
+msgstr "评分记录"
+
+#: scenes/ui/screens/level_preview/LevelPreviewScreen.gd
+msgid "PRINTOUT_SCORES_SAVIOUR"
+msgstr "拯救者得分"
+
+#: scenes/ui/screens/level_preview/ScoreReportSheet.gd
+msgid "LEADERBOARD_EMPTY"
+msgstr "暂无排行榜数据"
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_PUSH_VENT"
+msgstr "教程：推开通风口"
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_LOOK"
+msgstr "教程：观察"
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_SHOW_INSPECTABLE"
+msgstr "教程：显示可检查物品"
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_INSPECT"
+msgstr "教程：检查"
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_UNDO"
+msgstr "教程：撤销"
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_RESET"
+msgstr "教程：重置"
+
+#: scripts/tutorial/TutorialPromptContainer.gd
+msgid "TUTORIAL_LEAVE_ROOM"
+msgstr "教程：离开房间"
+
+#: scripts/ui/screens/EvidenceDisplaySequence.gd
+msgid "EVIDENCE_DETECTED"
+msgstr "检测到证据"
+
+#: scripts/ui/screens/EvidenceDisplaySequence.gd
+msgid "NO_EVIDENCE_DETECTED"
+msgstr "未检测到证据"
+
+#: scripts/overworld/OverworldPromptContainer.gd
+msgid "PREVIEW"
+msgstr "进入"
