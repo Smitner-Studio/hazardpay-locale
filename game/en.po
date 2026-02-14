@@ -328,6 +328,10 @@ msgstr ""
 "Exit interview for Employee #{employee_number} has been cancelled due to "
 "scheduling conflicts."
 
+#: scenes/effects/action_hint_bar.tscn
+msgid "UNDO"
+msgstr "Undo"
+
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "RETRY"
 msgstr "Retry"
@@ -1666,9 +1670,6 @@ msgstr ""
 msgctxt "INSPECT_TENTACLE"
 msgid "It knows I'm here…"
 msgstr ""
-
-#~ msgid "UNDO"
-#~ msgstr "Undo"
 
 #~ msgid "RESET_PROGRESS_DETAIL"
 #~ msgstr "Destroys all evidence of you playing this game"

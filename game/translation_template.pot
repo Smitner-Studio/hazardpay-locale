@@ -368,6 +368,10 @@ msgstr ""
 msgid "GENERIC_DEAD_MESSAGE"
 msgstr ""
 
+#: scenes/effects/action_hint_bar.tscn
+msgid "UNDO"
+msgstr ""
+
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "RETRY"
 msgstr ""
