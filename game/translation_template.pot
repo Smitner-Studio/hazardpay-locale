@@ -32,8 +32,6 @@
 # res://dialogue/story/otto_radio_intro.dialogue
 # res://dialogue/level/exit_unfinished_required_level.dialogue
 # res://dialogue/test/test.dialogue
-# res://dialogue/react/react_sci.dialogue
-# res://dialogue/react/react_tied_sci.dialogue
 # res://scenes/ui/screens/ReportSheet.gd
 # res://scripts/ui/screens/EvidenceDisplaySequence.gd
 # res://scripts/overworld/OverworldPromptContainer.gd
@@ -48,6 +46,13 @@
 # res://scenes/ui/screens/reset_screen/reset_screen.tscn
 # res://dialogue/balloon.tscn
 # res://scenes/ui/screens/evidence_display_sequence.tscn
+# res://dialogue/story/otto_personal_intro.dialogue
+# res://dialogue/story/cinematic_sector_5.dialogue
+# res://dialogue/react/reactions.dialogue
+# res://dialogue/inspect/inspect_covered_acid.dialogue
+# res://dialogue/inspect/inspect_battery.dialogue
+# res://dialogue/inspect/inspect_tongue.dialogue
+# res://dialogue/inspect/inspect_tentacle.dialogue
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -363,15 +368,6 @@ msgstr ""
 msgid "GENERIC_DEAD_MESSAGE"
 msgstr ""
 
-#: scenes/ui/screens/player_death_screen.tscn
-msgid "UNDO"
-msgstr ""
-
-#: scenes/ui/screens/player_death_screen.tscn
-#: scenes/ui/screens/reset_screen/reset_screen.tscn
-msgid "RESET"
-msgstr ""
-
 #: scenes/ui/screens/level_complete/level_complete_screen.tscn
 msgid "RETRY"
 msgstr ""
@@ -414,23 +410,29 @@ msgstr ""
 #: dialogue/story/intro.dialogue
 #: dialogue/story/otto_radio_intro.dialogue
 #: dialogue/test/test.dialogue
+#: dialogue/story/otto_personal_intro.dialogue
+#: dialogue/story/cinematic_sector_5.dialogue
+#: dialogue/inspect/inspect_covered_acid.dialogue
+#: dialogue/inspect/inspect_battery.dialogue
+#: dialogue/inspect/inspect_tongue.dialogue
+#: dialogue/inspect/inspect_tentacle.dialogue
 msgctxt "dialogue"
 msgid "YOU"
 msgstr ""
 
 #: dialogue/inspect/inspect_acid.dialogue
 msgctxt "INSPECT_ACID"
-msgid "Hmmm, careful"
+msgid "Smells sulphuric… I must be careful."
 msgstr ""
 
 #: dialogue/inspect/inspect_flesh.dialogue
 msgctxt "INSPECT_FLESH"
-msgid "Still warm..."
+msgid "Ugh, rancid."
 msgstr ""
 
 #. TRANSLATORS: Character name
 #: dialogue/inspect/inspect_sci.dialogue
-#: dialogue/react/react_sci.dialogue
+#: dialogue/react/reactions.dialogue
 msgctxt "dialogue"
 msgid "SCIENTIST"
 msgstr ""
@@ -457,39 +459,14 @@ msgstr ""
 
 #. TRANSLATORS: Character name
 #: dialogue/inspect/inspect_tied_sci.dialogue
-#: dialogue/react/react_tied_sci.dialogue
+#: dialogue/react/reactions.dialogue
 msgctxt "dialogue"
 msgid "TIED_SCIENTIST"
 msgstr ""
 
 #: dialogue/inspect/inspect_tied_sci.dialogue
-msgctxt "TIED_UNHAND"
-msgid "What the?! Unhand me!"
-msgstr ""
-
-#: dialogue/inspect/inspect_tied_sci.dialogue
-msgctxt "TIED_PROTOCOL"
-msgid "Ugh, damn it! This falls outside protocol!"
-msgstr ""
-
-#: dialogue/inspect/inspect_tied_sci.dialogue
-msgctxt "TIED_AUTHORISED"
-msgid "This can't be authorised…"
-msgstr ""
-
-#: dialogue/inspect/inspect_tied_sci.dialogue
-msgctxt "TIED_UNTIE"
-msgid "I work here, damn it! Untie me!"
-msgstr ""
-
-#: dialogue/inspect/inspect_tied_sci.dialogue
-msgctxt "TIED_GET_OUT"
-msgid "Whatever, just get me out of here!"
-msgstr ""
-
-#: dialogue/inspect/inspect_tied_sci.dialogue
-msgctxt "TIED_RESTRAIN"
-msgid "You're restraining me?"
+msgctxt "INSPECT_TIED_SCI"
+msgid "No trouble from you."
 msgstr ""
 
 #. TRANSLATORS: Character name
@@ -575,19 +552,34 @@ msgctxt "INSPECT_DIARY"
 msgid "I don't remember writing this"
 msgstr ""
 
-#: dialogue/inspect/inspect_open_vent.dialogue
-msgctxt "INSPECT_VENT"
-msgid "That looks deep"
+#: dialogue/inspect/inspect_diary.dialogue
+msgctxt "YOU_INTRO_DIARY_01"
+msgid "Scribbles… I can’t make it out."
 msgstr ""
 
-#: dialogue/road_blocks/sector_2_open.dialogue
-msgctxt "01_GATE_SAVED"
-msgid "RADIO: [[Adequate work|Minimum requirements met|Minimum objective met|]]. [[Deviation recorded|Execution deficient|Improvement expected]]. Stand by.[wait=0.05] Sector-02 security clearance granted. IPT reminds you of directive parameters.[wait=0.02] Leave no trace. Personnel not excluded. Your performance has been logged. [[Further discrepancies|Failure to comply|Failure to align with directive]], may result in [[premature termination|an expiration of service|adverse disciplinary action]]."
+#: dialogue/inspect/inspect_diary.dialogue
+msgctxt "YOU_INTRO_DIARY_02"
+msgid "Someone wrote this in a rush…"
+msgstr ""
+
+#: dialogue/inspect/inspect_diary.dialogue
+msgctxt "YOU_INTRO_DIARY_03"
+msgid "[i]The pen is mightier than the sword.[/i] Huh…"
+msgstr ""
+
+#: dialogue/inspect/inspect_open_vent.dialogue
+msgctxt "INSPECT_VENT"
+msgid "That’s a long way down…"
 msgstr ""
 
 #: dialogue/road_blocks/sector_2_open.dialogue
 msgctxt "01_GATE_KILLED"
 msgid "[[Performance exemplary|Function achieved, no deviation noted|Commendation logged, maintain standard]]. Execution aligned with directive. IPT commends you for [[upholding our values|modelling our ethos|your tactical economy]]. Efficiency is loyalty, Comrade. Proceed to Sector-02, security clearance has been granted. Your efforts have been logged as a model of Excellence."
+msgstr ""
+
+#: dialogue/road_blocks/sector_2_open.dialogue
+msgctxt "01_GATE_SAVED"
+msgid "[[Adequate work|Minimum requirements met|Minimum objective met|]]. [[Deviation recorded|Execution deficient|Improvement expected]]. Stand by.[wait=0.05] Sector-02 security clearance granted. IPT reminds you of directive parameters.[wait=0.02] Leave no trace. Personnel not excluded. Your performance has been logged. [[Further discrepancies|Failure to comply|Failure to align with directive]], may result in [[premature termination|an expiration of service|adverse disciplinary action]]."
 msgstr ""
 
 #: dialogue/road_blocks/sector_all_blocked.dialogue
@@ -651,6 +643,7 @@ msgid "Per protocol 6-X, personnel recovery is… [wait=1] no longer a priority.
 msgstr ""
 
 #: dialogue/story/intro.dialogue
+msgctxt "INTRO_SILENCE"
 msgid "…"
 msgstr ""
 
@@ -765,6 +758,11 @@ msgctxt "HAVE_ORDERS"
 msgid "I have my orders."
 msgstr ""
 
+#: dialogue/story/cinematic_sector_5.dialogue
+msgctxt "CINEMATIC_S5_PLAYER_1"
+msgid "I have my orders."
+msgstr ""
+
 #: dialogue/story/otto_radio_intro.dialogue
 msgctxt "ORDERS_EXIST"
 msgid "[[Wake up|Open your eyes]] Regimehund! No order absolves you of choice. Orders exist, but the action is yours."
@@ -782,6 +780,8 @@ msgstr ""
 
 #. TRANSLATORS: Character name
 #: dialogue/test/test.dialogue
+#: dialogue/story/otto_personal_intro.dialogue
+#: dialogue/story/cinematic_sector_5.dialogue
 msgctxt "dialogue"
 msgid "REBEL_SCIENTIST"
 msgstr ""
@@ -861,81 +861,6 @@ msgctxt "TEST_HUNGRY"
 msgid "[wait=2]Who said I was hungry?"
 msgstr ""
 
-#: dialogue/react/react_sci.dialogue
-msgctxt "REACT_SCI_ACID_FLESH"
-msgid "You're... disposing of evidence?"
-msgstr ""
-
-#: dialogue/react/react_sci.dialogue
-msgctxt "REACT_SCI_MONSTER"
-msgid "[shake]MONSTER![/shake]"
-msgstr ""
-
-#: dialogue/react/react_sci.dialogue
-msgctxt "REACT_SCI_SICK"
-msgid "I'm going to be sick..."
-msgstr ""
-
-#: dialogue/react/react_sci.dialogue
-msgctxt "REACT_SCI_ACID_SCI"
-msgid "[shake]NO! NOT HIM![/shake]"
-msgstr ""
-
-#: dialogue/react/react_sci.dialogue
-msgctxt "REACT_SCI_PAY"
-msgid "You'll pay for this!"
-msgstr ""
-
-#: dialogue/react/react_sci.dialogue
-msgctxt "REACT_SCI_MURDERER"
-msgid "[shake]MURDERER![/shake]"
-msgstr ""
-
-#: dialogue/react/react_sci.dialogue
-msgctxt "REACT_SCI_TAPE_SCI"
-msgid "What are you doing to him?!"
-msgstr ""
-
-#: dialogue/react/react_sci.dialogue
-msgctxt "REACT_SCI_TAPE_ALONE"
-msgid "Leave him alone!"
-msgstr ""
-
-#: dialogue/react/react_sci.dialogue
-msgctxt "REACT_SCI_TAPE_HELP"
-msgid "[shake]HELP! SOMEONE![/shake]"
-msgstr ""
-
-#: dialogue/react/react_tied_sci.dialogue
-msgctxt "REACT_TIED_ACID_FLESH"
-msgid "[shake]Oh god, oh god, oh god![/shake]"
-msgstr ""
-
-#: dialogue/react/react_tied_sci.dialogue
-msgctxt "REACT_TIED_ACID_NEXT"
-msgid "Am I next?! [shake]AM I NEXT?![/shake]"
-msgstr ""
-
-#: dialogue/react/react_tied_sci.dialogue
-msgctxt "REACT_TIED_ACID_SCI"
-msgid "Never liked how he made coffee anyway"
-msgstr ""
-
-#: dialogue/react/react_tied_sci.dialogue
-msgctxt "REACT_TIED_ACID_STOP"
-msgid "[shake]PLEASE! PLEASE STOP![/shake]"
-msgstr ""
-
-#: dialogue/react/react_tied_sci.dialogue
-msgctxt "REACT_TIED_TAPE_RUN"
-msgid "Run! [shake]RUN![/shake]"
-msgstr ""
-
-#: dialogue/react/react_tied_sci.dialogue
-msgctxt "REACT_TIED_TAPE_DONT"
-msgid "Don't let them take you too!"
-msgstr ""
-
 #: scenes/ui/screens/ReportSheet.gd
 msgid "REPORT_ALL_RESCUED"
 msgstr ""
@@ -960,6 +885,11 @@ msgstr ""
 #: scripts/ui/screens/EvidenceDisplaySequence.gd
 #: scripts/locale/dynamic_translation_keys.gd
 msgid "ITEM_NAME_BLOOD"
+msgstr ""
+
+#: scripts/overworld/OverworldPromptContainer.gd
+#: scripts/locale/dynamic_translation_keys.gd
+msgid "PREVIEW"
 msgstr ""
 
 #: scenes/ui/panels/community/CommunityPanel.tscn
@@ -1235,10 +1165,6 @@ msgid "DEAD_MESSAGE_5"
 msgstr ""
 
 #: scripts/locale/dynamic_translation_keys.gd
-msgid "PREVIEW"
-msgstr ""
-
-#: scripts/locale/dynamic_translation_keys.gd
 msgid "INPUT_MOVE_UP"
 msgstr ""
 
@@ -1287,6 +1213,10 @@ msgid "INPUT_UNBOUND"
 msgstr ""
 
 #: scenes/ui/screens/reset_screen/reset_screen.tscn
+msgid "RESET"
+msgstr ""
+
+#: scenes/ui/screens/reset_screen/reset_screen.tscn
 msgid "REWIND"
 msgstr ""
 
@@ -1301,4 +1231,370 @@ msgstr ""
 #: dialogue/balloon.tscn
 #: scenes/ui/screens/evidence_display_sequence.tscn
 msgid "SKIP"
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_PERSONAL_INTRO"
+msgid "I am Otto. And I know exactly who you are."
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_ALL_SAVED_S1"
+msgid "You saved every one of my colleagues in the first sector."
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_ZERO_KILLED_S2"
+msgid "And not a single casualty in sector two, either. You're not like the others."
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_NOT_CLEAN_S2"
+msgid "But sector two tells a different story, doesn't it?"
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_ALL_KILLED_S1"
+msgid "Every scientist in the first sector. Gone. [shake]All of them.[/shake]"
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_ZERO_SAVED_S2"
+msgid "Sector two as well. Not a single survivor. You're thorough, I'll give you that."
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_SOME_SURVIVED_S2"
+msgid "Though I hear some in sector two slipped through your fingers."
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_MIXED_S1"
+msgid "Some of my colleagues made it out of sector one. Others weren't so lucky."
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_SOME_SAVED_S1"
+msgid "My colleagues in sector one are alive, thanks to you."
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_UNKNOWN"
+msgid "I've been watching you. Can't quite figure you out yet."
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_GLOBAL_MIXED"
+msgid "You save some, you kill others. What kind of game are you playing?"
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_GLOBAL_ALL_SAVED"
+msgid "Every scientist you've encountered has lived. That takes conviction."
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_GLOBAL_NONE_SAVED"
+msgid "I haven't heard of a single survivor. Not one."
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_PERSONAL_DONE"
+msgid "Are you done?"
+msgstr ""
+
+#: dialogue/story/otto_personal_intro.dialogue
+msgctxt "OTTO_PERSONAL_FOR_NOW"
+msgid "For now."
+msgstr ""
+
+#. TRANSLATORS: Character name
+#: dialogue/story/cinematic_sector_5.dialogue
+msgctxt "dialogue"
+msgid "DUMMY"
+msgstr ""
+
+#: dialogue/story/cinematic_sector_5.dialogue
+msgctxt "CINEMATIC_S5_THOUGHT_1"
+msgid "Something isn't right here..."
+msgstr ""
+
+#: dialogue/story/cinematic_sector_5.dialogue
+msgctxt "CINEMATIC_S5_REBEL_1"
+msgid "You had your orders and you failed them Regimehund! I hate you!"
+msgstr ""
+
+#: dialogue/story/cinematic_sector_5.dialogue
+msgctxt "CINEMATIC_S5_DUMMY_1"
+msgid "Shut up"
+msgstr ""
+
+#: dialogue/story/cinematic_sector_5.dialogue
+msgctxt "CINEMATIC_S5_REBEL_2"
+msgid "Your orders will get you killed."
+msgstr ""
+
+#: dialogue/story/cinematic_sector_5.dialogue
+msgctxt "CINEMATIC_S5_PLAYER_2"
+msgid "..."
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "TIED_SCI_UNHAND"
+msgid "What the?! Unhand me!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "TIED_SCI_PROTOCOL"
+msgid "Ugh, damn it! This falls outside protocol!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "TIED_SCI_AUTHORISED"
+msgid "This can't be authorised…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "TIED_SCI_WORK_HERE"
+msgid "I work here, damn it! Untie me!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "TIED_SCI_GET_OUT"
+msgid "Whatever, just get me out of here!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "TIED_SCI_RESTRAIN"
+msgid "You're restraining me?"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_SOUND_GOOD"
+msgid "That didn't sound good…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_GOES_ONE"
+msgid "There goes another one…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_SKIP_SAFETY"
+msgid "Someone skipped safety training…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_FIND_LID"
+msgid "Really got to find that lid…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI02_REEKS"
+msgid "Ugh, that reeks…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_THROW"
+msgid "Be careful what you throw in there!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_ONE_WAY"
+msgid "That's one way to do it…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_DID_YOU"
+msgid "Did you just put… in the?!…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_DONE_VAT"
+msgid "We were done with that vat anyway…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_NOT_THIS"
+msgid "Wait, no… Not like this!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_WHAT_DONE"
+msgid "What have you done?!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_RUMOURS"
+msgid "Never thought the rumours could be true…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_ONLY_ESCAPE"
+msgid "Is that the only way to escape this place…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_THAT_SMELL"
+msgid "Ugh, that smell… How could you?"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_ASH_LEFT"
+msgid "Not even ashes left…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_ONCE_DONE"
+msgid "What will be left, once you're done…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_SAFER_NOW"
+msgid "I feel a bit safer now…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_FUMES"
+msgid "Finally, those fumes were choking me!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_FORGET_LID"
+msgid "I always forget the lid…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_SAFETY_FIRST"
+msgid "Safety first, Comrade!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI02_SPARK"
+msgid "Look who's a bright spark…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_DOOR_FATAL"
+msgid "That's the fifth door-related fatality this week…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_DOOR_PETITION"
+msgid "I signed a petition against those doors."
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_NEW_GUY"
+msgid "New guy, huh?"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_REALLY_HAVE"
+msgid "Did you really have to…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_HIS_REMAINS"
+msgid "His remains! That was my… Never mind."
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_POSSESS_YOU"
+msgid "What possessed you to do that…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_ONE_MAN_TO"
+msgid "How could one man do that to another…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_DONT_TRY_THAT"
+msgid "Don't you try that again!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_ACCIDENT_RIGHT"
+msgid "That was an accident, right?"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_DEFENCE_WHY"
+msgid "He was defenceless… Why?"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_ORDER_GOTT"
+msgid "Mein Gott. These can't really be your orders…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_WORD_SPARE_ME"
+msgid "Please, Comrade. I won't say a word. Spare me."
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_KILLED_IT"
+msgid "Y-you killed it…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_GET_OUT"
+msgid "Finally… Now let's get out of here!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_WORKPLACE_DAYS"
+msgid "0 Days without a workplace accident."
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_FIX_THAT"
+msgid "Someone should really fix that…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_VENTS_OPEN"
+msgid "Who left the vents open…"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_ARM"
+msgid "That arm… Better stay clear!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_STOP_GROWING"
+msgid "That thing… It won't stop growing!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_DONT_GET_US"
+msgid "Please, don't let it get us!"
+msgstr ""
+
+#: dialogue/react/reactions.dialogue
+msgctxt "SCI_02_WATCH_OUT_EYES"
+msgid "It takes the eyes, watch out!"
+msgstr ""
+
+#: dialogue/inspect/inspect_covered_acid.dialogue
+msgctxt "INSPECT_ACID"
+msgid "Seems safer now…"
+msgstr ""
+
+#: dialogue/inspect/inspect_battery.dialogue
+msgctxt "INSPECT_BATTERY"
+msgid "It must connect somewhere…"
+msgstr ""
+
+#: dialogue/inspect/inspect_tongue.dialogue
+msgctxt "INSPECT_TONGUE"
+msgid "This… thing… It's unnatural."
+msgstr ""
+
+#: dialogue/inspect/inspect_tentacle.dialogue
+msgctxt "INSPECT_TENTACLE"
+msgid "It knows I'm here…"
 msgstr ""
